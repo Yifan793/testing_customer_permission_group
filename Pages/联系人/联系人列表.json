@@ -853,7 +853,7 @@
                     "BreakpointIdentity": "3f56f024-c82a-4fcc-bd87-7f00b3b525d2"
                   }
                 ],
-                "ID": "a6ba5245-ac8b-4c5d-86a8-f4ac558a4fdb"
+                "ID": "fcf0334a-a5bf-443a-83a8-5b00fe753e02"
               },
               {
                 "Condition": {
@@ -959,7 +959,7 @@
                     "BreakpointIdentity": "eef88237-1ea1-410c-b710-6ff55702d29f"
                   }
                 ],
-                "ID": "bfcb611e-337c-4c00-b40c-0e9ace2de4af"
+                "ID": "489cdcd2-d0fc-405c-ac76-faeeccec2f55"
               },
               {
                 "CommandList": [
@@ -1054,7 +1054,7 @@
                     "BreakpointIdentity": "836d1b00-5549-4a56-837b-aa41b170ec6d"
                   }
                 ],
-                "ID": "d555bcb7-219e-4118-8415-50ad5b4aef04"
+                "ID": "c63eadd0-2f53-4153-a15e-7bbaa7d7aa11"
               }
             ],
             "BreakpointIdentity": "9c34b020-1823-4f82-bce5-ff118adcbe49"
@@ -1157,7 +1157,7 @@
                     "BreakpointIdentity": "68ed0a83-2e7e-4c7e-90e6-5670ff247c3f"
                   }
                 ],
-                "ID": "1ea4008b-17b8-4e91-a776-a768fc018835"
+                "ID": "10616aac-25c7-45b9-8f04-58dc81cdb847"
               }
             ],
             "BreakpointIdentity": "8ae83284-e05b-41af-a7be-c824506969d4"
@@ -1171,7 +1171,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           },
           {
@@ -1214,7 +1215,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1254,7 +1256,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1348,7 +1351,7 @@
                             "BreakpointIdentity": "e9417b69-2929-4175-af56-d69750a790ab"
                           }
                         ],
-                        "ID": "d9c25b6e-cd57-4945-9af4-c46681989773"
+                        "ID": "0715457b-b6e0-442a-b7b5-39e5cf153a66"
                       },
                       {
                         "CommandList": [
@@ -1361,13 +1364,13 @@
                             "BreakpointIdentity": "11991e19-ef79-4759-b77f-a586f76bd447"
                           }
                         ],
-                        "ID": "4cdd9af0-a6c0-4646-b513-03a4b68ccec3"
+                        "ID": "fa014cc9-848b-4b30-aada-86604314d33f"
                       }
                     ],
                     "BreakpointIdentity": "294c10dc-3411-45c4-8d6d-e78fe46b82ee"
                   }
                 ],
-                "ID": "10ceaf04-af55-447b-a4e2-fe2f05b08770"
+                "ID": "7006f8e5-9e0b-4d01-b449-3aa839b0c106"
               }
             ],
             "BreakpointIdentity": "b0982d62-8e78-42fd-8a38-207d52c588dc"
@@ -1383,7 +1386,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1930,7 +1934,10 @@
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
           "roleNames": [],
           "permissionGroups": [
-            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+            "510f370b-5c34-4043-9a98-5734f902284b",
+            "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+            "48023781-43da-46ea-8504-47be5140dc9f"
           ]
         }
       ]
@@ -2005,4 +2012,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//ntfQc8i+PN/tZUqo4YLkZcDi//8VkxFnvKrfNQNQanKekaC49hpgHaErBy4qXJYGG8+MV0fTPolFg/xIg5xVtEnuhY/kQS7oqbFx9j37V9yGyoBh4hDZpHAkLZRY4Mybf4g/Vk1wRTwIjMpg7H37vvMW8vELPQH5Pa395ydAkEmK0548HmXg49m81K87pQsLm1ABKbrolMOJUSHdALX872Kk+ib/bTsd+z/ohirgLoJU2+mAqVHDIyACIGGmPfJI+0CG3JjHCSq16CGxU3KzF91toChCUAMQxwADW8Zy7CeiREG8V9Fu3lBCC4YZHoy2FJuC1yz75HD7kFhxe3LenZH2FbTpUNvXPeXS9QYX7AyRxvi29jAj+GVx9V5qdx5FfwApSTz2rGOCgm4DZP9+U0gUKI6cS7+Kgt+HiloDF6q8rWdwTlXZhGe6xqekizG62KeEnAio03eyN7kVCVbbRqfSBFhsrfrqIpPNOQcR4ikeya4iPC96oqOTd7T6ZPFWod6LHlvzio30BQdSquQCNIOvyTUIXTByPvdzsM+jzeL2lib0n016sWAvRSnQc2/D6RbSxBy7Y5BBAkH65t7HYDUCId3Amwsn6DZQnbUi/jA90JDQwfBZCK5aEK1zmbHJKKeTsbbvRRWHqnhm1W9768rczTbvP59Qp4cE9LQEex1liwBYREqqY7R6YfkH2BQx0SrPUR7Wr6HEliZHTFQhI78QtiKI0YmUX+Qb7S5Rz0nEfTFodFsjSjIK/1bmtAQIXPNEfkzSg+WBCJ+tcpeOGWQASFk9s8SE9uQ6glua5EF8qM6Uuvo+1gEbKKII782LDSmgHaTNOCAS1qWqKVZJvh1oQey15TBf4U9eAlvPtSQD40QDxNPPJkd0LJyclFWD6t7Z7PQfSnvi+QeSYaF5YZTfJ0S0Dau6sL2eFUJTJ/8VleBo72li9U9+k7VJD2k2JFgvpvuj5Y9oScPtyjV9hxeWaERkHxnU7KSxSLwqWYWo83dpbUi+jyRJJFqF/NfYqvpIk4oZEdpfskxiAuuuecfdeJtS4ztMVcnz+NO4r3NTuANSgZLgPZZwXA24onioUGHzLfpJR6s8UFWIV9oKYITcUFuMDPgil/IM0+doayJhWGVauOI02wlHKl8R76fCu/dwxpK5vTAosb5Cf2r+gHPRyckdgrDqJRDkDAZ7Yqtugk6OkRGorQrtMeqk3nT1i3iRkoyihivcC6r8j8ViBuzc9HEmfPqUD6n3bPJ8dcFBsSGQ7rw9HMFGZhxMOOIALfziv2TAIR1WSG/UVAEUzksqpAPMx92fhlXm+NvZ7AEFq+AJ3hrQJqViDp505Ig7Y8TQJDDIqqfNkhE+QBptnHtRh0yXdUgvq0BzZ0IV258Hc37ILECp6kBQyilU1cNwraFcDVGwF54D4aCTymNcYcvIJUdVmsLMuSbY4TiH3V1p30+T79Mgcre3B27HYLCHZXHMD/p+CoGDPHL6N6ILLmiHa9EtQIReZwzUU+0eawMsoCW/9MwOoy+x3AgsEYLf+wuHGqWohWvzwENiMMyNxDDuk86p335P7i37ed7iOhsib5bjnQ6kFGDZELgFSwe//zq/3pDg+GDSL5m1rdrYg3dwhVnssi04UpstaRGnRcWfZzAMK9qQso0EcMK7nMubkb53f1XjxG2COokl6srjxqnMMjBEQuqsKUfGPivjLjYQdtiyjis6nkNQCr4uLiGQoXrXc8tI8C8N1CrjPR8dC1paV/6HT0gsOXmYHZZCRSAUBHi4cOcz7a1qRxNn3LyOZfHTzXq83f0HkdunkW4VGDG3p4j3Eqcf7Y9PiraWzupVlQ1FdP7dPdAGwdivZab+3PzVPdI4ZaWJEyHZMHOunTEH3uwv2L23MeYsXgRqlta5DtdO06AdDLD/RrjO+hDfXS9SIs6WueX5UKjBpF/8Wg==|1944
+}//PczSxjZ6n348WSspZYxeNhqjRxBgN4P3/LY18mdVuUKzMHUi0uXKlhuAMkG0VdGjJv4rj21nkfw6wWf6yKBlLFr1yFSQr8Y2bzoEXT7t4UNz9ptr79Fi8U1J1Kqyh4V7msk9ao3flY3XiIy6Mwdd3YAAWbvEbRSW17Lz2Ca9K52Jsx5OnwINxe7R5x9L9G/bRrMgIVl0z5yKiSNOUNB3kp01G6kJbQk1xIfGm8VN5IGOprItIXa8+JKI53u2p+XLDBMbDKBcGM45knCcrkxJzDRANq3iK4t2F0ur/GbpqF9BL5F7Ca8dXuM+qjXlUC9+2ujPrCBF3xIoc4OOPvDtFhD0JykEJ9jlnSuD6elBzi9b5Hi+IOmpvovWZga4lAG0gQYuIu02XpahNarxE5w+UwlpAHGQk3E0p+8rChJv/XddjJd2O+z51YeaprrVq5+Wlk70ysAzzxb7lVCg7p0HBl+RxTYuxhc/bcu+ygxKu1JZSyMr704JD9Y5E5v/M6K6nVb8VpkJuRa5nFOEwm9bvebznwyzWRXuNwrx4a61XPgFmjwFm7sTvkRZcnkNkBjxbLJJrnoeRPTEDYM3cH7cavn2rJPOyp1Zru8CsAnJXIzBcvqyG7Hojq0lIh/y6SeALPpbNS5PyeeJHj0i2OhR/+3+Ey8pa6xKhl1hC0lYyxGjd2yFEVAq5/6Y5Lloe6u8F4/J0sezah0LNs2M1YHFiAhIST7c3Vb92Spe8Cx6v5UKLfilyLeF7YFE3D2wosxCfeYu6i0hE+meNnw+XZxaJJUDLMKLFPZm97Gs1dSXkibjCp0GPdWul+N+lx9UQ4QRccssjfLOWkAlDg63wDq67/aMNo7QXAm2ArK6eMPCwWIqEF1+pDnfy6ANyk7NRaKIa/TM8TOJaw8+jxxQUfFr92Fq5dWjC2cNr+4dprMCgjLDPHuoAraBpae/stUH7arvrjQ/163r3saVJ3LGGMndmZABWVskLGpPkdjb9URh4TcoRCxtDTOEzjzT87ZHYairyBRdIfM50WpJya4ShjKvQGSY1OBfdXMx1yn73eEG6v+x8eJ+zgIxsQXpZLAg7HRgDQY9CdJaguhqqZosd04z339Y6y/dsV/cVFciwouZINe4sAjWViEZ/ClFRkXHwC4fEicYzF8GVh4R8qc7XkBjrnJ2BJtsZYZVV03ullsW+rhbWt3s6nfb3gqeFlPFVSM1Ovn/Rd0VTVnZPSopwYce1gVr3/zVVvNVRMeiO1PRmPov3DTOu75mICibLghuyDOdxlFAExDPHBbxCIDgvQDTZm4R9gWh0UyTimRJCeYeN7BLbq9389npZD4cbDDQrfSeZvm1TIDDue4aH2Ytxn6JE86RKd1xv8r6Pw01Yt/4DFUiD4XnqHp+fEUI1SKbxv+Y1G27v56DrIcgj9yHSHnIA6YVZTa8y/o6WuSSR6T/6lFvljyJOBY9G31rrbg7D38/525ejwvc/YsVeN9fUAJoVGOTwxtH/+dTl4EsVcFbNPNHwWxAZuP+E3zAwr31y8SMLRad14LFxts6mZg40gyFQjqifE5hwiQEgXyzvpJ5QQqXQ8bCHb3R/rldPXwqXra3ehV8hzRkvi1aBUu1o8nBqBI3Iw1nzaRrVG0/T6Og9EmmJ0rxXyoPNRIvCWPIcZCUwSA7VYbrlvcuS44m5XjFSxKXrHlS4zbyAFlXqmqURnIOiLCdmzJYcefxW+tKdaL+JQAVUv3uKpovPkSNe3bSDmu9pcFpUIogS2Uu/TMe4dlR8vIyupGXDBVh9V8teQJMCwgI8PecOUg4i8RKayJ5+ZKfCkCEE9827jnf+VF1SAkmsae0TVt2RMCiUpwttFnSN/HiwT4wbyjqPz42Z3qzc7wCSqJi9lUzwkcKgfCBbAcekdEg5wR5Uyucxmc6GZBnZe3iLdg2pJjdJ7ImHZd2dA==|1944

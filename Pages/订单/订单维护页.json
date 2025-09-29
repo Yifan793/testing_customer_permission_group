@@ -768,7 +768,7 @@
                     "BreakpointIdentity": "2a0c8bae-338c-4d07-ae5b-7da3a5836431"
                   }
                 ],
-                "ID": "16056f1b-dee4-4453-aa12-8c1d4db5574f"
+                "ID": "ec1c781a-d71e-46ac-a76f-e345a0970d3f"
               }
             ],
             "BreakpointIdentity": "34ab6fd3-a417-46e8-b478-4170f5f63519"
@@ -1408,7 +1408,7 @@
                     "BreakpointIdentity": "e44b3bb0-73d1-46b8-a818-4b21a155ee2d"
                   }
                 ],
-                "ID": "cece1b87-61e8-4142-85a5-97e7a83b4e86"
+                "ID": "195dec13-83ab-474e-a3ad-d34c4fc0d227"
               },
               {
                 "CommandList": [
@@ -1439,7 +1439,7 @@
                     "BreakpointIdentity": "b8ac570c-0ab3-487b-87c8-85e1fbc186a5"
                   }
                 ],
-                "ID": "683a037d-8200-403e-a874-557c32157630"
+                "ID": "85291955-c40c-4bfe-b181-4b8664217d5d"
               }
             ],
             "BreakpointIdentity": "9d9fc91a-d80d-4dfb-9a57-6438107823ae"
@@ -2180,7 +2180,7 @@
                     "BreakpointIdentity": "f8e28962-0431-44dd-8498-4da9109a62ba"
                   }
                 ],
-                "ID": "d7d65602-e0be-4173-8f78-8a620d2ffe2e"
+                "ID": "4e0a2a52-7714-422c-8823-baa22f3d4931"
               },
               {
                 "CommandList": [
@@ -2307,7 +2307,7 @@
                     "BreakpointIdentity": "fd699551-9f67-45f4-867d-5783f50289d3"
                   }
                 ],
-                "ID": "f478c2fc-d3d3-4b87-a08a-a438dde545e5"
+                "ID": "07c80795-6b80-49b4-9590-9543a697b0fb"
               }
             ],
             "BreakpointIdentity": "a82c3d5c-2b7d-4303-9ec1-aef204cd16f7"
@@ -2342,7 +2342,7 @@
                     "BreakpointIdentity": "79e2c745-c761-4c7c-a9f5-a64585acdd76"
                   }
                 ],
-                "ID": "b743173d-3c70-4407-91dd-6c98a3316c2b"
+                "ID": "97bf3b05-ef13-454c-9fdf-a11db8eeba65"
               },
               {
                 "CommandList": [
@@ -2377,7 +2377,7 @@
                     "BreakpointIdentity": "ca68755f-2e97-4dd5-8e3f-f3325b4c1225"
                   }
                 ],
-                "ID": "c737d5fd-ce17-48f4-9c7b-b02159d7a1dd"
+                "ID": "0f8b9993-12ec-4fd0-9f15-eba33bed7ca7"
               }
             ],
             "BreakpointIdentity": "72530048-d813-4b1c-b7ff-5649f99ac167"
@@ -2540,7 +2540,7 @@
                     "BreakpointIdentity": "86c920f6-4f03-434d-8646-1204bfd234f8"
                   }
                 ],
-                "ID": "2712c3e0-403a-43d1-a642-af4df7d5cc33"
+                "ID": "9c1c6dac-e8d3-40b8-87b6-5f51177ccc1b"
               },
               {
                 "CommandList": [
@@ -2667,7 +2667,7 @@
                     "BreakpointIdentity": "ed5d31a7-d309-4252-a4f2-6d6e88d451ce"
                   }
                 ],
-                "ID": "1b97c65e-d5a9-4b94-bb22-30767182578c"
+                "ID": "efe8ad9a-ad16-4901-8466-a52e68ffcd56"
               }
             ],
             "BreakpointIdentity": "c13ca7a9-0cbe-427f-99d1-c0394e694bbe"
@@ -2702,7 +2702,7 @@
                     "BreakpointIdentity": "5ed3dd88-5dba-4aae-a9a9-03644aba2603"
                   }
                 ],
-                "ID": "66deef73-d6b9-431b-8a57-4298144aa9d3"
+                "ID": "7646a111-d649-42a1-922f-9c2feb6d067b"
               },
               {
                 "CommandList": [
@@ -2720,7 +2720,7 @@
                     "BreakpointIdentity": "ddc68c44-0610-41f6-8ee7-79f35cf949c6"
                   }
                 ],
-                "ID": "4c5e5334-799d-4765-8d0c-46341c03f10c"
+                "ID": "4bbbac99-e813-48a5-b484-525c32fdd637"
               }
             ],
             "BreakpointIdentity": "a35fb717-95c4-471d-a179-7de1d75a9788"
@@ -4519,7 +4519,10 @@
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
           "roleNames": [],
           "permissionGroups": [
-            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+            "510f370b-5c34-4043-9a98-5734f902284b",
+            "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+            "48023781-43da-46ea-8504-47be5140dc9f"
           ]
         }
       ]
@@ -4578,4 +4581,4 @@
       "Size": "840,1152"
     }
   ]
-}//AbR2icQX2QziuRw8G+hxwYeS9R5iliO3LPxmM9oAnhecfTDWfCQ6GlBiGOjkKgHq2UCUS+QLOqiNcm4R98kkGfyOQwcxy/qik/e8R1h7O6w3MxRk5KMBzLZPH0+xJpsAV1WNMIfUnF/6+sCIlxasAeZmnJ5NFuH3yZWvo5iKphtj4FEyARPqQlW/xiUI15N0anI00k3c8L/LCwUpSJRjylTIxRfZTF3luuCCiFPNl7+VnbGD1HTOwNE3o5waqFjYTgF2H6I482oaoIfiD2MHtngnitJF/wb/IjMu0Kfa3o6OCdFyPhvDcyEAGKF6aQPLqzfRR6gavN/LFAO1FXFcGAYxahY9q9qVrI6iWDqLn5ApySH1HZIT6PTbotIALvPYD+cn2lFfJk+12Vua92ddy99lASQlF8cNGWDZFmg7i/KT11oNpDV1zEtUr8GTuzJ7ZFHnHNgPkwbKbgmJ6nvv2ewsdTFWvZkz2xfq/4GjQDbKPzLGa6asPuZS0c2mL4X+6xaAkm0WELYXa43VPYkNbtRI9X04RxjCx6rhRySxhGrr8RJS84dRhSbCBwyzCElxfgW573he05ZMybXQa1Qu+7+4nl0y2rbFuomHSs9MPMJhf5O5gnuc8T5yyPPRZlehV5LOJnMSgNT5enFscOEZtgJ0vxK069fbVJunPv33LmzNtIF3Ktp7/W/zU61s2usjsaP8oAuIz+/+JYnCo8D25vx+EfjSBSgSUivSgTS3orOmFNDPRKBJAW3SrPn4FsUX16iMyeEAPxRyfXPuONj+Hc9vGWjV2/9lxlJXZsgMWWSGvW/A25kpU/8OO3zAY+jRI2QF/b0zkDLaFsWGLnYITYI+o5bVm5zyC5dCH/RM6qwFn9PBb+CJikA5LLV2slAkEJ2r+Hk6xw3QNxvW1NbxVDimGJYmqlMNoSChqNo+VzpRrqfLkipIN0JpT8Bbgv764a/eSAOdpi4Pt35fE1JuekaR3j3rkWgu30WqgGf49BhBC6Tyt735mtejRFXKz3OmTkCsBQBGEczOqA/7STLuRkebMzZxhRyJrF3QNmmp7cvHB0gZdENZmyswu3+2j/qloj1oVIm2UL5VNzAE9LQENN2g6uPxWDihhk68uIoif/7nuMrImNExsY+X/04NNhgMMxZrXW/G1PKncUWxbPnbDei0injIszj1Rfs/BxbMnPNsonIDRRSPi4FbpcjtygC+xk0mLpddDrD6hOV9QqItP6mF9He9eIcnOxcz29NdePpX51iBwTBQ6ISvQ/M8o00JRxsDK/qSExJ5RUz4QqJb6nY7ZomDS7BXoWTN/AvObkoEwDMfRh9XsX21iQMNBHgD+F1oMs12LCCsfeeRhktxa8NigItb0JZrZ3KelqiRoGc6YIr1xisEsjvT4bQfpr1wGra4EQ+/VxyNS5GNlilaxdP+0MjQGNSG9lF2pPtvLojDijQnXJqjJxiab2zSZ44im10d5n3lW2z35HhI87+Xgve9PA1N+qNBpw9j1atitba9Deg+YAIcWP6OZspYHOyV9vJ1iH0hP2FlxSCDY4WgjLCqUBE0b9AiawDcsvR2dr51MPW3I3LYhn218Aej8BqWCDqQ/5TulksewpjzHMTyBpOvp2bZAkJvCijIC0mHXjQd8e9TBn91mIoTDTUe8jA6fN9RCxzpN6iN25dkcoC2UggjS8R/zEzfyAkT2YPAWA6iJNEAr5m7g3VTKG8Y4Y8vSGanYQAsCQ5dDA+sTFpyKcPcvyu7s56W2uNX5G6hWUz5I/DSEWY6S9gXszp2+45E/J9OsdHm0J+3L/ZNUtwiiPkJejxOk7Z5q150CYizd/P4+vsbHtx1NiIkDsTvavCEbZLJ+q7xSIxa7ALr86L5RUcV0hqxyWj1UThM8UrbFWWRtrDSxdOP8gg3Zzps59i1NHHrVIdCeJfIZHVuXE8MpA==|1944
+}//bh3EAp9hvOimY0hsMLub9O2dyIb7MFHlYUOopsrbztRENv2KXG+6qcaUbYpLRCmo1Onz6mnqJxLC1OhuEiXQupA64WwX9wd6AI1zEDFH1dhStJmO+u4MOJ6g5QyZ+aUlVWHzyCPtyZ0I9XFrecQ0WpOZDtVRKEyhb8WfdJuoXvbPR+Te3XLuXYEvBoCYJOkLUwWWzR10IEv2mNy5f8pa2Fkr4Tfj3rCGZxLZUxNVr8VqzCLAaz0Ar7b7bBW0qxemvskCvsZzai9DLgaM9tog4ofJMjY4JBdVFjAGjX0SqUXSVlJZB6m8KfSQR7ZLrFvM9u0IrcQRyRAbn8YwDSGWLrkrVrQCj8ggbGF6QJarGZpu3VSTyDTm8vOnAWuCdMjHk8irATV2cVkXQ3EcNsPZr20jaPw7nfRtWHRQNnEhajUSDPg5TL59KDdJU4zOwHFymXVxOtHG0BV2Jp5K2T1Y76uJqeJVwz3dGyvOraTFtbcPRFSaLgtqUFQwE7/i9KQWPylRYJKJ65SEsPntsjrgwntHWi+VTH2wczDSmZH+Ax2WKjWd0EFjDUSN3E6ZuN1/aybfQxlGkWygY8xtZYojz7HfJMIJFv2o0P+Q8WvjI1i+g60mMqH0BZVLRG301wgSlcU3qZ0iWh3pe10jYMUcT4fUNAT0Z1WkJxonHKFyes6chANUTATN23Ryt8i/F31KmQLMuh8yMuF7L229RXeize2RvIyVyBiiQdqD/U5E3SbKyhuA7+jXeAUOKNY+sGtQObYrrbF2XO4EWjsj+JvQQAZs6njnyAVT6XG3bwUME3J9nhY0BaLxHtZIiuCfyWAd8DLrZukQdEmCXiFfpSJKQ9uCGIwyOmsgrjGPSjnxUBLenrLw/u0UrUKnfSgbFcQv4EjUN/PrK1xpJ+9PizVDblX3eL0PqMcBf896K6AxHmzWreJ3Nbi8mfNc/R4a18EO7qYofW9dtqwhqg9t1dxnCfFe+3BCagbLrhlCJ6fAk7OxbOqB6JIt6Up58T81q/+91a9hwOMWEd0BFnSnUjhWAHH9UWErLxKkep2t1XgjSpFaFBNBaf2WhMtARy2s1r8/v8gu8bvkKkJEpqcKAjHnMxwwM9o5FCPKTWNyhXACNSDGAnZ53V0UMWO4NraFO78KZ8Var3OuaPxm6VhSCyuU2g9YWEHna9Ab/N5AHdNWscDrO+RhlAON61hWP1x60Ibn+Or87QZjv2f/y+FB+8ZU0ezECnkHbzD6AaY2B2hcd5vIHaiyaTVCS9fqRHYWq7cxgSUFNXjnEfENZXIOl8KMtdSxrmQAeF/tLQ+amJ9dYRRDHxQrjWwrZ9R0R1BEQvG/RFqibgmmKwNNfZbBFOBSF2jXE9GFs9h9bqDN/QYEUUD9j1mMY/JZbPI66QCMytIeHSmyzazgVC32LjWgO+WcJNwidivMQQ1/pdSub1ooCUNtjYNQLuR7GLIwOH127duYj36zqFQOoPiOQQTCqYnBk+SVLvJ4mUvS0YyzMrjPDjIH2X4E1Ks1+XaFfMhKLF0DPwqNwFzNXKxDAJT3jhKIAPxu1aeMyprJNDzxMtJJpVfdSXdq6I/mDgFsHzOsmey7LkkUYyKoifoVk5+JVAIKBD0X+edYiIs3BQiNIccmV1+7FAKVsBkMPfLxOHozV+yakltFLybJ6NdionYVtuDGCnvzlP6G70SwmdVNGQu+KjRmNPj9ZFetan3i+jmgEdeDI8BSKWi1yexq12wpkCkL7MSUh/9DiJ4UwqWlVhXc0UPPHiXeYSfPj/C4lJXaUvrfawzuBtIu/4aP3VzQ7qVNb2ed6P8VWhyip5R3l3WRiNZox2lrwwjAspUiZLOnC8zLMStUKaSVwzjD/uJA7deRbsgOPgOkd7H//tDjQJVmSeHuRI9VdReGMkadIz3wBfqhrcCDeu54c1UEHAfjSqPi7Q==|1944

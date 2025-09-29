@@ -26,7 +26,10 @@
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+                      "510f370b-5c34-4043-9a98-5734f902284b",
+                      "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+                      "48023781-43da-46ea-8504-47be5140dc9f"
                     ]
                   }
                 }
@@ -446,7 +449,7 @@
                         }
                       ]
                     },
-                    "ID": "0605da8b-8298-4f30-a945-0a3bd84e5986"
+                    "ID": "fc76b7b9-2665-4770-8318-abfdc7454fe3"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -773,7 +776,7 @@
                                     }
                                   ]
                                 },
-                                "ID": "1521f72c-4ee8-4a62-abb8-3a565ad7d4b1"
+                                "ID": "dae28fc4-d718-4a93-9680-7cb28249cffb"
                               }
                             ]
                           },
@@ -781,7 +784,7 @@
                         }
                       ]
                     },
-                    "ID": "ffbebb5c-6dac-4b09-b183-b0c931edcf81"
+                    "ID": "75f398bc-0db3-4449-a67d-93997df4bf52"
                   }
                 ]
               },

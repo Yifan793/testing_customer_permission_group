@@ -617,7 +617,7 @@
                     "BreakpointIdentity": "f2e374bb-34cc-47f9-b8d4-2933c12cbb6a"
                   }
                 ],
-                "ID": "df40f398-4920-47ac-b86c-0096aff831c4"
+                "ID": "a9dc4b99-b0c3-4f6c-867b-0499769dd980"
               },
               {
                 "Condition": {
@@ -765,7 +765,7 @@
                     "BreakpointIdentity": "b840d136-e3ab-4bf9-a411-e06fe9a628d6"
                   }
                 ],
-                "ID": "b5e7ee13-7af1-4e37-9e8e-d313bfe18ad4"
+                "ID": "91ce5014-7275-4013-9e53-735cb3d4b4a5"
               },
               {
                 "CommandList": [
@@ -902,7 +902,7 @@
                     "BreakpointIdentity": "b5e85595-ec70-4cc3-a463-29c68540d20c"
                   }
                 ],
-                "ID": "8c9c52e1-df3a-4808-be62-fe23b05e7d6e"
+                "ID": "48b7f0fa-2af8-4cf6-9af8-b6cd20c7b1b4"
               }
             ],
             "BreakpointIdentity": "d6ed4117-6052-4efc-93f2-67e09435722f"
@@ -1021,7 +1021,7 @@
                     "BreakpointIdentity": "fd4ee400-3f5d-4f40-98de-7394613f32b6"
                   }
                 ],
-                "ID": "7192dbbe-b0c1-4c6f-9def-1f3ca677c408"
+                "ID": "35ade0e7-5d16-4abb-93ea-74ce4aa5397d"
               },
               {
                 "CommandList": [
@@ -1071,7 +1071,7 @@
                     "BreakpointIdentity": "8c807628-4b1a-46b7-bc28-ca45558e11af"
                   }
                 ],
-                "ID": "3f08d11b-6dde-486f-97b3-a464aee09282"
+                "ID": "2768a25f-805f-4a93-80a0-c9a7b6febb6a"
               }
             ],
             "BreakpointIdentity": "185a21e2-db72-47cf-9118-7ffe0e8ddf2d"
@@ -1234,7 +1234,7 @@
                     "BreakpointIdentity": "4e1d4420-e9b2-4682-b16d-7002228981c5"
                   }
                 ],
-                "ID": "fb008989-436f-4333-88f9-410101d8eb99"
+                "ID": "4a0846fe-eadc-4072-ae80-9bad9f8111e7"
               }
             ],
             "BreakpointIdentity": "426426a6-a861-4513-8339-37c4f25d30f1"
@@ -1248,7 +1248,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           },
           {
@@ -1291,7 +1292,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1331,7 +1333,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1397,7 +1400,7 @@
                     "BreakpointIdentity": "dcc73fca-328e-411a-92c4-62c4690b5c73"
                   }
                 ],
-                "ID": "07599e68-a65f-4c2f-9ba2-0d37f8adc2c0"
+                "ID": "668bd2fb-44b4-41ef-9a48-496c6c0be260"
               }
             ],
             "BreakpointIdentity": "3630eaf4-9b15-487c-a7ae-672afaabe74d"
@@ -1413,7 +1416,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -1507,7 +1511,7 @@
                             "BreakpointIdentity": "005bb9a3-97bd-46cf-b40a-84e3ea852b41"
                           }
                         ],
-                        "ID": "be4ef292-59c0-4473-8a15-31413df2ab69"
+                        "ID": "2c53e531-0f65-4bf2-aa74-99345e6aecfb"
                       },
                       {
                         "CommandList": [
@@ -1520,13 +1524,13 @@
                             "BreakpointIdentity": "2d301bf0-3176-485f-a8a0-39a1cb8472e1"
                           }
                         ],
-                        "ID": "653a08f6-e3f8-4513-8f1c-410ba3613ea3"
+                        "ID": "ae3df37e-8563-4f2d-aef8-7e8aeab5491e"
                       }
                     ],
                     "BreakpointIdentity": "f37733d1-b4d5-438b-828f-592fbff2cc93"
                   }
                 ],
-                "ID": "e438f2bc-a7db-43d5-ab95-1d61b778f5d1"
+                "ID": "9547f32c-c38a-4286-9676-04e089a68021"
               }
             ],
             "BreakpointIdentity": "47b9a756-dc36-468f-ac95-68023a70605d"
@@ -1542,7 +1546,8 @@
             "Scope": 1,
             "Enabled": true,
             "AllowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ]
           }
         ]
@@ -2282,7 +2287,10 @@
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
           "roleNames": [],
           "permissionGroups": [
-            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+            "510f370b-5c34-4043-9a98-5734f902284b",
+            "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+            "48023781-43da-46ea-8504-47be5140dc9f"
           ]
         }
       ]
@@ -2371,4 +2379,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//jjgVFGgaLnxNmYmzR2oTrZsr5tXY5Ehss8fWrGgIhWhBLjimH5+oN8IUuOYr8Mrj6+6SGkcB+8gjBZimC28sk+P2pLKbAvtM/6o+iXq70nKaJhCLWc6AVBnvHgVa/ieBoTw8wqmcWkjEWiouMD29hIbXTFpxtUY7XKSwhYzOJFaexduJBftucLsaPSoand/vw1IksDQjrhVwh/Ya+dVvMuHpWJPTt4gmwLSUr/KNF/NhCOacbMU/ztMzosFIUUtKnFqA6eknerycouALER/ziOGYRMzqGxVGFr7iRnUnqKvzTPqvV2Ku83YzbkXD+6/1zDSeW6tYknopj3J7aErObtHtAMov+XQaNer7k6nW2HcOlImp3RjdLlz9MRBIBF++0JjJyQ+SANlFQUJ3pu3TPMdM/D3RsuflSVwu3oLwL/u0RpgpmkueFtXU6wnzEIOQTmySoei8hMjCheZI9fIJ9QYO62Nzhmqed569DkcdGfr3UWxIJNT0jnWFcHWNsD3z7vXPO4yYDbxQ5ec1Q7WSXq8HdI2q/waX2biYNY3RZ5/h03Yzbre/X1WYBeFUfN6Hov2Rf5Y6QoSLFdEeTWPnpKEbnFQtfhCqyTw9YTsJgJZSipTx4i9hF6Wq6IDYdB1jKyxVKU3Vcl4hzWK10SYbJYroGh/SyCCgfuCnAVD2CIaNGmkgGDLQyaFzM56uNzyFT+6waKWtJmZxSp4pNaYcXor+aMpAwi9czUxf30ZwvnqjVCrtDP2O3VaivWDidD29U+x93lmJC90nw0GpoSUAsb56+tje535gQEwWGV2MPYzuXcwrTR3Ikry26CUtucJWlcqKn13xLYe5BCOihyUiE4uxgTKu8B/z7YfCnLyAl653jzIT5aw7K0gXkvZGXdTzfgy2FVOAGE/csC3054aAgkld+Y8Ne7NMkyOdGjQcDDtQItP28m2WwkUurPvN7B0yCUBw9fpvBkG+GTzql5FqNbC42bwB2NHr2PIf6yNlgg1SZSWLFt73hW0eikgmJY3D8DZCAZArz5/ihshno2ePCL77X9wqCRQcyFK/+VSKkZXq5R4XgzoN5baTb+2zuLUVmz1r8+OErt+ILoUmK6H5TM0Y4LK7jaQLIlWOByN7krFqXITNSFc7ko5opC5HvjVLgxexaOb/uZ9V2RzZZDV+haibPNt9pW/YScCWdGbZPAZ8Z+ShuAD9e17trG/zmJlTuhiWtGgcG1OaXClg/QF+XuqqaNgLbc3J73iJWUf93SMG253F3dv9tBG1rAp/md7liwYVJyuyYEKVdFELGMszJeUffQ/BLjNlHXL3Mzdcl0bOshFxb6aFvJbSgI3IqL7veqZRq0Bxkjyz3G4qVOCi+/khI09tozaHfb2d6CfN6COkdes66Wy6x+ms5Xcz7mdTJ0Il6FQ0LIrWtYxQn2XhkQoDU3TfKkkjSODzmZnh0OT41lSP32bEdXRMRE5IYU6aKDfsKS8BZULnP0DK1Zv/LzrQifgsb6XIRNNwLhhHyuwPpqB9g4WL+qeqwFdU/LCuoykzdKUWJOp+fIBar6NgHtcNa8zfNcC1aOHFh5631+JFXLpQ3ki5ell6kYjN8g7X0PUc8gf4yXIRCNo5wvn6SwF3gK9yPXBjT/I9FXY/2H/CFMSJeeMvPd4xyM4dERjDdGk4knme8TjBrV7GxzLSI515j4TtDsf2HBpGEUGRPwSg82wFAgjoVvePHAJ5fKxEfzlwqNg3FGOAFszZMCFxIojWPRcdTG+rcPJ3bV7b6D9y7cYtk9ezCIWG6aElYubP8uCNPA2oX/ieBRrLR2Z/hkCzq/HggnNkklvKt/WKMpWHGwUeKLd7rUjO7G8aq1pTDpcBmUYfAmo3/4+SHwrbYIf38u8Q2WF2diplnIU46jXsHovti2PP4D3u68OtpMICBdiik74tljt8utSYrVTd2A==|1944
+}//ZpUOwP2BpI5zqg6k/3TyYhYEvsxQlzRL3dK5MfsH1hsdH1mPWRlhyhQspq1KFCl0eWrFOi+038OkBnLr0TtvF2HS/F+p5r+K4vN8uJP34MqW8iw0i+x2dwD/C1Q+LvAoWc/PxvBA2EEgOpgf4pbdcPfIYhARAmL1BKrUNRALT4rsfnZqBoj/PQUJnTR6ASAcgr+mR0mg87exTaxZuxS/j8qnt+iXD4drc/z6sU1AKwRdJhTfdMQ4bknYEYjYOa15WwvBQnB+/lYrdlXeBl3mLu5No5jgonH4TTjv/nH8dSe5gOsFY2k9mTFg+14y5D5FSpKKcaTlQ3hzhqc/e/bdDB3ufjhcrrrBzznguzDVskYX4dkoHL8vVhdjHZ/6VVbQz0f173MDuqC642q4y2jg4KZqgdPDR6jAAo6iBXy2euG+KKr2sOqGon6u1YwoggQEg2pDeIAfTps1IjohPET+JOJgVIcZ1sr6qf4gTk7ykKSix0CHG1cG7tNBmZys4Rv+DncrWzsgitk1aSG/LsYurcHHaMcoIeVP5+C47fGieIWBzM4pVMGnlkTBCMsU6LO+wD7vjdNu81MkN/dOl6SHVBpoBvauwoFza9adVvIyJx7JOfI26ngZOExhbVFLwu2wcidooE0xplXB/uW3qM+gcFBOnG8SnDLjzBzUOt9ERo5rrRat6UUB1qngAhQLsTQsP49REe+bswsbZfUNEOPSKa2XjY8PhDho6t0SvTL0yHpcOWuQhCMMeEd0f506xZppPkVShF7Il9flfWzsHPSyHWPS0I6AQhfcyZwct67NHw13l5h0ZNl5al269us/07v6itCmgfd/bAOKEWycTMGU5shhpRUmsQ7j5wPzPuMsYZoC+siN0Y5rOZI4HGqRyr7SQgxxjK0Ebz7+BE1H9bqVIrtecEK3Q8AwB1sIghOEzRJK3VbOdVqKnt7u0Me397g2CyqrxqviuEQ41wVn2CYdcczWIgDeFicrmKY6LJxAafNZEE8cifCBhCA5FXnLskuH0Jq6rbYpfaMd1tg4Pt18nO5Bgx6aSNRKakVS7F4KOm+XZBtjlmysGZaqoNzmE9+Ak6YVz+TJ9X3XCymzjQtphnM3CEdxs51W2ZmIaljCFYDbkbd5F0bNzryZN4bPwl2MHpmuXKAOdnbbpbQenv7WlUc9PfuauDgo7MePirJp958bs/yOHriXWk14iLOkKlMl51th0f199Mo7/c+Ps9AaVKHNK1ZNOyBcxgUagR8Gv1RwaCKKPq9xsy/2NBpOK0jaEhLdr0BYg78d+WFJCWBPlkBHNWirsp9VO1wj0ntmG6X/Iszgzabk/J2mEG0dPlQ5Fy51In72SBL3zlQTJ6CosVOCgovBghnenaeZDdEznA1TerPaQ/td6/wrpolOzVUBBAb9Kkj8W3Rji5c0C5dprCaHs8KJl8+8vF5bOZolN+Nr+n4OFWTlFSKKBK+8NrmAub0SJ9Jl8CK927odSye2JPFwB5LGXh9RerRFvWwL7kdM8oC37XEafkYUuOOFGnTq03V3BpL2ZQuOqQ9i82BoIvdlVd/EjNAtiONfWYB0MCztmzDKOBBeb25WTFC74U0IgtvtTD5qQP6efGZhSV+70PLHZLwqMPsaUsi8e06jfnIM8RPZ7Xf++m4z3wFd4q+TxSR9CdPv+4KI5A9Y/xHjHNAoqoAdOPCXp1icBUucJpIBN2IeO7bZvoE9nWEZ9zQIOygYGg+0I99x3PXvo8+A55vCKnzbohQJoUhLbKYCyjfzia06V8dvYIZTLJxoBJKvoDj3p7jFDuEbnCpbtKYJGJnqK0LbUe9IuyP43207IXGOD+Rbr3fDgdEyrjMoUGt3c+eATROXR3elJnfVp+BTZG9BGBkjo0syT9xjaFlEdywXcPFk4SJ+FMNNoS59/XyTmzBR7Ssxex30RPHMfaF53w==|1944

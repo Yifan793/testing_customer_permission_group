@@ -645,7 +645,11 @@
             "dataColumnName": "姓名",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "姓名",
             "width": 150,
@@ -663,7 +667,11 @@
             "dataColumnName": "职位",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "职位",
             "width": 150,
@@ -681,7 +689,11 @@
             "dataColumnName": "手机",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "手机",
             "width": 150,
@@ -699,7 +711,11 @@
             "dataColumnName": "电子邮箱",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "电子邮箱",
             "width": 200,
@@ -717,7 +733,11 @@
             "dataColumnName": "微信",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "微信",
             "width": 150,
@@ -1766,7 +1786,10 @@
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
           "roleNames": [],
           "permissionGroups": [
-            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+            "510f370b-5c34-4043-9a98-5734f902284b",
+            "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+            "48023781-43da-46ea-8504-47be5140dc9f"
           ]
         }
       ]
@@ -1794,4 +1817,4 @@
       "Size": "824,806"
     }
   ]
-}//tyhw2UafrfW4ajGVzeE5Apz4OOpO7631iyJyl8hnPXSXbQWNOFeGZKESGN2f7cDKuddnqkd7KSFHCEIZKWReG2V3Gsp/YvuudxNLPRM93zrveuqKA/WqYk/EjGBlnmQEjwlPn/zR1VW+mrgpC0qqjvdPCtbvXPdqme0QDC4MMAsVLDM6JMcb2Q4mED150Ku38ben2ECVxKfrtvqHfRrZFsbEcinb5wpJLZv/tv9k1w5/wh0HS+6Kf7qjLAzeCCMx/emTtvXA57CHX3ifUqtoGeSn98CUnJ71hH+tiE52RiHLz/d9hMaGscxkLE9O0HdigZ8vbPeNBZvujOzEfXQxMULlEJbi2wNxjGzL1hh1AMwiSMq0YEJZwSVrdrjg54R0ve6/uIknn5Z5R+JD850gWYm6CXWb5Mx+He4+ca8qIxjtBCEMwtuktDLEQEgt3EdtNSx+/4EFSrrBFFJ+OgiVR10SGgTRe8DTqdc1BQNoc53WBos0Shq4EUtLF7EZpW0uHaX6ECO+YOvGYJY1ItmpC41ApJi6lNGPFXsnuss8QOJx4kCS7Vm7fKrXoQ275bxszB3I6OQEXTJw54HGvbfw6oThOutzP0pPvshzsPDPSsQeH2U1hEVn7vJvKHm9g49XPCCwOnNf4NTcthKolOh970Gv8YPKvZjN1tdBwLv1tleF87/vl3gdCMGz44YXeWdtmwVJQ/s92iXe94Zu4YtEJklWYAN1xfCi1rkWfmaSt1PiZFo3bA65yXdu+MpE/SHw9DBNPbqkEpSQTt2uPPDWns5QgdHKgMgPBVEK5PEZmR9/2fnMOHyZIBHKV0WoLrHZpuN3s7/8UnINEHGAJZXJuavOi6IPbV2F7QUiG1VCMNpHbqLDmQ8T1HZbzloLk0QF4yoRTpGPAX53PX3TIRwDTgHzlisLkrfmjJv3xY76or7nBjRNyIXmqjCfUC4s0TTMN1uvR6g7NqrfESonI/XfFaj2yR/aCZjCbuos8ERwCjRC6RE7+XP5cYZN8BVS95ZZMD2G6KWzfvav+GbaXtAROFaGvcB7nMOdAd5GikQICVPFlIq1YzScqaOQOFjs5srT9eW3MpTEFbWfjDBpYalisXMpJjYr4w23UforBE2ZEyRH82V4sKhvAhEseX0K1ZWYK70N5DUC43lZIC2npzxoW5R1+JsJEVcQx8Dqv9s89oEX6q/FksG+T9139yzqlQLvWYgwNfE+atKz0AfpJSDt3TlLPNIcHCiqos7ks5cd4cmoa/Dq1ZtP5HvC4WsPAykZPw9AhhZmqIv82lrX8BU9IbLtXo+aHB+KLH08R7JE8MGtq/gD6gmTGj9okoOW/NYWEIXnSBz52T90JGAoCx6wF+O8Lf1j+Uu9ugLP1AUYuMAZXkITjRrD3QJz87VwFbAesHhW72o09136hCTDW1v3IVbOrTn+rEs4JtnVJyZW4vPmbsyCUwf6sJfAydnQ22dRRvpSPxp6XInQWZIuS60PYebx/NS7aprgbA03Ox9zX6Y5iFVjBhpFcgXm2H5/Xu+JQ6RH2lwlI5qy/g12Y9pGSjNfxfPn8pPKmIVF7fVatwuNaQ0/HZnZ04y/7fx9KfFG2MLsPmpaU4Vv9M3LXBSZo8hJTgE+n8AryJSH9w7fRx2VvkAu4QuhKsfeWZYAKUm8VL+/Bl2bUJk3GLFHiZR+9UMvDmV5J307fvfHPh8AbOm7KEtG7r8AiPw3J+DqY7erfqLVIa10/Mxfq3mkR9uPXs+jMZaXbVKSTQkFPIahciN5J3qqNyI4Kwsflyv9bpZ/7iAQfrRrvU4kggQQFpez6zzrhG6M/67ShtnE7Ep4TqG4ZmTrxqexmd3+K2z6OIhpQ4dCTavEcOr0xXwHeSaHFz1CzWBPmFC7xOyF/LxxGGhoUc2s98t9tJKL8aJmAdX+ZNN9z1Ukfwc4rfC2VBkb/A==|1944
+}//E9bpps7dqkRh8XXdFwcu5SFZJR5mFk5D0MIQyQGXTR+7qWVGehiwp3LBYx3BD+I8PAUk7XtvcV8HlLurqI50r9DNEuA68J+QGVsdIn+tYGi3oTjj4IlZdQS5CBnTFovub9y/pj1sKC0ZxVfBJozYUyDEqIVOqBBMTNZan9gCKn16yczSUYQFq0kpPC38AASiAfJdIXTGq/jy9NQBISVEQnjhSDukiNZpXYbZBZ4Qwc9okK8rbyeHJD/VmTJCjOPYd1nKNmgGSiFO4IEswFARS5DUza12DkMIfQDC5w7pzA4q825PwJwWlS+BkOpfWFI6rkJMhwtqauweEUpSVu27LFbrEO8296jXNMni7C6YEf1Y196m34/+LCJPzlTM9IoFJg7p+ryP0cHWZdNJBWSLFUkK/yfgQjxeloATsWYs4XWSzaqhlqLr06gY2Eo7V/HJwanVjVA8nZqU0YYEaI6aZ/rh5LVp4mQI5FCWGo8muoiq7Wh5EK/mSl2HvhoWRqsYppGz4I4o3L1HqCnmF6Eu/LSZ3ya8cHM+0KRX0a1WM/55uWIfRadjLL/H5WHUo25ljToqUA4ON54OHgvySPnETKhTr1fnCtNjd71Qw9nwJJNq358pUP0bpL0F2rB+8mV7cdM8vT5WU2Oc8aHwMQHbbwwOAfyr/Mhd0zMgQK5zmNTbqH+cvZq5kXEybJBdHjwFo5XY3oUcPHz35CdODlbuO35LVUbeifXVg0DQvnA1Xd3wbarK9pR9vJUHZEqGSpLo2e9wkObOH/umSPw1w9zXEV820Ejb1U3946suEF3OPHrS+w7bORUMMDQvWzPs1lFP5IumJjTuFl1d0qj3nU8Tawsfch/pNPc1uV5k5NrhWhk0draw0WnoWRZhCwZMETa1nvRD1lUCgtnB5kb8RCTht8MjhqKzyCdJdoKDlUBfzM5rGHnr21iX/xRpu/XpXvvVRtzmgo4BsXwtdNkDrUFQ7UDqFfEHOjtdSDLA1/1FkWuu9J7SJRQ4/7apAdoBsils54JGJkMGPA+Xpg7kEYcKliukaD92V+L1rb1K7YnepR3lzU9VqExErzKyDbHYR9jF1lSebOjhlmLpJPLs/jgzufKxnlfYMCQd+IydrKSamjRtqjjywpk0zO0RIxnNUFA1Hzv/FvEDSn+7ShUvVfmddVeA9jYckRTaorXa6GRuRiTcFHYgzOSqasEaGseB0kK4NqRpiAbGVVvaYFuYC8lt6yP1AG48oTUvGvvKIzk4aTYOckvwW86F/jlT6zcNaovwJFYhlLJaj41WkxlcGhFJ10atVUu+W3Q0FHknONRgVnoUmmLMYtqRa7Vysd3b5DkSbfuE7lfOz7BDE9rTpKLtJaSF4rl5p9vWQ2S29+WRvWc+eTyRxWsm25Ai5BQMyC8xp6GMG1d4I1eVlEcAOoqsBSvjC44uZQ1rhcrsIyqNtd9FnijWa712se5Y6kN+qL3ohdJPreWo6dYzpDq2jumLOAvsIOHoUR28Ec3jfeatfx9pS+fgSfjWUhaphmUjkEsNr9to4q519rpCzrEXbc+k3NuE8RncsJPeAPluP3PAoGvDeJzqpQ+JC4jDx09PIpKXOtEAU3lxsCGVrwKpw73SaP3joFwP2JhJwOxMxLwVVGs+sADkyaBgy5Iw1/LlonnftSHGoUjU1mtA+Ip2RcDPACGjXsnsKIHfDCxkqc/hr7H5Ul59612lSgMEqRhY+MRr/DGbv8+LjWB57B4jhPWGvsfFTXv4m8vtYXlevjMNHa8ZUFh7PEmH+jBWnUQkp2Yfbqcp7vTN2AJ+Oyz5L6c3GSWWnB1/nJsCcgHWC52n9sIEGnK2wy6zowJdBiy/ldMwtPinxqig1hYL53DSKj2w/fE41CFuSoS9b0bvGf87Ek59tpaAPzSYZq/IyjlxPyGjhfhi0NkQDmOGcMkqfNCTBw==|1944

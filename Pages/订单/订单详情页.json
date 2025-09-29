@@ -643,7 +643,11 @@
             "dataColumnName": "产品编号",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "产品编号",
             "width": 200,
@@ -661,7 +665,11 @@
             "dataColumnName": "类型",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "类型",
             "width": 120,
@@ -679,7 +687,11 @@
             "dataColumnName": "名称",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "名称",
             "width": 160,
@@ -697,7 +709,11 @@
             "dataColumnName": "单价",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "单价",
             "width": 160,
@@ -715,7 +731,11 @@
             "dataColumnName": "数量",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9",
+              "510f370b-5c34-4043-9a98-5734f902284b",
+              "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+              "48023781-43da-46ea-8504-47be5140dc9f"
             ],
             "label": "数量",
             "width": 160,
@@ -2195,7 +2215,10 @@
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
           "roleNames": [],
           "permissionGroups": [
-            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+            "510f370b-5c34-4043-9a98-5734f902284b",
+            "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
+            "48023781-43da-46ea-8504-47be5140dc9f"
           ]
         }
       ]
@@ -2223,4 +2246,4 @@
       "Size": "824,976"
     }
   ]
-}//SHxCDS8HMXB6r2UPpXDEUb5HP2ngv7Sp8wbOm0fiARl3igYbq8yw0alWSMqsixYksOd0XvCNyefsrpnvvX3iCoRQVOhq6JiqHhmKb0CKQ/dH1VFRTDF2xJhLUSjohpoUeLd3Q+6/42tEzzGSNbKivbTxEaj/OXwMdo3od9mcNR8E932+RchneKZVU5++VJDA5tN7BDMN3Q1lbhdTvf0HZexg52C8alVrZv0iqU5JXFVKo1S22O2pAK9sAv5+Hj9AYWH4zdGNPwyoI5OFp1helMTl7yMmlyUM6pYrsH+mxPFcULfAYRjvNs18el/hz7M76iGg8cYHuoAy9R0s94Vl7XHrj+0JE3U8J0sqd7aZ7I10KQ9aoSqaiBFfb8L+Pw0cTmV5NOSbiAPPU9iS38JYw/Mmzgm6VKxB/U3RfejvFnNTeXjikg4V+CskUW9U6HR1/EC6hAVwimyN5zxBb1kOGrA/tX7OveiZjWejCwdTDNTXviZvH0C24cdZX/dbO8XIoNfv0bNQKzQAgfQUS1EJc5UOaGg2upKP065Hz/bw1KYYzVm6z9EQAIxVqHiTaDpu9o16VuWxX0GjX0cLuvPn9IGaCSESmnUTn2krpZPRadczzAS64NUZUvPji7M62ATi6zAsIUhsMFaJgIrnGpouSMgShTEjbgxrfEuXCOnCpTAEUbVapAdcCxkITT5JLdD7tWh75zi1I/wW+5zz++eZ+g7uDowZEIrCUbI2ryzo1/dpMF0WpOpFJv17h+Vc8FQzS3HKqriiCkS80XNey6Mow8Aa08cvHN3X+rCQBccHzURolK7wzNnJ+glotaJqvB/rMUtg0Cp8uTTla349XICzfklWRtlja60HmiwYFBmjyar/UWIVjGckglcStsSE5Pq8Rx80JtWXsrS3bw8UHMdIPE+ODdRokalc7RSp60DFLXiKvWwjYGB1LFGxsKtC4Q2O9n3CV6x390XMnQ5q8AyG6wTh/gzCbCoIRVeuszh/zas2t15K9U8OWxG/lQX7rh7TfZnKe2OkVOtr/vovHq1bA3iUBEhuYFu2zj+GiS7/GSrKH6Oju88qSIJ7v6G7xZRhw1qsrA6we2JGjFrdAR7bqCWPRy39jexpxIrmIYHy4xaRBGKyyMDwb+1zGWTsVA+kTxUz37hDkq3NAi/k0+x7lvtBNJb72Syyl564zqbusNDAO9yWQgfLYa/7uVznj0HbRbRLE+8rVkxzSi+MfdGD1ZYmcg2efGSX+T1E1ZN37mUHlaTtGxqNUcX9Fdg/CKM72XleRnbLKfsECnrNIjjulBR+2D6t4eDaDAVvm/pt5vOyCB+GddiL+bTUkGniOu924WUUKamUKZby3Ne51Cp+TzKVSta8U74jwcmT8USSzN2pLHDgSe8HQW8tnUbOH+yRVLvu0yRQa2K3vkkLWTE/usDNjpuwMGsyh1gII8cSwrm1OwyAIZ1F8OAmRi6Xyhzd2CKL4R90fpz/KKAqMknC1wUipTPoHkH6IJiJwLhomcBwc9r1GyokZe8zG/avWdiRTNSmbl7LsxtEYZCBog1/B6XAWDr01pyke5ZowRKa6w7azS0ZPamc7PGwYqKZLmDs0MRuPXxHI6Lvtc5qAvK11TdOEkUV6c1YEgBFEG6bsln0WnBGPiKgVq/I1P08TIab9zjCgj3M5RlAz2BFsRWYjsnQDd+iKYxtYS7mv/li7E+uPBDAgEgPZGP2d0/h1UrruQsX3z7OESh+JmQGJfq05aGQT7mcVMQjJbnAtQPdmf932g8pst6GShMDNeT/A+uy4FbKZB+8I7OKPuU2QxXnT2/jowOPygSoYcKVYOlKHIwU/2W3VtkhBZY1Dk7aTxqN9O/tXr4a8LnuFFW4XRLTcv8mEUjQz2IaiUyFuTEIz2gF56tJCI5FLrUwKyNvIAOolEfBhGZDDLkNoqD4S0o1lg==|1944
+}//1fD2JI9k8NnCmWHlF3ykWzNa7b4INCIikU4Bo+JI6a6nONeWTLphlv+tM9lL42zAyZ2yzlkd80E4GLCJaS3qpP/0NYixssPgdPrUDvOYEPy3IcQh+fzjzQM9ZA53mIZ5DQNFgz9QptMan/WuiRm08fWVOH88UrkDDA0TFy74SLCAhrxzTVjVgQ2cSjkK7wzrdvj7Qh9neLYP4hlQLn8fkpJ3Fg3VStWhYnpkPSVNRwhGWIpqYaqQe90yI3KRDL/S43fueGWkczfKN2ka6q8d2HINoJjlNSxBsGZ/I5nu7cO3dwfKJE+k/GAc/1nkLb9RfaxcWHZY3pup+l1Qn/WPQwd1bgFtLTWtKr1GpnfZNhIGtu8ROGmjIyT7zbQ4T4/BU8p5oZEmRoZ57lH+qEEgO411cZqa9Lx95NQaJnrL4oHewovWSVTGg5ynfYz+ilGQfH3DcHyvCApZj7eWdCraUWhh/4zPOhET/Fr1oafoEoKe4CTwye2J2LJjm6aUruvSOqFqsJauNHoFEr6c0vKFlhcemSvWBDIQy15IsZ2+KAlCwo1l5u+ppVoqhMjQtViIU1fvBXunQ0Z/1k/QODSwD20nB02zCntRIoplS8fvLg6pwW2lbs6qOo4Wu4wugjfqPlWKIU/9iHL47Opl+go20CMITKDZAqr7H8jmZH2WXMqwuQBJJ2XcP68DLTBM8zVz2P+425E/y9h3sX8G8j57iXDEcl7zCWGFTb9s2g7BQmm/PSKOWrXGLdf+05OOUPBuo3i5NqaN/NmrzQwpl7t25O3GDjy10mAolUKLlwcSA9MFFc7+bSWbWoQSr6XXCsSscOCGp6+DiAoWEazjD/UAQ3mgfmxLDL5A62DHuwJFeF6tnToEYD7kpMRds6O00ZXuuVaNl+Wa15twclVd/gGWKEHbbTISHTlvEti4GoGIdA1y5OjuZwhYubkikYVF4VvwiCz3RZQ1Q5BqMSjRwIQf0769UYiIjCh6ndEaT4IDBbFLm48GwYmC5ly9Nzna650bwHI3VEIzm/86X951Kg6iqCVI8RNK3iy7Ks2SWwwA/AynuBnn4hSjq41sAm08q1rdXamfSJ+DrR3JdO+8bGLOgSdJ0LruwtN2A3bmYODr/AixoWEjDYoBiZHcDZWYX8CNnLqWl1mGeQezOOX886l1AG2ozHWxIoQVqOrOo/eq17VxI7ngl1ns0FRujzV0eC06p6qCP7hCqbkaGx9BLemoG/epQgqW61c4MdACyrIzHkhkaYXpINPQBZPE8Dp29RGLSYCM7Mri9OHrE0KqpYCyO1gMMbbYxgzDZeZd7jvwN95oaSsyYY0YXSIJD0fHZusobq5LrYVW9dYIJOMxzOfu1MJLSj8XE1mIWKNmyMeySFxzAivwE0m9L/WCQhWtyZrp2c7Esg9C20QT6cvZWXUmzX8axNWYxH04xj1NGNo7zgPashyCAhRfcMgTJSiFkxuoZm4P70QuH0O4BmYAfhAmBxatr8P1l+NgMx3x7h/a7xPhW5BhjeVWYP1USEUq+ippdQYEkDIJF10XbqeDyqypG9xQ73T7P/VC/8p1V3iMZCAioiIp2o1PRhGeBvk0B4KJhsq6nADajPkC1+NWrTw2M2YM+0g3jF7N2iVHHz+gFABWXw+hn8reC/OvJwFQyk1t9tfbVjbIFS5NpE85b3tz6lPvaKWlW97IxO8s1/HNYlEAmf1Q9qpVs+rZc5eDwafClUw2DrIoBVvRxVnOOU2BWN4Mdu7EL/EGasTu5fZ7dSB4ZsSd9MTgBqIQWIOYYLitZ/l8VkS58UMSSzM+cARVdhMlB0MUhliB8NmbbwoL8AWJjvTBFQ5imNnLM94d+cOSlHcD+8ocHk5h12wXoWKI9rPpSGrQM2wCX+7grdQ/jUGovKFzZNt6mIVMp4YN9oqjirITuCowg/4ur6M4FKtEbw==|1944

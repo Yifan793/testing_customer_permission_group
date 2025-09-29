@@ -4,23 +4,11 @@
     "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
     "permissionResource": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
-      "enabledTypes": 2
+      "enabledTypes": 2,
+      "isExternal": true,
+      "detailTables": []
     },
     "permissionBindings": [
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
-          }
-        },
-        "dataPermissionType": 1,
-        "roleNames": [],
-        "permissionGroups": [
-          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
-        ]
-      },
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
         "config": {
@@ -89,29 +77,111 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
         "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "负责人",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "负责人",
+                "GUID": "6417b9a6-771b-4814-9a76-7e379b6a6c9f"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "48023781-43da-46ea-8504-47be5140dc9f"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "负责人",
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "负责人",
+                "GUID": "b4e43e03-e18e-4b7d-a925-50e66e494752"
+              },
+              "Value": "%Null%"
+            }
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "48023781-43da-46ea-8504-47be5140dc9f"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
+            "userFieldName": "负责人"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 1,
+        "roleNames": [],
+        "permissionGroups": [
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
           "$type": "Forguncy.RbacPermission.Core.Impl.Data.FieldBindingConfig, Forguncy.RbacPermission.Core",
           "fieldOperations": {
             "ID": 1,
-            "姓名": 5,
             "公司": 5,
-            "职位": 5,
-            "手机": 5,
-            "电子邮箱": 5,
-            "潜客来源ID": 5,
-            "网站": 5,
-            "行业ID": 5,
-            "客户类型ID": 5,
-            "年收入": 5,
+            "取消资格原因": 5,
             "员工数": 5,
             "地址编号": 5,
+            "备注": 5,
+            "姓名": 5,
+            "客户类型ID": 5,
+            "年收入": 5,
+            "感兴趣产品": 5,
+            "手机": 5,
+            "潜客来源ID": 5,
+            "状态ID": 5,
+            "电子邮箱": 5,
+            "电话": 5,
+            "网站": 5,
+            "职位": 5,
+            "行业ID": 5,
             "详细地址": 5,
             "负责人": 5,
-            "备注": 5,
-            "跟进阶段": 5,
-            "电话": 5,
-            "感兴趣产品": 5,
-            "取消资格原因": 5,
-            "状态ID": 5
+            "跟进阶段": 5
           },
           "subTableOperations": {},
           "dataFilter": {
