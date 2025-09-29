@@ -7,7 +7,7 @@
       "ParameterName": "市场人员",
       "ParameterValue": "市场人员",
       "ID": "52ca1269feeb4fbcac197bc020664a80",
-      "BreakpointIdentity": "c33555a6-33b5-4677-94e4-fb9a8f999295"
+      "BreakpointIdentity": "a9f290de-43dd-4685-aed2-421e868d0fc2"
     },
     {
       "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -38,13 +38,13 @@
                   "Value": "1"
                 }
               ],
-              "BreakpointIdentity": "5ddcd4aa-ecba-4d53-8d82-67a3f6a01fd5"
+              "BreakpointIdentity": "bb401a86-0b44-4351-b087-15a48b488921"
             }
           ],
-          "ID": "a7f6ecb8-8e2e-4348-b524-3ebf2869c548"
+          "ID": "e35c6b28-c0c3-4c33-880a-7ae23f5643d3"
         }
       ],
-      "BreakpointIdentity": "745c35d5-d206-4ef0-88de-7f5ad5304a22"
+      "BreakpointIdentity": "e2a4ee39-1c1c-4a5f-932b-b17fa4162006"
     }
   ]
 }

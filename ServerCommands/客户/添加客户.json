@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -304,7 +308,7 @@
                 ]
               },
               "ParamNameToSaveNewRowValue": "新客户",
-              "BreakpointIdentity": "71a2206b-b768-4d7e-913c-a0389736c1e1"
+              "BreakpointIdentity": "6868fedb-4157-487b-bb28-bc80fb41f1fb"
             },
             {
               "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -360,7 +364,7 @@
                       }
                     },
                     "ID": "8c574ee1175b4d839e10c63f63cff299",
-                    "BreakpointIdentity": "8e3c5b3f-76a3-458c-b41d-a74d904602a6"
+                    "BreakpointIdentity": "66fb4b49-2ab8-4ca1-840e-d1c2f78c772f"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -391,11 +395,11 @@
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                   "SerializeProperty": "=\"联系人“\"&添加Item.姓名&\"”已被其他客户关联，不能再被关联\""
                                 },
-                                "BreakpointIdentity": "3b2e1a3e-2c6d-46b7-bbf8-dcec18849744"
+                                "BreakpointIdentity": "6c9d7ef8-0270-4838-b8e7-1a3b839bca71"
                               }
                             ]
                           },
-                          "ID": "852da8b5-7ef9-4c6d-98b9-c6ba8a551f4d"
+                          "ID": "79760141-15e3-4145-bdb1-950714739b37"
                         },
                         {
                           "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -438,23 +442,23 @@
                                     }
                                   ]
                                 },
-                                "BreakpointIdentity": "ab29b957-30a4-4b62-96b4-5137ccb404a1"
+                                "BreakpointIdentity": "c1e9b2c9-73d6-4dfd-bf15-160304b2db77"
                               }
                             ]
                           },
-                          "ID": "6866407e-5eca-4bc7-97c2-819b3c0dd690"
+                          "ID": "55261332-c151-4dfa-8edd-47738b212ec7"
                         }
                       ]
                     },
-                    "BreakpointIdentity": "4ea43d2f-4362-4772-b3cc-b7d109840cd9"
+                    "BreakpointIdentity": "611ee4be-763b-4aee-a419-c673b2f414f5"
                   }
                 ]
               },
-              "BreakpointIdentity": "431e90cb-e1b7-4dbc-95a6-9a66efa896a4"
+              "BreakpointIdentity": "86f29362-5f3a-4b7e-99cb-497b8882f225"
             }
           ]
         },
-        "BreakpointIdentity": "e21068cf-d4d4-4fdb-8549-c54bdebe3dae"
+        "BreakpointIdentity": "1224cef1-b391-4fb1-9aaf-8b47f87b9244"
       }
     ]
   }

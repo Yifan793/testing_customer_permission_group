@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -92,7 +96,7 @@
                 }
               },
               "ID": "23dfb37e34d24c69ad8eb6ae093b6ea4",
-              "BreakpointIdentity": "215fc95f-fb68-4d0f-b837-7602429445bc"
+              "BreakpointIdentity": "9b9f3923-bb53-45ed-97e3-e51144e71608"
             },
             {
               "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -126,7 +130,7 @@
                   }
                 ]
               },
-              "BreakpointIdentity": "5bb348ed-9aac-41ba-8777-1334402f10c8"
+              "BreakpointIdentity": "5226b848-951e-4a77-93f7-f59ac9fabd37"
             },
             {
               "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -148,11 +152,11 @@
                   "SerializeProperty": "=ID"
                 }
               },
-              "BreakpointIdentity": "dca44010-7cd6-413a-886e-98640690a8f1"
+              "BreakpointIdentity": "4c51d504-290e-40c2-b31a-cb89ba28a0ce"
             }
           ]
         },
-        "BreakpointIdentity": "6c45bd52-6dab-44a3-8614-bf2f4c666e2e"
+        "BreakpointIdentity": "eb509820-488b-4921-ad52-c928186daabe"
       }
     ]
   }

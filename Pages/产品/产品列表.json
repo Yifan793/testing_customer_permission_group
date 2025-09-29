@@ -351,7 +351,7 @@
             },
             "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand",
-            "BreakpointIdentity": "3e8eba5d-5f5d-42c4-b5a1-0e86b5801fd9"
+            "BreakpointIdentity": "392e5851-898b-475c-a5bc-d8ab808c7da4"
           }
         ],
         "ReadOnly": true
@@ -585,7 +585,7 @@
               ]
             },
             "ID": "4619263731cb4cf782b79d3eaad709c4",
-            "BreakpointIdentity": "fc5389f8-49a2-4468-b0ab-94b7f6ef3267"
+            "BreakpointIdentity": "7bbf61b2-c78e-40f0-8077-c34f5dc81bc7"
           }
         ],
         "Text": "查询",
@@ -607,7 +607,7 @@
                 "Value": "%Null%"
               }
             ],
-            "BreakpointIdentity": "fc6b8dc0-fbd0-46b4-bf09-18a0a456f1c8"
+            "BreakpointIdentity": "a071ea37-3446-4e7b-a32e-f321bfbc81b9"
           },
           {
             "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -617,7 +617,7 @@
             },
             "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand",
-            "BreakpointIdentity": "43197a76-5ed4-4b5d-bacf-953a373e66dd"
+            "BreakpointIdentity": "bcce96dd-b800-4bac-87c4-1c8ccff3313c"
           }
         ],
         "Text": "重置",
@@ -645,11 +645,23 @@
               }
             ],
             "LoadBindingDataOption": 2,
-            "BreakpointIdentity": "6cd39b55-5dbe-48b0-b8be-237912055d9e"
+            "BreakpointIdentity": "45fdfcc9-265f-44c9-8da5-0c4e1777feeb"
           }
         ],
         "Text": "添加",
-        "TemplateKey": "_RS_Minor1"
+        "TemplateKey": "_RS_Minor1",
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowPermissionGroups": [
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            ]
+          }
+        ]
       }
     },
     "8,50": {
@@ -673,11 +685,23 @@
               }
             ],
             "LoadBindingDataOption": 1,
-            "BreakpointIdentity": "87e9c5f4-53ca-4b3a-9455-679861d87554"
+            "BreakpointIdentity": "2b767606-faa5-4516-a968-bec5ed7dc6ad"
           }
         ],
         "Text": "编辑",
-        "TemplateKey": "_RS_Minor1"
+        "TemplateKey": "_RS_Minor1",
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowPermissionGroups": [
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            ]
+          }
+        ]
       }
     },
     "8,53": {
@@ -693,7 +717,7 @@
             "CancelButtonText": "取消",
             "DialogResult": "确认结果",
             "AdvancedSettings": {},
-            "BreakpointIdentity": "718e0a36-1812-404f-8172-64320dad9cd9"
+            "BreakpointIdentity": "0e174e17-558f-4924-844c-2ff7753e607c"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -717,17 +741,29 @@
                     "TableName": "产品表",
                     "UpdateType": "delete",
                     "ShowConfirm": false,
-                    "BreakpointIdentity": "8d572ab2-05f6-4bf7-a598-649f4256d26f"
+                    "BreakpointIdentity": "5bcab683-44f1-4d7b-ae4e-e92607e9a05d"
                   }
                 ],
-                "ID": "e2374460-c6aa-46ac-b809-3a3b466176a8"
+                "ID": "ae63975e-be72-4fa1-a91b-257ad7ec6b4d"
               }
             ],
-            "BreakpointIdentity": "bfbaa138-b87e-453f-bf6e-2660cd5c8436"
+            "BreakpointIdentity": "fe77b4b7-8cbd-41f6-a801-a935d9dcb4f2"
           }
         ],
         "Text": "删除",
-        "TemplateKey": "_RS_Warning3"
+        "TemplateKey": "_RS_Warning3",
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowPermissionGroups": [
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            ]
+          }
+        ]
       }
     },
     "12,2": {
@@ -846,84 +882,129 @@
     "Styles": [
       {
         "FontSize": 14.666666666666666,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 0,
-        "Formatter": 2
-      },
-      {
-        "FontFamily": 1
-      },
-      {
-        "FontFamily": 1,
-        "HorizontalAlignment": 3
-      },
-      {
-        "FontSize": 14.666666666666666
-      },
-      {
-        "FontSize": 16.0
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
-        "FontSize": 18.666666666666664,
-        "Foreground": 4
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
-        "FontSize": 21.333333333333332,
-        "Foreground": 4
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "Formatter": 2
-      },
-      {
-        "FontFamily": 1,
-        "FontSize": 14.666666666666666
-      },
-      {
-        "FontFamily": 1,
-        "FontSize": 16.0,
-        "Formatter": 2
-      },
-      {
-        "BorderBottom": 0
-      },
-      {
-        "BorderBottom": 0,
+        "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": null
       },
       {
         "FontSize": 16.0,
-        "Foreground": 0
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 18.666666666666664,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 21.333333333333332,
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 6,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 6,
         "Formatter": 7,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -1004,70 +1085,70 @@
       "9,52": 10,
       "9,53": 10,
       "10,1": 11,
-      "10,2": 12,
-      "10,3": 13,
-      "10,4": 13,
-      "10,5": 13,
-      "10,6": 13,
-      "10,7": 13,
-      "10,8": 13,
-      "10,9": 13,
-      "10,10": 13,
-      "10,11": 13,
-      "10,12": 13,
-      "10,13": 13,
-      "10,14": 13,
-      "10,15": 13,
-      "10,16": 13,
-      "10,17": 13,
-      "10,18": 13,
-      "10,19": 13,
-      "10,20": 13,
-      "10,21": 13,
-      "10,22": 13,
-      "10,23": 13,
-      "10,24": 13,
-      "10,25": 13,
-      "10,26": 13,
-      "10,27": 13,
-      "10,28": 13,
-      "10,29": 13,
-      "10,30": 13,
-      "10,31": 13,
-      "10,32": 13,
-      "10,33": 13,
-      "10,34": 13,
-      "10,35": 13,
-      "10,36": 13,
-      "10,37": 13,
-      "10,38": 13,
-      "10,39": 13,
-      "10,40": 13,
-      "10,41": 13,
-      "10,42": 13,
-      "10,43": 13,
-      "10,44": 13,
-      "10,45": 13,
-      "10,46": 13,
-      "10,47": 13,
+      "10,2": 11,
+      "10,3": 11,
+      "10,4": 11,
+      "10,5": 11,
+      "10,6": 11,
+      "10,7": 11,
+      "10,8": 11,
+      "10,9": 11,
+      "10,10": 11,
+      "10,11": 11,
+      "10,12": 11,
+      "10,13": 11,
+      "10,14": 11,
+      "10,15": 11,
+      "10,16": 11,
+      "10,17": 11,
+      "10,18": 11,
+      "10,19": 11,
+      "10,20": 11,
+      "10,21": 11,
+      "10,22": 11,
+      "10,23": 11,
+      "10,24": 11,
+      "10,25": 11,
+      "10,26": 11,
+      "10,27": 11,
+      "10,28": 11,
+      "10,29": 11,
+      "10,30": 11,
+      "10,31": 11,
+      "10,32": 11,
+      "10,33": 11,
+      "10,34": 11,
+      "10,35": 11,
+      "10,36": 11,
+      "10,37": 11,
+      "10,38": 11,
+      "10,39": 11,
+      "10,40": 11,
+      "10,41": 11,
+      "10,42": 11,
+      "10,43": 11,
+      "10,44": 11,
+      "10,45": 11,
+      "10,46": 11,
+      "10,47": 11,
       "10,48": 11,
       "10,49": 11,
-      "10,50": 13,
+      "10,50": 11,
       "10,51": 11,
       "10,52": 11,
-      "10,53": 14,
+      "10,53": 11,
       "10,54": 11,
       "12,2": 2,
       "12,4": 0,
       "12,11": 0,
       "12,22": 4,
-      "12,28": 15,
+      "12,28": 12,
       "12,30": 4,
-      "12,35": 15,
+      "12,35": 12,
       "12,37": 4,
-      "13,4": 16,
-      "13,11": 16,
-      "13,22": 16,
+      "13,4": 13,
+      "13,11": 13,
+      "13,22": 13,
       "13,23": 2,
       "13,24": 2,
       "13,25": 2,
@@ -1075,51 +1156,55 @@
       "13,27": 2,
       "13,28": 2,
       "13,29": 2,
-      "13,30": 17,
+      "13,30": 14,
       "13,31": 2,
       "13,32": 2,
       "13,33": 2,
       "13,34": 2,
       "13,35": 2,
       "13,36": 2,
-      "13,37": 16,
+      "13,37": 13,
       "32,1": 2
     },
     "SheetStyle": {
       "FontFamily": 1,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "7,2,3,11",
-    "13,2,1,2",
-    "13,4,1,7",
-    "14,2,17,52",
-    "32,1,1,54",
-    "3,2,1,8",
-    "3,11,1,8",
     "2,2,1,8",
     "2,11,1,8",
     "2,20,1,8",
+    "2,29,1,17",
+    "3,2,1,8",
+    "3,11,1,8",
+    "3,20,1,8",
     "3,29,1,8",
     "3,38,1,8",
-    "2,29,1,17",
     "3,50,1,2",
-    "10,50,1,2",
+    "7,2,3,11",
+    "8,45,1,4",
     "8,50,1,2",
     "10,48,1,2",
-    "8,45,1,4",
-    "13,30,1,7",
-    "13,22,1,8",
-    "13,11,1,11",
-    "13,37,1,17",
-    "3,20,1,8",
+    "10,50,1,2",
     "12,2,1,2",
     "12,4,1,7",
     "12,11,1,11",
     "12,22,1,8",
     "12,30,1,7",
-    "12,37,1,17"
+    "12,37,1,17",
+    "13,2,1,2",
+    "13,4,1,7",
+    "13,11,1,11",
+    "13,22,1,8",
+    "13,30,1,7",
+    "13,37,1,17",
+    "14,2,17,52",
+    "32,1,1,54"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1132,8 +1217,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -1147,7 +1233,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "3aabba63-c80b-4a7e-975f-9a1119f8e298.png",
+      "Name": "ab4c9443-e740-40c4-a460-202caebb088a",
       "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1162,7 +1248,7 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     },
     {
-      "Name": "fe2c2977-3a2e-472b-922c-88a7c4a41381.png",
+      "Name": "48d1c749-db9c-4122-aa5c-82e0adcb5f32",
       "DisplayName": "背景图3",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1177,4 +1263,4 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     }
   ]
-}//Hbce3XJlZUUnWHG6CC9zMWU0uDiJMGFCFpbVTv5HyHt1PfW/rhfK7ImLYxr6Y+eecsmiV1WilA1MXqwHe2Ww7nONtyCBtPjLsngSF3rVMe00n7Z8uLAEFGADL/s/y+B8Fxo0gKe+uYLxV68ccDzTJoGlfNphZNI6WNAzK1+JCztLIyi+gGx/lK1ptzIrQ4LtWzgWiRE6Z+zs9J8rgspIBlMItpQjyQqF4kfGu60I0c1wrrCAL2LGtxhjdiUhkCiPRaQ+krAwViaLBjQdPTzSomqI0vB152X6L8qrAjRX83xeSMRzoY1oFlVf6zZDcWlcwfOoacyiKRR2iHUuuAHwiOxj5P1W5YcZ4UuYzoi/fkb2ugRmSyJbgWmA241ADc3DTyf0RnQfANe+RKhIq7devF8+x6/qVn/lUETzpu7naz2x067euuhUXF3TQkUv7NHdiac+gYIuS/54I0aXBhVZ8jdjK4FpjZ+1LkF70C+QnnM8s7gKXFfSTdDoohjbzBdzFnwyOxcxw0AIOsptD7kcvXAF5d0yoBsKcKKgb/+Aule0ThjHyjBbuVyCnH7vHCCbMFXeKqhLLbIVP5dtBkg8JUg/bgeK/hgA/MOoP/+gf9OqqG5aBY74g/DRfuYk4nx9jN+C4heGxzKnT1GEvyNTdrt8ZFMMT1psbAq1wknNvlsb/ZNg7H8v46bbhi+/hkPeJTboqYEjLwXSs9wfbupq0xnNG6Iuupm4pQlTRTI6hGyjVQ2jxoMDVe2tfix8EX9TX+gAzXTdekrshsE6QCLHoimfPV1G9CBB1s8PphcFeTwng6dTulwqounmUafUdVws+utVboDmoxDBHbsNkXrTcLOxWkeYarhK3sZ+V8AAlv8g1G+5FdjGGxq5A3lHlOQHDGUH+4TWOOxWeE7T6IdKgw==|920
+}//qyg5LG37Y1QBmCiGvo52lZ7ss6tBhZ5Q5XL5S/YJacDXdI1kgp1PPllFXWNgHrYU/L7XuP+Y4BzKUUAsAPp3JgWT1noox0H+PEr2r+uyEwR75n9q+x07hE29jrgyk4snFgXA6ztGJ2b437UBLeWsDllJGS0QaCEnQPX8PqoO95Se4ScwbS2dhOqsAVz9JCOnbzHeiDpVpdP+kF6VUI1ebZegBSWSR/oWJTFSx3VuWty2Rj5uCmYKUBZ/q3IHCUA1tdpqpQHdWld5vR9qT8qCkR5JbSczGQSBVyfvuxixtdqMSrVtamW118RN8QCDyGHRZfwkifYuK2nTBnWIgXCYUnIm6u7cc729uJb3RyWlrEWgZFF53+mEEvtCwx2h+3/YNcX4vpyerC4aT04o0c+Vq3r8S7q4IgWSLvKZjBNbTYu70xr3ySJP+4FPODA2awn3/8OfqDtWvPoWVsdNezI8ksu3JbzoyTjjgvyYVaC/jRfGCObIlQ+u8BJCQzhzINN/dMOmj8BRJLUc6RwaJYeWkbFEX/ZDr+0VfHjtpzTT1gL+Dd+iS0d2DN9uxT62PD57Jok7Pu7aOSOggdhuSZpUQioinsfwQNgyeyno6EYMbzB/fCgEGbo4aD986P3HDRO07khten3R82BenjNqaXSmpkjh+oDG3EJE44kBDnQn8WwrnjR7lbXEZnmt9xZwnQp9ENkc2ICk+OftEVvpjpcXtvQRy91K7pIw/gUNlbZJUOsChe7xLeNBrtiNdO9VehKxmvHjKLd0vpNRuNsVJCpU+5DLwJK/PU6pyXhqmAJKdubvonUoDUsEPLQH1F97bS76LGp9MKB/v/LULavL3HVDZv5fbJyGKfKvmny8WLMXRrOzhOCFd69X+bGQ5tceJPTYSmXjHUD0DHKjZs+08NK0RAJwCxqnFxHDBy4HPh46/PtUhCXxIC/FeFqg8rR3G1RmxUsGAv3YpfdtJsu5fM/ySYRk+KFXn0SifulyOaOXCSWzGmpDHzjRsifKP6YgMacUicJtZKhczbTZMV+aw/Y8yyRezUSoLFOo/8HgRrn+h0KE+zOmy8jMv5HmSLD9V6X14D9UQUY0trEyZcYPgtsj6sa0GleURk9PxKAJQJccjLWZm6ES4Av+V7gns5+EzfTbe6wPsMhFc+CfvgyBE9VqRnYwZV/XTM31EioM94mggH6obHf1m9yomkEKmlmjBrVoP6IhW7yZEHzGVRQOemDZ38gWDrEtbeWw+Uy4z3UzebiVV9yLPBFme0RBskV66tVz6r9cn20sbMjujIjVqZlPCCN4RHmExMKlH1lxxbCDgG5emZzwAXUx1yCuMgdsBcWSj4kFE1FMmeoA9FWPJrkea37iCfnybj6IIMMzWiiDE8WcOHcYibc3Okkpb/LFMbJOpN8oZKBsoBH0Ffewhc8T9OT3vjNFRszAd89uzxmCSlzWx36WA7jjTO5GjYfHLGYrpcEYFeKePmxGou/5B22+rdL0tUglmyt4aHw/TJuZGzYQk7LuT5WMpe4V0r8bLQA3TLDtklN8M5iQ24kiWHnb6TOThQbztE4Xd1K5JAjmgzT53ypLfbjkkLI3WbERGtLONT4ozpvq7oI1+4sZDNsXePEjz9JOzeGAK/SMU75sj/2IkSiT/xVD8BNlN3xCt6JPLOPrfQHDw9LpfnOjmq6g5iUHrvEfhwN42ebwSDlsfyXN7O8/8qFihmhf+JtT4TAJsI78lvPKqTObljpgArsPcQRsFeq0GiSX/a7QClKn87NnOdXfavVYqULl+/OmyhCy/lAo++ZLPgNFBwadGDAjTCQj7ilgY3mxoNr8SEyzo4WEob29nEUyhzVvXpxQ3Inc8i34kSIDNIOBwY61dn1bP4y8t5InXh9EeFxuN1CHEIDWjPsxZfnvvZwORkndA9jN5jBByGQT3gHsvZf+ssA2sg==|1944

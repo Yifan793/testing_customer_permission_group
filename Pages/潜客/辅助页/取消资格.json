@@ -119,7 +119,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "BreakpointIdentity": "14abc62a-8f71-4f0b-84b6-3e269eaaf613"
+            "BreakpointIdentity": "ff00e1d6-812d-4deb-b9bd-295f54c732f9"
           }
         ],
         "Text": "取消",
@@ -159,7 +159,7 @@
             },
             "RefreshAfterFinish": true,
             "CheckDataValidation": true,
-            "BreakpointIdentity": "ad1cfd0a-5fb1-4ff8-8c09-0048aac1a03a"
+            "BreakpointIdentity": "5f45fe65-b543-429d-a192-8f20f54000e3"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -188,23 +188,23 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "a81863ff-846e-4232-889b-59eb88e693e4"
+                    "BreakpointIdentity": "885f02ef-32ce-4894-978c-90614dedd0bc"
                   }
                 ],
-                "ID": "edf76945-adb9-4b46-a1f6-f5fa46695ff4"
+                "ID": "94324ef7-602d-44a0-a7ff-51b57918b83d"
               },
               {
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "ReloadData": true,
-                    "BreakpointIdentity": "2cebc46b-84c0-4b2b-bc58-4c19476e6258"
+                    "BreakpointIdentity": "cde0d95b-e3f9-468f-97f5-a54a67c6d146"
                   }
                 ],
-                "ID": "106e8073-dbb3-4489-8ec1-0278a7564a08"
+                "ID": "3bb099f4-ee8c-4678-8ba1-103af041c531"
               }
             ],
-            "BreakpointIdentity": "e230a727-f689-432f-8748-94f7d4be7f26"
+            "BreakpointIdentity": "811538dc-30fe-4963-bed6-09b79f5f912a"
           }
         ],
         "Text": "确定",
@@ -215,13 +215,25 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontSize": 14.666666666666666
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "FontFamily": 0
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Foreground": 1
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -237,7 +249,11 @@
     },
     "SheetStyle": {
       "FontFamily": 0,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
@@ -255,8 +271,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -268,4 +285,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//Om6E33QmRQDCA0k4h0ThUtcdFLWPZI0BS8xPUoya5xt6o/+E8VI1uuF42EIZ6zxM2MYvwkX0grY4KhzWFX95kHCOthSk30V1FrGphX0XWRqDH4Cll5aRd7TUD/iJD7/jAFvAolKoXHHrOn/gChqdjQb7vDtYOGKSq1skBWWuw/a/ZSJgfwqIpDsFBQ/wYWOd/+Cse+BS7aSrniOkovFcODqpvWqFtPqVp6TEC5Pxd0fqN+M+uZmYi+BWlvQeMWmhDY+4nXS5RcDj+pbMi0K4p0ARBE/b/0XKO8ORF47JYZLQV32gZYFi6fuFJcXILhURnboJ/OKNrETd76LRKIb08gglznR2bXTYYvf/C8WuHy1dJTPE6UunRzX0AYTZAdadJ2SbxEaC5ERZR88Tx1P4Jvvcc8kJciFyMZsL/mD5WCz95ldO4nFAxyqLpUoMZCYtoJ86ZXXUjNLqQjaeS48KMaaczOZKBSPiXJBFZTG+9kgA1TVFSozXho1psuPPN4xIZhxB9QwKkPnNohR5c5xiv61Tz4IwFC0gWZ+s0ObiDgfMb5PYiZ6Oi0hoVRqiWgr07XzTRREBrkHS8dMWZv65pIymUDeS5eIcokL2ZZ3fRoAVJ8UvutkGFnZSxZeiHvK9aMhzQzYvAL6RZ5WxiKSBIJA+D/03nS6oIPuDHW/VvLugXs9jXSUU2td7Oisa4O2+eZ6PfN+NaY1fUA7F8xH+dFiRr/fOP9ajJGnXXggXvTo+MV+WxNOapxqSG3tuEcJynpepmCyocTYfyMyeZbM6vwESXZy/P1SBHhyR3yfsQ3DJbJaz0S0l58sVihqWtHAQa184mdx6AyGaAxX2KkwlsCjogb1bRtOjoxq7LN70Acp+gJ2JZEv0uJCLyHaYJHqRwYVXmKbpNtbpU16NYAOS5g==|920
+}//i/pgG0LmeUIOeUl/duYRk76dsbDt20ONyL99ef+NCCWWbwZh7tX0+ai7fmKru2m0rzYBSW4mrCGyWUI8N9/Evlxrr5q8sC/2cljLralhL211OE8ysSyBCluPCmTsLDFbJJYI0WeEEakG+lhdyXxTyyRQXd0p227bxwv3GXT3t2Fsvbe+wPCbwqxKTihxMmOHrE7JA6VpO1ynxLw2og9X9J0sPo84OQlahb1cq/UrY4Tf8JFUE/LkCEQBoZs3z44haJdt4NpicIdOkSF6rLREMoP7TkI8ZSNDz0k/1aVff70ScVXe98NdTPSBXsmYJZ60vqIDxJlNkWPof8vzAX9ph3h9UaI/aqXo6zzwmB5hjFQSHQhOtFtHmJAr6uEY9O/w5Z/HzAWDc3MzyZXKC1hzP/5uPGWpTK30UIT8PEGOe5R8oXmUES2ws1JnNux2MDpgd3aP/AL5Mmi59oomaZHrUlI19Cu5CAKRvhvevB8/fkucWRR5gZYGzEnyGJMT8MBAbZfvCI8F3SysPXOiOpSxPXMJfh1RKEwcrjvnHVSbY4mrgFL+BmHXHi1yX4cCjqrx0PtAHlDnqFT8M/TfEQSDCu5HclAnQiBtEQHelk0K1QbIXAtwjmx9Fy5ClEVdN1grh98hADmzU65Tixe2API/EnV5ehxlwoeDifI955vP91bme2s8QBf/X+EgRjTsV5zUhzbftgkjOsMjOcFjOMbnmytGDcymI+TIMdt6KQY4KDcLfaxkiZPEfUvo2OYo2f++XSTNoJr6zJum6yrKNDrcyWX8DaeukDzD2rimjw05c4Dshd0pqt3NnjAmSvWziBGjLl11Oyd3PGYXUFrEYVoXAt3OmXAKj6Cx1tlzdFhGyXptKMy5iOWPNX6pFaYVEJNtkYvFkj5yIyO871Jdbo+sXfuUObCXSk4qmeJbl04kt6Jed+e2CSJtTZzMuJgevLfkpszzBbRaoLPwrpsX9czn7QotSESFj9JEhObUBFS1tBQRX02py4jXti7Vxlyjbd0TuG6+4/HG+rPQN3kGHHlO1HeaVQB4WlwrgR6zYuTFDGETMPSVJC7Q05ugwS7CxifSevFgFbPxTbo4qY3WPu/DPXgBYJsC6EXDBFXfu7IUd00B3Mlg4ijyShw6G9Gywog5AG/fBwR/T/EXz1eflX2YFmcwakTLiS6QtQQmJEhqMFyavXXhARQUfFq3SLhd+YjqVXinjxDFSyJ+Vyhxygdab2fbadAC1T0uMSZMM7QCFtpRJD1XHZneJN6AKUMOSkwkjWn60emOxCPljl/b4gy3sozAQSFc8Qbhb825E2TrU/dNhKasT9DCMmBRI1xSNzY2k5doar56O/+owD+GJqiQGtQomMPs2hD/k/vFBgfJZCC/HNMYiRQheVAwamcVJezY08pzBCpiWmvVbxeQyKSRjzZ1EQIRAg+VfK77atN+RkFeMi3y2vxct1Sr6bLlO+cZ4feSnNvFHuDSX7Z0bTs1855lC5Ts+a3WwR6OujTjF9vk1u9zJJqyI6e6RAEm0Rs8QDEu/kVwnKigK5Lbryx4bEpxazwJuqPM2S3uA04sa+rVFFtnozOy4B4fBsWcl6E6fksWVgiMpEtfzjY+MaMHVQMc9BIXDoVxPG94KlJFFkFbslPGJkVdCSmsFA3FA78QDUmUf76Dz6j4sWV+kSsY06D6Sbkt1O41yNfDo3tTKTN1dC509/hgNnq63BguPDNsXsx7vHM+glaopxA9P7NNQZnkadRw8ctE/qaDstKwZGluzqi6ioVU3UC/mMGmntXFZc/GyC9r/hGH8nyu7ZZsTWGh4vm8G9/WbmJa334c9lHTaWH0exrX2G5pLtbvoufSV2O5U1A+jtqKNLM19g5FEW72sUSlD1Uv3WoOCwWsH3BCp3q+UwwvIt6qgHJn9Cp4gY6z/g/JuyC6fA9gTLERvA==|1944

@@ -404,9 +404,16 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Formatter": 0
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": 0
       },
       {
@@ -414,33 +421,60 @@
         "FontSize": 32.0,
         "FontWeight": 3,
         "Foreground": 4,
-        "HorizontalAlignment": 5
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 21.333333333333332,
         "Foreground": 4,
-        "HorizontalAlignment": 5
-      },
-      {
-        "FontFamily": 2
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": 0
       },
       {
         "FontFamily": 2,
-        "Formatter": 6
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "Foreground": 4,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "Foreground": 8,
-        "Formatter": 0
+        "Formatter": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -541,16 +575,20 @@
     },
     "SheetStyle": {
       "FontFamily": 2,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
+    "3,6,1,13",
+    "3,22,1,15",
+    "5,22,9,15",
     "6,6,1,13",
     "8,6,1,13",
     "10,6,1,13",
-    "5,22,9,15",
-    "3,6,1,13",
-    "3,22,1,15",
     "12,6,1,13"
   ],
   "PageInfo": {
@@ -565,8 +603,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
-          "roleNames": [
-            "FGC_LoginUser"
+          "roleNames": [],
+          "permissionGroups": [
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -581,7 +620,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "006d426a-5625-4ab8-acda-7ce6fa451346.png",
+      "Name": "1b21e2c6-5d12-49da-8805-89f66b9f8d42",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "Fill": "linear-gradient(-25deg, #FF313949 0.00%, #FF4D4F66 44.20%, #FF6E6682 87.94%)",
@@ -594,7 +633,7 @@
       "Size": "1344,512"
     },
     {
-      "Name": "bd748b16-0cad-4ecb-b2fd-ce1dc7621d12.png",
+      "Name": "e68805cb-d457-49a6-ba68-1b6d9ca98dcc",
       "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 6.0,
@@ -615,4 +654,4 @@
       "Formula": "FGC_登录!$G$9"
     }
   ]
-}//rXCNT9NOscpqK1wactE8vu2eVpxrrZisuteCEn5spSpgKeIL1HQGKasLo8e2Lfc5SfIankx3i+f/g2BnwK18oTtf9dOmeTwtglEcE9uIU+4nG1b06KQ6ijq3oXqJkotFhgQg9rcWtnJO+8uyZEB7OILVzFcby/KYVQCyGE1n8bbdx4EE5q1ikWAElNqGBVhHXrbkPVBtiH9rC1/1spyqlfj8KhEny5Yj3ZAaCM94DJhNjf12mGRVnZa80V5VGYA5Op8S/T5Kj7KBV2KyEVeKQi2HfCO5pBrEdiE4lCO4GUnZZC0z85gH5RMvWTuKc3lZGpBJAFBKLMvRAdz7YtdQvygZpuXePSlI6q0Qk2IPxBtdguD+IPxM+b16DDOev+AdXGMQIFuZ4u+UkC0TVtkhRsd8t723bEADk4PgH2pvnKF5+9DqG5dnNPVHD9Cow+VPf3N45E/V61JKTBQxkbqRTI7/+04sowp3GCGhCwmY9WkCBli1dhFbe4ZRVihygwNvfNG6daI+gjxtF2vkVa/4c4k+Bg/2wW8gFftxnsTZ4GoEd8YhMiVeFACGgIuOg+z1o/uJdnxSYnBaLvBKnYR1tWjkN41HDHJbtaMYhNDUQWwFj4+CgV0iWqD+reC/z7907HU0+XULqgk/SCZxK6UrExvkw05STV4Dcvbtw6MhNNN7J22AkwQE1vMk56PntKQkIgy7tPo0xG0vNiKxNUxjKvaKM17O7lKVuECanEBBuBSv7c35jQPSoK/mQb0wE3RmWwzUMCT0J35ZiGUMh+CUr6vtOcpUYnWFFt4JChAX89vQJrjVp5x5QeXYXIW+6+1tm5ZQQDfs6jsLoo92K6GnU7kzmcZ5O2lumi+RgqrfVGQY0yOXYT8kseBrCivnLREiifwcysyk8YyVKkySZ3BTmQ==|920
+}//mVOnTe1Pmxfu75WcHqioT190bsCBHvc1k/VSTEAV5yGMzItSY3JN0XzAYFnESbQE5u8OlizhFIdm6woqL8+n3D6lTGHgpalXHlYVqb6ZbqhJtBbiy4wF/nRWNMWvTykLqWlQnl8curtnOyABJDeWkEANHgQuGdxiuYcTd4EbCX3ySvvY1UG3brO+5JbtdiHKcgqdzr/VgsIC3l9ihIWNvVrELmrgFcpS8Ow9GKhe5c83TJfXLXpTY1dk/lLQQX4Hk9ImCFSwyV+5obRaUkXtdOCh+CR96jM4Z9NVB+ZkFY3e/MP8d6F53sScP7/guwDKCfmDyuHdCpjpMkKkavhAnPio9X/kfhTFxIRL432bFfTRL2Z6SKwLRQUeRoB+5yWEid4A4lGDKDqFHj6DW6WXCFeVaxRTmrJ8O0D88ReyIU2qm2LSQihyWOUlBybr+4JkWdwo1tMiwYYlR+d3mnIf8yJzbKde6d/oVAxwzrQdcKNLMo7gPdY7qHigchYjzd/FZpjVdS0+WsepuSkBhjYC9WvLsnRHiu+e6tf5i+YdpjGPTKqI5c3ai35hhmMUq/8zjqxxt0SubWZ1Syk3i1zXlsmdilMN8cy9pvVFEOyPxSGGcfM0KC88+EQmwB53pOlOWtU6rn67WFBKt/+jFFAOLS+1x6gJR9WsLqtwAsJhKj44osX7jMFK1WDXghs4UdhaUF27JnSKCdkuH2ltS0tuD2cWQypcmV91JXoRw3qBiBp2PIllJthMIK5gnMujuE689NGKIV1TSxv3EZdVH6k8amR8plNJvVHGOBPGZrOt7jRfHRVSdH8rM5FHD0egD+2YWxoF5dg3ss+c51VFvVwoxY0oJ5fs9JLhH6Gl72f4uh4Gc/DnTzM23EkAWLmipqZYxv3rJVZfXfZtzkXjl9baMK2jNAFnW43ERJiCxj37tQIEnCGhBk5MPomiTplkoWNBnHkUK6VOPuXzmhV2fs+WDqQLwGERsCDhUc2VlpaZZlcx/71LITwZC8qodRZUjRcHfmB8C8uNkR6IVsy5Fhe8uGLxj5YnxPqhms8d1u5jQnGBcLJswywstFW0BDOMzJ5PLjYBnKxxxpH3GKdwqVThdte5NKc1SL8z8s9K4tGRYyvvaUeoIygHugOHI3DnTko5ZOTbjt5De6bJGcZdtM24iyvs5Q9gZOKbxIzPPJ4K94FyiC9xf/TWCveQsmHfPe/bhoOX6JXozrTyZqmDkxiJ/FJgIYIqqGA/luZNEjEhKkmd4gUUwEmIMyGMbwi4DaGcpGxDTBmxLl/m+IgsrpKZN1G5MavSVsdo+o0Jl7qSjv/5EPOfmjRwSzdv41q5y6pY9Zs1Lg89wmIg/6j5LO5vs9ORM4M2qPPf9RVA1B8U6xBrbQ9hN8bZDLa5XKtFuAxJ4CSIiqM9wvz/c1c1jIaJKZdKemkwUwhOxaYOfWHQuXBucNvRvf2Ca1aJ6S/GoDbs0ZwX3iegvqA8NeSnuq8sC3g/6JFu4Lf8J7f+M1ZfmXI6iN5E5c6GBoXP9tgbkd8AL6nz6sDq8BdtS/uz9qED0V9s8r8bZaOib0oE6B0UhLBinube8Mhus8EjYNH8TXqzHVfVgGtoRHbKUVwYMzHkJYyYTdLeJkAdV3hsY+W36fnNrfOPcvoV5QIF0/uCFhzeR6WEHUlvjjVGAlyvlB9Dg5DQlSOsYhF6pLm3K42BnMUXggceWajonNhvbo2L2kEVx9J5jFynknt3rS9NrxOfvOvqmwMK79Ut6+OVbiy2C+7gHO8mXMWUJd/6DSieiZigXVJ97qbeQcM7ixvzeQ3hiuoCL1zdJWpg+wrSLvFfLA5NuKave0zD/+f/OAnrtvbAFesOTt1Jwq9Ul+1jcUnuULpbqX7bZKLeT2mPsyh0vcv9XyW8rOWWtrp0GEphHtgHefXHgr/rF2p2ZM22+g8Emg==|1944

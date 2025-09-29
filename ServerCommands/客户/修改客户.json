@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -330,7 +334,7 @@
                   }
                 ]
               },
-              "BreakpointIdentity": "0e361439-7db0-4268-b77a-5190a5318831"
+              "BreakpointIdentity": "514a799f-6b55-41a9-b363-90cd650df59f"
             },
             {
               "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -377,11 +381,11 @@
                         }
                       ]
                     },
-                    "BreakpointIdentity": "e00b7c7c-12fe-4c55-97c8-49e582ad3584"
+                    "BreakpointIdentity": "91e44276-1d63-4c86-9f11-fcb82da55eca"
                   }
                 ]
               },
-              "BreakpointIdentity": "4d65726a-b077-45ba-a4c3-2eb3e0fd2c39"
+              "BreakpointIdentity": "a10da521-b3e2-410a-b153-cf473d5472f2"
             },
             {
               "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -437,7 +441,7 @@
                       }
                     },
                     "ID": "24e33d6db840433482b049cab9dc49b0",
-                    "BreakpointIdentity": "49be4c2c-95bb-4d48-a79b-783a25898009"
+                    "BreakpointIdentity": "10c06b1e-504d-4523-bae6-ed396fd70bb7"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -468,11 +472,11 @@
                                   "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                                   "SerializeProperty": "=\"联系人“\"&添加Item.姓名&\"”已被其他客户关联，不能再被关联\""
                                 },
-                                "BreakpointIdentity": "d2c97b02-bbec-487e-83e6-00afdc6ae035"
+                                "BreakpointIdentity": "ab20bf33-db00-454c-bab3-2918a190d27c"
                               }
                             ]
                           },
-                          "ID": "d84dc0f9-9a6e-46b2-9d85-f220c3902daa"
+                          "ID": "c170e1f8-2051-4e45-a973-b8569a537ccf"
                         },
                         {
                           "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -515,23 +519,23 @@
                                     }
                                   ]
                                 },
-                                "BreakpointIdentity": "d63318e9-ac4a-41da-8e2f-f515f500ec4b"
+                                "BreakpointIdentity": "f87ce929-80c5-4eef-8a94-91824f6b3c6f"
                               }
                             ]
                           },
-                          "ID": "ba06c478-0c81-4091-9f1a-ad00cb4c7ee5"
+                          "ID": "191326de-c010-41fe-8343-4c447cf877ae"
                         }
                       ]
                     },
-                    "BreakpointIdentity": "bc7e8a2b-f7ff-4c51-b6c7-d714669f93a9"
+                    "BreakpointIdentity": "1ecb6479-ae61-48d5-a8eb-deeb3fd88250"
                   }
                 ]
               },
-              "BreakpointIdentity": "0fbfc9a5-e668-4f40-9744-4f0d377b6097"
+              "BreakpointIdentity": "760138b3-45e6-4d7d-b148-cac53a00898d"
             }
           ]
         },
-        "BreakpointIdentity": "32e2a0b5-c0e8-4d61-810a-60a25d8d24b1"
+        "BreakpointIdentity": "e48fe0c9-daa9-472b-9c81-4717a4630c37"
       }
     ]
   }

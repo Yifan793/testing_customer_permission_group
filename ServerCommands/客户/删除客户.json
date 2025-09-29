@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -75,7 +79,7 @@
                 }
               },
               "ID": "6dbecae499ee4c298d9fd63bbf8a1d45",
-              "BreakpointIdentity": "97086957-1335-4c1a-b38e-952f34ea0548"
+              "BreakpointIdentity": "5362dd51-9799-45ac-a5e4-3e18051776c2"
             },
             {
               "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -103,11 +107,11 @@
                           "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                           "ErrorCode": "-1",
                           "Message": "该客户已被商机使用，不能删除",
-                          "BreakpointIdentity": "e722b6e4-7e79-4abd-9e3d-45ed28036fc0"
+                          "BreakpointIdentity": "96508ae8-54ba-4d55-a016-0bbba6014523"
                         }
                       ]
                     },
-                    "ID": "805527dd-534f-458a-8723-6aecab21fbd6"
+                    "ID": "5e811c4b-ea8d-4d74-a018-269d3896208b"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -134,7 +138,7 @@
                               "SerializeProperty": "=客户ID"
                             }
                           },
-                          "BreakpointIdentity": "0da7b0fb-267c-4347-9587-d239a875f021"
+                          "BreakpointIdentity": "ace2bb2e-0c2e-4139-8058-3bdf4f178106"
                         },
                         {
                           "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -168,19 +172,19 @@
                               }
                             ]
                           },
-                          "BreakpointIdentity": "948a89d5-6815-4e54-b5fe-86b1e87566f5"
+                          "BreakpointIdentity": "f71cddf9-e876-4c45-a87a-0a0e88b0152d"
                         }
                       ]
                     },
-                    "ID": "fbd198e0-656b-41b5-9c14-2b643674a411"
+                    "ID": "0da2b0e1-c106-4e67-b817-52679c1d7e57"
                   }
                 ]
               },
-              "BreakpointIdentity": "d010beaf-c824-4b75-9182-a7ac1e83c8ae"
+              "BreakpointIdentity": "dd36e777-a7d9-4eeb-ba37-dd187c7bab64"
             }
           ]
         },
-        "BreakpointIdentity": "cee1b90f-5613-4009-82af-7f9b4ca8a944"
+        "BreakpointIdentity": "fa6150e1-287e-4f3c-bb06-4d3d98773122"
       }
     ]
   }

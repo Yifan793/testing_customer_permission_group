@@ -74,7 +74,7 @@
                 }
               }
             ],
-            "BreakpointIdentity": "bccdc743-4be1-4b66-ab9e-8b95bd3badd9"
+            "BreakpointIdentity": "e89b3d57-5dac-4f02-8b3a-c0d987fa4084"
           }
         ],
         "Text": "授予资格",
@@ -106,7 +106,7 @@
                 }
               }
             ],
-            "BreakpointIdentity": "226f1907-2a5b-4512-9224-cd8e20cf1d6c"
+            "BreakpointIdentity": "6de8332a-438a-46cc-8f6c-377f3279a692"
           },
           {
             "$type": "ElementUI.Commands.ShowMessageBox, ElementUI",
@@ -118,7 +118,7 @@
             "DialogResult": "确认结果",
             "AdvancedSettings": {},
             "Disabled": true,
-            "BreakpointIdentity": "2831121b-6ecd-4844-bebf-b4ff503d956e"
+            "BreakpointIdentity": "eadde76b-d782-4403-af54-a2eef34cfc7f"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -162,7 +162,7 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "f29699b6-03ab-4fcb-9194-f674030e606d"
+                    "BreakpointIdentity": "ff7e1c01-97ff-47db-a603-d2bfe98de395"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -191,30 +191,30 @@
                             "Type": "error",
                             "Duration": 3000,
                             "Offset": null,
-                            "BreakpointIdentity": "18985466-921c-4a5a-b93f-a97482e49a0f"
+                            "BreakpointIdentity": "cd77e00e-1f51-4d29-9896-3aaf9d11e461"
                           }
                         ],
-                        "ID": "15ce0ddb-939d-4c3a-9473-6246e7620e7a"
+                        "ID": "e17f8d48-5870-4467-9b24-c218b4568f26"
                       },
                       {
                         "CommandList": [
                           {
                             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                             "ReloadData": true,
-                            "BreakpointIdentity": "b55495e8-76f3-46e1-8af0-b001a30e211b"
+                            "BreakpointIdentity": "87cde5df-4bcc-430d-9052-43a653089b55"
                           }
                         ],
-                        "ID": "6eb0aedd-2f86-4897-9da8-242e422bcb0b"
+                        "ID": "b3fe5c7d-1e41-46bc-9493-ed5760743e59"
                       }
                     ],
-                    "BreakpointIdentity": "529b46ec-d7d4-44a1-b31a-3ebac0be062f"
+                    "BreakpointIdentity": "3e039f90-a39d-4643-b4c1-b2b1edba27f3"
                   }
                 ],
-                "ID": "466d4467-c33d-44fa-a20f-3ed277dac7e8"
+                "ID": "1e997034-d8c4-47e3-83aa-7589ee56b327"
               }
             ],
             "Disabled": true,
-            "BreakpointIdentity": "9f52c473-5ff0-4584-8b1f-214452d6d72d"
+            "BreakpointIdentity": "efef0528-33a0-401c-90ae-f5db827a584f"
           }
         ],
         "Text": "取消资格",
@@ -249,13 +249,13 @@
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "PassValueBack": true,
-                    "BreakpointIdentity": "031d33f1-2362-426b-876a-af0e92ae2da5"
+                    "BreakpointIdentity": "583e4e22-8177-4646-8c8d-aead1945e800"
                   }
                 ],
-                "ID": "0c168d53-b7eb-4764-baed-49c6f2d134c0"
+                "ID": "9f0b4a26-a0d9-45f1-9335-8ad9a76f80cc"
               }
             ],
-            "BreakpointIdentity": "05d0aaba-3f77-4f84-a25c-e7f855d06451"
+            "BreakpointIdentity": "06463daf-112b-43f3-9df6-fe225b1ee2d8"
           }
         ]
       }
@@ -264,33 +264,61 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Foreground": null
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": null,
-        "Formatter": 1
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 16.0,
-        "Foreground": null
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
-        "Foreground": null
+        "Foreground": null,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 2
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Foreground": 3
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
-        "Foreground": 3
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -319,7 +347,11 @@
     },
     "SheetStyle": {
       "FontFamily": 0,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "PageInfo": {
@@ -332,8 +364,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -347,7 +380,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "6b63091e-86eb-4b32-9fb8-54e9fca16186.png",
+      "Name": "5412e6a0-da8c-42ec-9eae-1f8512e2a72c",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -362,4 +395,4 @@
       "BoxShadowString": "0 0 0 4 Text_1_50"
     }
   ]
-}//8FruOuxjR/i+gvwPGw9kZVibyQcTlpra9+bSRSq5LwJ/etn40N9tkxNvvQ6/Ez8t+EB9xH8o6f/+iCN8eqmtemhsbNT7P3Jl3XKveKiXJ6kGlTLLI1krhicqEEq4JhJDoJ/zWZAVxfsKRQXTvq4SZWqbhx2MOn7XxWKcqHkx7bnpG1LDsPrsXLDMjEaclGqyTPtaj6FdDD14XFGCF/LsHch5NfBwmMq28+sa5y9iLwWIulcPecx1DYp/x+Eb6pa8V2XLEzVZb4twZki0I77konY7NyppvmLNXDx0KRhXraZH5Jx4hLBbk8E6BXz4c8Jw7ZAqj9kF1C9t51abjCbI/dSUfUHGyXqdYTaQwozEvipxGkCA8WrhGR7Nz4TEUpBas++BsJ4LGH/TBdDGRqqLmJLNASJROIhOxXHoXfJRANWAWllrK6ABxSpWfVLHDBJeLBRvQn3GGmS2S7Qwx3QFE2Q0xeooPsz8cZ0PhcKsnCTcQXYenubfagPq6d+xe8o+arHndmNTe9OCuVVuRsfk24cUrCGgMOqowsBL2Xi15+nzuvPfZvMC38sp1xkYwUxUWZT6sSjaweR4CknFCFXbyjvq/dqZTLwkC4uWNvdNrTIrRkSpsc2tWX+ocHloxF4SIvSTllXdw624LNI7ULJllaJ8Ow6eNMvPB1w8OCtv7v9IgTjS9K14eipGWAX9LCdI0RMYEo4r0sTK4ADjS7TlrxtacdXAUuJgmfsHOufdtgpavTEsRCvGq6lcNsRyA25ogMoOLZyxOl+vliH3UdUz+FJ6rxtNjk2E0CC7tiefUcrBair3TFMrjfalyagM5Dp3GVNHcO49wbSsV1JpMv4d8sftqfW+iu1eAMvf9HiTmZDYvYAzOo6rXbqdzwGzbMchkuWpKNf8Y/zma+hZDZTwzg==|920
+}//Wgb/yExKXkTAbP+zTJOnmp+1xUwZdK03y0dVQiWoRaJ30+Dub3l/YKQfO6W+VfU9V7pexkLYbTUmPxe0TUeiU12LJleWt5Hcm+j4zCKm2yxNWxLvQMifa7NeHu2wpr2cMhtV2aT2iPdryEN8NwRwPxbOBsM4l5Si9O1Fa4r/43qffXv/y7a8CR5oIsDviG3ulM9zz3tKYhO5u3aKvo17uJNCfo0HdLAT+zk8tld2pwnBDxfhg2aGlRUKJmEwY9xl9/z0+tx9KCwJ1POE3jWXU5TIC6cqMPB9cOG3i62tPdR2bPBkBFkwzjn8IAWHmenMRLNCNCadpxYsJL/pzpex6JPnIneWqUa0kUfqO952DN4n7q69D1W84RHa0RIewlTo0TId7C2kJlyob1dw+5BXeq6ecankWwhBzTJB3GL1uXpTA/+LglqfVjblGVHu8peD3ZN1q5LO0Gc6rhbf76dZXN3f2HY5YJoMxYfwF9nNlFPzwUznjBd1NLgyZX6M9KvzrVpkQ7XBULrTNNplQMr5gQwDt+e5mRM25QL0pkCwMwzZeTXdby5BhWi5Xnwt8ymCmqsh0VH7nlnHHrKp0bcHb/v1Wuz7f3aY9iQ0+qez2h5kLLDeFRmC7kGDpA8xijztepdkFONEEk5lG5gihZFiZtFUApa6b6J1HR1zdMp3oPOU+agJTSeXBYsRVgVBrGYM1QqIJ6YlWVfh0J0A1e15NWFGXu1z7ROaKIJquKyFohFyegMyZB9UMMDeogb0NYIQfR+osPuoPZhA8JMFoIS+Tkx3UoyPHkGAZb+nAzXBb23tCTn26Q/3Yzjxy/xLwqKS/mrnOOj13y+nswAPUdzCjuMGzLmac5itaY1MCJY+y0NO1ARs/wJtJZaYF9DECO48Bp/eV7ZpknsSjlXq3BpV0gA3j8tHaEyGz7AKPf1VRuM5c23o4eHR9MdOsfnW2fasfmSzGRrXL9uxXq2CXVyRrv5B3mxqONZ95oqBnNbyTBz9aFXJOEQsT+rtWOoXovDlJ/JhzFF1BkViU4mViUc0Xnq4RpbFcuA0u7f/9G8qdvtJnU65n7oDMblVoHnI8keC0qzsH8wrdV/ugypQ5v7ckI68mBFRycU9sWl/mD1jN0mIICOcdopuUN/WeVAg1uGWh7cZKK6l+A17yDmzkUf8veuFE+aMlcbMQYg9N0pQboGrdtamZ8MhhkgTFIp6xYu4bnuW2Fbez/I2BmDzJYsq0gJyzl8miExY9SxS6crx7h+9KnZ8v59TRnlume0Khqz/r2CCmUtHaOfT5wMR9c3wYPqIOgnRTlrKLs7IOx/HdZ7NKt5XV816aujK4b6jyRG6j8yQwGWAaXQnO8pm5iarXZT1uO1Ru1zpWdAQ1yCX+Z61v7EsfIXPKmDobZnDa2sFVcoN+3MF0fxllb0U2TLeyEjxzFBYWtrbcdVAwvh91cBarGbG1bO5qr98l7eLEXF5aPV84KUs8XmIfRYydw9blIBJHQx4+098jgu0rQDRx30Xf8WmM0E8tolmg7BmQsDTut4Hi1TEU1CaxQPG+47XK1JWxjRLHyyIdfIOowwAE4hViKcWcm6Gbk0AZYjLiVlzRvKLUOa2p1WEloPJ0/eBpQsPdhfFAmXzent3GD11dBcigBQvNzeeqJdobJCBNuSE3lqcWHvhQCwFFdOAPC5Bz36nKbf3trQXciHxuDK098Sy2nPuizYYcXVLt2FcUnRmoqKurnmdbhG/sftC2NDpI/F9Fpbq98yU0L9SmtHdlg1kvI6BO7v2bINVvorQC67p4BdrFgcoRty+TlKjh5wLpkh1373f5wT9+nn6IizJWWpBMfH7nEdGNHRDGCs+KMUnYkNyB+/eHhe29DV/832uNa61nfVQWW3I+9LS973qAXbKKW4MsXZ4LV1sJOe9EOtoHN6v14+977OFhz8yt7P8nA==|1944

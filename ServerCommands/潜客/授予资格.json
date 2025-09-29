@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -270,7 +274,7 @@
                 }
               },
               "ID": "6dc1553d3eb046ed9e4b1ac8414a7521",
-              "BreakpointIdentity": "923f3477-7079-470a-abdc-4fe8e99cf41e"
+              "BreakpointIdentity": "4cf58323-bd7f-4aeb-9b89-72e95e8f6277"
             },
             {
               "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -294,7 +298,7 @@
                 }
               },
               "ID": "dcbe932e425941159e37c52cebe46f28",
-              "BreakpointIdentity": "85f18ab8-469c-4287-ba8c-6c6acee1d7ed"
+              "BreakpointIdentity": "b84aa25d-884a-4fb8-933a-ed6e9781d6d4"
             },
             {
               "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -322,11 +326,11 @@
                           "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                           "ErrorCode": "-1",
                           "Message": "当前客户已存在，请在该客户下关联联系人",
-                          "BreakpointIdentity": "c65519fa-8190-47de-b35d-ba5e67d9df23"
+                          "BreakpointIdentity": "84756e61-3989-4797-8d71-9956d55a7d9d"
                         }
                       ]
                     },
-                    "ID": "1c343afa-e6e0-487d-b6d1-ce7fee216eae"
+                    "ID": "e1774461-fcaf-4bbe-8ff3-d091e0588d2f"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -366,7 +370,7 @@
                               }
                             ]
                           },
-                          "BreakpointIdentity": "74ad33fc-e535-4bfa-9809-d8a09f72be9f"
+                          "BreakpointIdentity": "3ceb0d1b-4b15-4857-ae11-e90856b81e1d"
                         },
                         {
                           "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -401,7 +405,7 @@
                               }
                             ]
                           },
-                          "BreakpointIdentity": "ab4d32bc-888f-4c0a-b298-6d6750185fd1"
+                          "BreakpointIdentity": "7f1e7385-55f5-4acb-9ca7-63bf1321f1b3"
                         },
                         {
                           "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -531,7 +535,7 @@
                             ]
                           },
                           "ParamNameToSaveNewRowValue": "新客户",
-                          "BreakpointIdentity": "0ccf29e1-22e5-4e47-a221-7e568e4544a2"
+                          "BreakpointIdentity": "5d4c8f71-ee68-414d-a9a1-42aa3ae13848"
                         },
                         {
                           "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -648,7 +652,7 @@
                             ]
                           },
                           "ParamNameToSaveNewRowValue": "新联系人",
-                          "BreakpointIdentity": "4622dedc-e863-4f7e-b30f-26420baf1162"
+                          "BreakpointIdentity": "709fe063-6193-40ac-9c64-b40ca4770f41"
                         },
                         {
                           "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -730,27 +734,27 @@
                                           }
                                         ]
                                       },
-                                      "BreakpointIdentity": "ef6138f0-48db-4fe5-9efd-930803f477e4"
+                                      "BreakpointIdentity": "3c3be137-252f-4ac1-b95a-6c5ce6fa3947"
                                     }
                                   ]
                                 },
-                                "ID": "19b29b87-ff6a-4717-a9b9-9426ab09a1fe"
+                                "ID": "083ef407-058f-4930-b369-af752f9206f5"
                               }
                             ]
                           },
-                          "BreakpointIdentity": "3c3e3237-1aa3-4be1-be99-a16818c1aba1"
+                          "BreakpointIdentity": "46605e68-b81b-4203-8c4a-4a4df21195a8"
                         }
                       ]
                     },
-                    "ID": "d65a5a47-4ca1-47d3-a3a6-1cf380ea53d2"
+                    "ID": "a446f3c7-0080-46b3-8bbc-44dabda1472b"
                   }
                 ]
               },
-              "BreakpointIdentity": "dff739e3-8dde-4558-8b5e-3761cd06ae9a"
+              "BreakpointIdentity": "e9cbc139-ce3c-46df-9ae9-f3d6c4c3d20d"
             }
           ]
         },
-        "BreakpointIdentity": "d2db1cd6-96ae-4683-b66a-eaf06dd8297e"
+        "BreakpointIdentity": "4e6dad95-9d1a-41d5-9927-bfda47859524"
       }
     ]
   }

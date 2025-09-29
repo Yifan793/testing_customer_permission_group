@@ -3,15 +3,7 @@
   "PermissionData": {
     "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
     "permissionResource": {
-      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
-      "isExternal": true,
-      "detailTables": [
-        {
-          "subTableName": "联系人表",
-          "subColumnName": "客户ID",
-          "relatedColumnName": "ID"
-        }
-      ]
+      "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core"
     },
     "permissionBindings": [
       {
@@ -23,38 +15,9 @@
           }
         },
         "dataPermissionType": 1,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
-          "operationTypes": 5,
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 1
-          }
-        },
-        "dataPermissionType": 2,
-        "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
-        ]
-      },
-      {
-        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
-        "config": {
-          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
-          "operationTypes": 1,
-          "dataFilter": {
-            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 2
-          }
-        },
-        "dataPermissionType": 2,
-        "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       },
       {
@@ -83,8 +46,9 @@
           }
         },
         "dataPermissionType": 4,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       }
     ]

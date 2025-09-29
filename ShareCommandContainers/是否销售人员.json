@@ -7,7 +7,7 @@
       "ParameterName": "销售人员",
       "ParameterValue": "销售人员",
       "ID": "e4be8bbc54b04277bae6bbbb2950d211",
-      "BreakpointIdentity": "6ef16e15-f496-4dd2-888e-78fc7947542e"
+      "BreakpointIdentity": "01a9a66a-352c-4ac1-a571-012e32126c74"
     },
     {
       "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -38,13 +38,13 @@
                   "Value": "1"
                 }
               ],
-              "BreakpointIdentity": "1fe7ea08-fcbb-4d34-8c1a-8d37768c47ed"
+              "BreakpointIdentity": "0ddecb0e-6f13-4077-a6f4-d5e2f87d4701"
             }
           ],
-          "ID": "ff3431f7-26dd-4e69-8ce2-c226d8a6d65a"
+          "ID": "7d6296ea-b3c6-4997-92df-f16d3ad5e987"
         }
       ],
-      "BreakpointIdentity": "0d6c8729-7eea-4d91-91f0-957a73d62fdb"
+      "BreakpointIdentity": "3f95745b-e330-4ac3-a9e8-5262d2ebcf7b"
     }
   ]
 }

@@ -696,7 +696,8 @@
             "dataColumnName": "产品编号",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9"
             ],
             "label": "产品编号",
             "colStyle": {
@@ -713,7 +714,8 @@
             "dataColumnName": "名称",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9"
             ],
             "label": "名称",
             "colStyle": {
@@ -730,7 +732,8 @@
             "dataColumnName": "类型",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9"
             ],
             "label": "类型",
             "colStyle": {
@@ -747,7 +750,8 @@
             "dataColumnName": "定价",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
+              "69cd9529-3729-4114-9d52-c4fcc95184d9"
             ],
             "label": "定价",
             "colStyle": {
@@ -837,37 +841,61 @@
   "StyleDatas": {
     "Styles": [
       {
-        "FontFamily": 0
+        "FontFamily": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 21.333333333333332,
         "Foreground": 1,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 21.333333333333332,
         "Foreground": 1,
         "Formatter": 3,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 24.0,
         "Foreground": 1,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 24.0,
         "Foreground": 1,
         "Formatter": 4,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
-        "FontSize": 18.666666666666664
+        "FontSize": 18.666666666666664,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -1328,40 +1356,44 @@
     },
     "SheetStyle": {
       "FontFamily": 0,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "26,2,1,31",
-    "10,81,1,2",
-    "10,83,1,3",
-    "9,2,1,31",
-    "11,2,13,77",
-    "19,81,1,2",
-    "19,83,1,3",
     "2,2,5,5",
     "2,8,2,7",
-    "5,8,2,7",
     "2,18,5,5",
-    "5,24,2,7",
+    "2,24,2,7",
     "2,34,5,5",
     "2,40,2,7",
-    "5,40,2,7",
     "2,50,5,5",
     "2,56,2,7",
-    "5,56,2,7",
     "2,66,5,5",
     "2,72,2,7",
+    "5,8,2,7",
+    "5,24,2,7",
+    "5,40,2,7",
+    "5,56,2,7",
     "5,72,2,7",
-    "27,2,10,37",
-    "37,2,2,37",
-    "11,81,4,5",
-    "20,81,2,5",
-    "2,24,2,7",
+    "9,2,1,31",
     "9,81,1,2",
     "9,83,1,3",
+    "10,81,1,2",
+    "10,83,1,3",
+    "11,2,13,77",
+    "11,81,4,5",
     "18,81,1,2",
-    "18,83,1,3"
+    "18,83,1,3",
+    "19,81,1,2",
+    "19,83,1,3",
+    "20,81,2,5",
+    "26,2,1,31",
+    "27,2,10,37",
+    "37,2,2,37"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1375,7 +1407,7 @@
           "TableValueType": 3
         },
         "ID": "dee93dfd6dda4126937b8e699c24bc14",
-        "BreakpointIdentity": "9bee6fc8-8918-4bd3-b64f-1a6d56ec5dd8"
+        "BreakpointIdentity": "27138539-96fa-4a7e-844a-855fa0395fc7"
       },
       {
         "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1385,7 +1417,7 @@
           "TableValueType": 3
         },
         "ID": "43f4527f680c482da57c056c03ab9820",
-        "BreakpointIdentity": "7985489e-0c30-4c0a-8f66-576962f8425f"
+        "BreakpointIdentity": "61817e99-62e0-44ed-882e-06f5fd18c82a"
       },
       {
         "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1395,7 +1427,7 @@
           "TableValueType": 3
         },
         "ID": "c0dded520a5d42cb9b4f6fa88be9fb3b",
-        "BreakpointIdentity": "1f93d4d9-b628-4976-a751-e06f7669104c"
+        "BreakpointIdentity": "140437b7-5889-429a-99a1-3c4f408d86b8"
       },
       {
         "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1430,7 +1462,7 @@
           }
         },
         "ID": "88e4091ca5cf47e380cb807d9c9321cf",
-        "BreakpointIdentity": "f1417dd1-ce1e-43bf-9452-eb8dd01d9028"
+        "BreakpointIdentity": "84961737-ab92-476b-a668-ba0f8ab62d8f"
       },
       {
         "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
@@ -1468,7 +1500,7 @@
           }
         },
         "ID": "07f9e0a7931c409784838b7c7cb068ac",
-        "BreakpointIdentity": "12f111c2-61c5-4877-adc8-a1dd04169987"
+        "BreakpointIdentity": "d0dbe8af-78ba-4eb7-bf4a-553bc69ac183"
       },
       {
         "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1524,7 +1556,7 @@
             }
           }
         ],
-        "BreakpointIdentity": "ff9d895a-9770-4820-bf3f-0c2c92fa630c"
+        "BreakpointIdentity": "8d34266c-b2f5-4900-80f6-961f7587ebe2"
       }
     ],
     "PermissionData": {
@@ -1535,8 +1567,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -1550,7 +1583,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "4949733f-6289-4f46-99db-e62b534577a9.png",
+      "Name": "92aaeb21-6c58-4ce8-be6c-5d4b3593eca3",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1566,7 +1599,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "BackgroundPicture1",
+      "Name": "2ecea468-2f59-4b2f-b39e-22fb623665b5",
       "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1582,7 +1615,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "BackgroundPicture2",
+      "Name": "59e443ec-468d-4327-80f8-4d63c574777e",
       "DisplayName": "背景图3",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1598,7 +1631,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "c1471b51-11dc-40d7-b8cc-0d646e6bfcac.png",
+      "Name": "936bc1f9-1380-4347-93c2-b3d1e8ed752c",
       "DisplayName": "背景图5",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1614,7 +1647,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "0d28f1fd-f3d6-4769-8626-ebd028865491.png",
+      "Name": "c084e158-c38f-4eb3-8a2f-dfd5b954aaaa",
       "DisplayName": "背景图6",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1630,7 +1663,7 @@
       "BoxShadowString": "0 0 0 3 #7F000000"
     },
     {
-      "Name": "0e13dad6-46f6-4e31-9470-48efa79d89c8.png",
+      "Name": "9f4ec3dc-c858-479c-88a1-de955227afcb",
       "DisplayName": "背景图7",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1646,7 +1679,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "BackgroundPicture7",
+      "Name": "0efa0d5e-8c32-4eea-befe-bd6e74baf87b",
       "DisplayName": "背景图8",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1661,7 +1694,7 @@
       "BoxShadowString": "0 0 0 3 rgba(0,0,0,0.5)"
     },
     {
-      "Name": "BackgroundPicture9",
+      "Name": "8b13fe81-d853-43fc-bd37-997115596d8f",
       "DisplayName": "背景图10",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -1700,7 +1733,7 @@
             "SerializeProperty": "=主页!CD11"
           }
         },
-        "DataSourceListviewName": "5c2baf30-c163-433c-b750-0a962a80feb1"
+        "DataSourceListviewName": "4329f02d-0fa3-4d2e-888d-0d03712be869"
       },
       "DisplayHidden": true,
       "ChartColorPalette": {
@@ -1726,6 +1759,12 @@
       },
       "XAxises": [
         {
+          "Items": [
+            "2022年12月",
+            "2023年1月",
+            "2023年2月",
+            "2023年3月"
+          ],
           "UseCustomItems": true,
           "LabelFormatter": "General",
           "ShowMajorGridlines": false,
@@ -1734,12 +1773,11 @@
           "StyleInfo": {
             "Fill": "transparent",
             "FontFamily": "Body",
-            "FontSize": 14.67,
+            "FontSize": 14.670000076293945,
             "FontStretch": "Normal",
             "FontStyle": "Normal",
             "FontWeight": "Normal",
             "Foreground": "Text 1 50",
-            "StrokeDashType": 8,
             "Stroke": "Background 1 -15",
             "StrokeThickness": 1.0
           }
@@ -1750,10 +1788,11 @@
           "Orientation": 1,
           "Items": [
             0.0,
-            0.5,
-            1.0,
-            1.5,
-            2.0
+            100000.0,
+            200000.0,
+            300000.0,
+            400000.0,
+            500000.0
           ],
           "DisplayUnit": 1.0,
           "LabelFormatter": "General",
@@ -1763,12 +1802,11 @@
           "StyleInfo": {
             "Fill": "transparent",
             "FontFamily": "Body",
-            "FontSize": 14.67,
+            "FontSize": 14.670000076293945,
             "FontStretch": "Normal",
             "FontStyle": "Normal",
             "FontWeight": "Normal",
             "Foreground": "Text 1 50",
-            "StrokeDashType": 8,
             "Stroke": "Background 1 -15",
             "StrokeThickness": 1.0
           }
@@ -1784,7 +1822,12 @@
       "DataSeries": [
         {
           "ChartType": 13,
-          "Values": [],
+          "Values": [
+            158456.0,
+            52190.0,
+            28078.0,
+            450000.0
+          ],
           "Name": "金额合计",
           "DataLabelSettings": {
             "ShowBubbleSize": false,
@@ -1808,11 +1851,13 @@
               "StrokeThickness": 1.0
             }
           },
+          "MarkerType": 1,
           "MarkerSize": "7,7",
           "IsAutomaticStroke": false,
           "IsAutomaticFill": false,
           "StyleInfo": {
             "Fill": "Accent 1",
+            "StrokeDashType": 8,
             "Stroke": "Accent 1",
             "StrokeThickness": 1.0
           }
@@ -1821,7 +1866,6 @@
       "PlotArea": {},
       "StyleInfo": {
         "Fill": null,
-        "StrokeDashType": 8,
         "Stroke": "#FF868686",
         "StrokeThickness": 0.0
       },
@@ -1854,7 +1898,7 @@
             "SerializeProperty": "=主页!CD20"
           }
         },
-        "DataSourceListviewName": "ab02a58d-68ec-4fe6-a480-c34fb3b1fcff"
+        "DataSourceListviewName": "ea63eb52-df8b-42b8-b372-03fb33c31e03"
       },
       "DisplayHidden": true,
       "ChartColorPalette": {
@@ -1880,6 +1924,12 @@
       },
       "XAxises": [
         {
+          "Items": [
+            "丢单关闭",
+            "合同谈判",
+            "赢单关闭",
+            "需求满足"
+          ],
           "UseCustomItems": true,
           "LabelFormatter": "General",
           "ShowMajorGridlines": false
@@ -1890,10 +1940,12 @@
           "Orientation": 1,
           "Items": [
             0.0,
-            0.5,
             1.0,
-            1.5,
-            2.0
+            2.0,
+            3.0,
+            4.0,
+            5.0,
+            6.0
           ],
           "LabelFormatter": "General"
         },
@@ -1908,7 +1960,12 @@
       "DataSeries": [
         {
           "ChartType": 22,
-          "Values": [],
+          "Values": [
+            2.0,
+            3.0,
+            5.0,
+            1.0
+          ],
           "Name": "个数",
           "DataLabelSettings": {
             "ShowBubbleSize": false,
@@ -1932,6 +1989,7 @@
               "StrokeThickness": 1.0
             }
           },
+          "MarkerType": 1,
           "MarkerSize": "7,7",
           "DataPoints": [
             {
@@ -1975,7 +2033,9 @@
             }
           ],
           "IsAutomaticStroke": false,
+          "IsAutomaticFill": false,
           "StyleInfo": {
+            "Fill": "Accent 1",
             "StrokeDashType": 8,
             "Stroke": "Background 1",
             "StrokeThickness": 2.0
@@ -1985,7 +2045,6 @@
       "PlotArea": {},
       "StyleInfo": {
         "Fill": "Background 1 0",
-        "StrokeDashType": 8,
         "Stroke": "#FF868686",
         "StrokeThickness": 0.0
       },
@@ -1996,4 +2055,4 @@
       "Size": "624,240"
     }
   ]
-}//f3SZ5gmy3l3NspndRD4kNlLmrj+DzPQybAhZowifDmYVVS1pDNhjwTA7lNw20qyL4yAVlsX/hzLuQpwqC96kE4o7cUufFixGPpDfQpdJ84BncaBbyfhhdU1DoFF8kcAdKU7rehu54MqAQG+is1+QX/vZvAR3Ki514TWg0DtIofvcjEq+jMYd/BkQEUCTBWDREgmJH2TjvQxQZ+4snEeilvdaNiLc+5vQxyzpZu5ukLbnKVwGXV2MFok9WyPe9QTZg/ju7Zh+TjoUYwh6BZAzetZMCLlCcoyImCXhiF/wRLbfPVd3ZsyA2EraatnMobjSZ7QfXy7L8VfahucCYGtATTEktoQf/ebUI0pbUoP9limsSfFuqIijsIN8OSsNFqlT3DZkiFXU95ADdWG/5E+0wz3yGvFG2t7ZDXB7xTJP7oFdLNsd7YaZsXjbQEgrULD2tAHEnF52X+R8qrHBdjd/vdUa/+5DWn1kg59OP9JIOD/kqinkxkMcXVFmgCz5j+Bkw7hrQKJ7+tcgBNKCrdekCmd+nMjIxh8Lg3b1iHshP7ZO5gE6XWf3yI4wbwezt2d/WtICd1X8sZLu56DbNEpWUV5Nx4J9/GXA46tI85RjFtwsPDo29b/D7AD57K+btYZhfopCAdeEV5f8l/r5I4rj6/UVJ+c+b0e1kfLCp0VdT3nY1HZdHB7PmxJ84QkHMe3AkSCEMBffpJtxPOW8OAnd+CKvLIp5FRKUmI+qm71CjRj7ExuNg/duq++py/zf3s5+VZxaTGksNse4nLsI5jtD/iZqlyFMV7wSGAwkXirDtonwwenuGLNiPT0bdo2nYu1Hg3CGhdLHVj5/DE14g9+3iCtsMupDK8wjn/3XhQ/GTm/5FU/VFpFOALNVuCLsAjGw4NbVena/vGlzo3Jc5HkTNQ==|920
+}//JfmK1KKXJlk9QZr2gINVi/Tnxpf6tqz/g7DVho2NJsH4D4prdPG7wWuSog1nKc2/VPGtJokt+ixMNzl4DI5xsUk8YJ1VcHTXh0iB+7ZKsunNGI4JnhtVddr2/zw9IsiQkWO6sLs3DuZGQ8rNrAeHgzC7HqpXHKuFX34RY12I0JyL0JttLtXUjGBi2FyPtmgmZj7ef7SbqH0T4kva7TQGLLwxBeHeUDESpuD1RNiDzHqxLL1+CT//aKXO9dPY4pcDExmpmk3/rdxaq+3tXbO3v4xoU/Pcf3kd9qQrRMqRnR3GLRL10w4NHzKWMmXCLBv+nSU6/2U87U6JzUTHa2ADwvryxp373C1Ont7LtPRE2ltuMAy1OkKgp1blQN8BWabZzIziOLqauMzhYnjwUgU6Rtib4ptvIrtS0prUJMIEaoAYEx4a+DWopaxvPDfu/o0AZkc5cZa5VAg40X8NrfMysVA+oeqLHCYqkF19iZOM3ZDeug83axIb8p4EOVTRERdApm0m6ZAXK0AwqVns4YEKFVc3MSNHtGmgvUVGUCFlebm7KvpoQWt4AyHTz7rKIHc5DQZSywfrq2l3w2pIUXtOW3R1Pbp01fsy7nO+VUEAG7372joiqy4ys/AjdKkNOmB2cHV3lE+3f0VEttevB0xueSMvl/HaaGz/OrGDkPn8BbmpJA1zG/UH3VPsvKyNkKXZ1KRWoQECS4JApCJC1sD5E+bSudBMltvmrYjoFLo0ybvTMERtu/a+etLm5a3BY73Ops5l5B5d0fyKx/tykMVqg8DmUbXCVOe43oeKNtWZ/UA8pzAb8kb/+S9CUaFLqVuxOkhOcK1rbweaNncSHy3+H9Hbbv9VtvXmnGmaYBEziHC6k7/LywwRmTwJ8MFPImTwqQakWCd8uZmS2JEda9K+HD+KLI72CbDuRpZKBs9k7IwE/Dxt4CwVCkvjiE0UoOM52N99bdC93jJGjmmiMyWSw0kdCmU+75/88Idpp6fawP5AW8xjwvSRQzeYG1rckKUr6yAW8rZp0A/LOt4uV8R5FiQ0l7vXFeURSmFd2ip28f3OYwC4g89UAIpwdmXer7f8KZXnt6GlPW5yw8bl4op/R5AmfxeLCSBWscNNERWsIplOBPtxxHddvUGEQGkVhINJN3Zktgq/ycokTQ4hPWldjYzHDW7OwnfrhBHbBbX2F2NLD3tbMp/WLiwGiTKg4EKFYlownedOKCGz92gwy1HqL9pI4knw8nA3rzvHzDbjf6T/bJ9HSFb1baS2p8Lj4X7l7+2kVG8om2hAzyQ9l0oHR5YG8ivvAIkox/tku3uqsoC9Y/JR7TM6dwZB7CGL2trZEBN8Y6h2tvdOEO7Z8b8xD1efBDpq5aTzngp4snxmOQ29ZFmeXJjrBUP05CcX2RtcPPTi8+8MSDH0xzmS5frY8mr1XDpbP0Kg4rByrtIv6Em0QTZo2uUUZaAlEUiutsMWmuOYQfoFY2mJf1NjR95ZQ3sV5M/U4I+DULgGr5V/Gjph7y4nDDrF9i43VhBtgai1l733oD7riZCmGv1oX4jpyXbZmP1MD8Vsk6hxYbMR59jfeSL7XCEQSFJic1IS/eSlH2jEZkHC8RxifUD02j0xTfgJwzQdP/ff24pKLZ6e7P4mHXg1pbKYHUUc+zdhfQ6k4MSb6eeTaEvYYCdVJzPREjRzSjhfPdPVcZpYNOE2vzy1XqshHqfPr2z1uVzChUth3b4CUsdo7UZtfcrY6xcPGecGFDTpi+EgYbtpXiaLAdmxoMrPRv/tY8Z0UM6GjTkYmJ6legiTg+wKjM0SWOiBtkFoeFllZyKYr42DQzAN3jy/2N8yb8qyrEdPusVjBl+rtGcfjH2FwPabMiuYpP2Px7Ml8YepFM8fDz7CxcvbNvYlharxfGdC1QTWU7yLZe0aXrzymtaN5ZsbIjXp0aN+ag==|1944

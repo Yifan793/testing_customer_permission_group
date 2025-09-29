@@ -410,7 +410,7 @@
             },
             "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand",
-            "BreakpointIdentity": "0d80272e-973b-4c22-b027-b78f643b67fd"
+            "BreakpointIdentity": "c1742162-ba9f-4af7-b3ce-144fc4ef9dd4"
           }
         ],
         "ReadOnly": true
@@ -716,10 +716,10 @@
                       ]
                     },
                     "ID": "1825308f050f4152a696deb92b36118f",
-                    "BreakpointIdentity": "7ad75388-b7fe-47e5-95fb-143a92352e49"
+                    "BreakpointIdentity": "00d54d45-7860-47d3-9f60-0c54b0363539"
                   }
                 ],
-                "ID": "f936218b-2111-4091-bcff-9682be063566"
+                "ID": "c008612e-b662-41aa-9632-66f81fc3221b"
               },
               {
                 "Condition": {
@@ -843,10 +843,10 @@
                       ]
                     },
                     "ID": "dfba6370f24740e194dc6e2dc9d985b8",
-                    "BreakpointIdentity": "2ce3b640-86a0-4e69-8d9d-f0ac124232be"
+                    "BreakpointIdentity": "a06f6b98-b378-4c3d-8d41-96251f575d1c"
                   }
                 ],
-                "ID": "229d02ef-7523-4be4-8100-6ab1ba719521"
+                "ID": "574d8020-9a85-4932-822c-c233ed742233"
               },
               {
                 "CommandList": [
@@ -959,13 +959,13 @@
                       ]
                     },
                     "ID": "413b58e1a47946b8b6a55d1426c0fb30",
-                    "BreakpointIdentity": "0d9f3568-54c3-475d-b20a-24d763f9298d"
+                    "BreakpointIdentity": "072a6c02-deb6-4da3-8777-f945b99bf47b"
                   }
                 ],
-                "ID": "e35f7789-9d15-45d8-ba19-6890db1d947f"
+                "ID": "6a2a64a7-e0ce-44b5-922b-a5e1e441290a"
               }
             ],
-            "BreakpointIdentity": "0b2df4a4-cfcc-4f50-9a66-a258b4e4a868"
+            "BreakpointIdentity": "c42fdedd-3a06-47f7-b938-6c67e005636d"
           }
         ],
         "Text": "查询",
@@ -994,7 +994,7 @@
                 "Value": "0"
               }
             ],
-            "BreakpointIdentity": "f36dbd54-ea15-4c30-a8f5-21477acb1641"
+            "BreakpointIdentity": "927298ee-a9a2-49fa-b3a3-05f178cc9da0"
           },
           {
             "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -1004,7 +1004,7 @@
             },
             "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
             "MethodName": "ExecuteCommand",
-            "BreakpointIdentity": "8e5852d9-2048-4663-8729-f8b84588d804"
+            "BreakpointIdentity": "b204070c-3cad-436f-88fb-a4b32f51a013"
           }
         ],
         "Text": "重置",
@@ -1043,7 +1043,7 @@
                         "Value": true
                       }
                     ],
-                    "BreakpointIdentity": "859cd842-1b34-4a3d-a5d4-cd84100df0bf"
+                    "BreakpointIdentity": "cf69d3e1-1159-40c5-8c1d-ba32baed3eef"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1056,7 +1056,7 @@
                         "Value": "收起"
                       }
                     ],
-                    "BreakpointIdentity": "a6de38d8-6482-40a5-9f6d-a036afe322b4"
+                    "BreakpointIdentity": "cf1c919e-af7a-4b8c-ae08-0046b2697f2b"
                   },
                   {
                     "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -1075,10 +1075,10 @@
                         "UseCellTypeForeColor": true
                       }
                     },
-                    "BreakpointIdentity": "9808e893-d7a4-4172-90f8-5ef7c1d02d9a"
+                    "BreakpointIdentity": "949e0c01-4043-42ba-a3f6-c3b30c798d27"
                   }
                 ],
-                "ID": "733a7c5f-7a07-4a6e-850c-8a770d65ee60"
+                "ID": "7197d97b-8cb4-4cea-aeef-a6e1b1cf9a6c"
               },
               {
                 "CommandList": [
@@ -1093,7 +1093,7 @@
                         "Value": false
                       }
                     ],
-                    "BreakpointIdentity": "a7346fa7-bf49-4c3e-ae0b-ca4d25d6ecbe"
+                    "BreakpointIdentity": "3ddf196b-55dc-430c-b0fb-bb584f8512d9"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -1106,7 +1106,7 @@
                         "Value": "展开"
                       }
                     ],
-                    "BreakpointIdentity": "21012bbf-32dd-498a-a022-27a7b60143e1"
+                    "BreakpointIdentity": "a26c3259-3758-4e0e-946a-201b25b2d491"
                   },
                   {
                     "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -1125,13 +1125,13 @@
                         "UseCellTypeForeColor": true
                       }
                     },
-                    "BreakpointIdentity": "c787602a-d24f-4c27-9765-f9022deac27b"
+                    "BreakpointIdentity": "bffc8ab3-b59f-482e-b07b-5ab4ae68b776"
                   }
                 ],
-                "ID": "8b17597a-6d90-4c57-ad98-e51815dc728e"
+                "ID": "68c00562-f80a-4beb-a15b-ce806b8c4dbf"
               }
             ],
-            "BreakpointIdentity": "fd761796-a7f2-4ea5-85e6-8cc062bce598"
+            "BreakpointIdentity": "6778a1ca-2476-4628-b4b4-176f15151599"
           }
         ],
         "Text": "展开",
@@ -1636,13 +1636,13 @@
                     },
                     "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
                     "MethodName": "ExecuteCommand",
-                    "BreakpointIdentity": "24f0ae56-e819-4df3-9069-d20a8fe39ceb"
+                    "BreakpointIdentity": "6fac89c6-2baa-4c5a-a946-5e71dd9cc699"
                   }
                 ],
-                "ID": "8e4d6f3c-838e-4f19-bd61-2b3890925ff2"
+                "ID": "5781bb65-eef2-4a73-90bc-67c0e3dcfc1e"
               }
             ],
-            "BreakpointIdentity": "95d9cc06-2f8d-4ddf-9852-fbdf135c8199"
+            "BreakpointIdentity": "d786529a-e720-4381-97e7-2b556e7bdd90"
           }
         ]
       }
@@ -1676,7 +1676,7 @@
                 }
               }
             ],
-            "BreakpointIdentity": "df78dd18-20fa-4608-b23a-fa9c8e33c77e"
+            "BreakpointIdentity": "dcc863c2-755e-4241-bbf5-a09984fe8c76"
           }
         ],
         "Text": "批量导入",
@@ -1704,7 +1704,7 @@
               }
             ],
             "LoadBindingDataOption": 2,
-            "BreakpointIdentity": "89f28005-9b9f-4c87-a5a5-18cabf412c52"
+            "BreakpointIdentity": "e3ab91e4-d7a1-45d5-82c9-36d5e9cb1469"
           }
         ],
         "Text": "添加",
@@ -1726,7 +1726,7 @@
                 "Value": "%Null%"
               }
             ],
-            "BreakpointIdentity": "8a1b548f-503f-4cca-87d6-cd60ff2668da"
+            "BreakpointIdentity": "a5231474-5556-4a32-9a79-026507961c4d"
           },
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
@@ -1747,7 +1747,7 @@
               }
             ],
             "LoadBindingDataOption": 1,
-            "BreakpointIdentity": "789b1e40-3912-4e24-8c17-b9c0b245f038"
+            "BreakpointIdentity": "1186fa32-7222-422f-b4e9-b8732492dfc2"
           }
         ],
         "Text": "操作",
@@ -1757,7 +1757,19 @@
           "BuiltIn": true,
           "Color": "Background 1",
           "UseCellTypeForeColor": true
-        }
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowPermissionGroups": [
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+            ]
+          },
+          {
+            "Scope": 1
+          }
+        ]
       },
       "RulesGuidList": [
         "5271b7d2-e97d-47a4-b5aa-350ef4c58a5b"
@@ -1994,7 +2006,7 @@
               }
             ],
             "ID": "44eab9aba6de4e2b966fd5fd3f1d7508",
-            "BreakpointIdentity": "771ffa1a-2e2b-4285-86df-55afeee91717"
+            "BreakpointIdentity": "72072696-9edb-4880-ba50-51d252ba9dfe"
           }
         ],
         "TemplateKey": "小图标",
@@ -2038,13 +2050,13 @@
                       "SerializeProperty": "=潜客列表!BL12"
                     },
                     "LoadBindingDataOption": 1,
-                    "BreakpointIdentity": "8dcb7400-ea99-4563-af88-f509b094a97a"
+                    "BreakpointIdentity": "2ac49859-8f56-4830-939d-e8a52a622eeb"
                   }
                 ],
-                "ID": "e6f569e3-702c-43f1-be6f-f93893b72ea1"
+                "ID": "2ad8d5a1-cee5-46ee-b713-3840fd0d3207"
               }
             ],
-            "BreakpointIdentity": "d96e87db-3b06-40e1-bc60-ec5bfe5400e4"
+            "BreakpointIdentity": "5c6be334-5712-4585-b9aa-fc1bca55b162"
           }
         ]
       }
@@ -2102,7 +2114,7 @@
             "DrawerDirection": 3,
             "PageName": "潜客详情页",
             "LoadBindingDataOption": 1,
-            "BreakpointIdentity": "8799abeb-e9ad-4f39-a425-f9616bb8a29e"
+            "BreakpointIdentity": "685f4306-8323-4ba0-8545-a892ec882ce1"
           }
         ],
         "ClickMode": 1
@@ -2243,7 +2255,7 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "f8639e3d-b6ad-46b9-928a-e594e1237cce"
+                    "BreakpointIdentity": "8306f2dc-2446-4122-a64c-a10aeb0a7d42"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -2272,10 +2284,10 @@
                             "Type": "error",
                             "Duration": 3000,
                             "Offset": null,
-                            "BreakpointIdentity": "dfe9f235-ccc4-447c-a2f6-8d302bec9efb"
+                            "BreakpointIdentity": "ee21b1be-8972-4f59-a913-ccabe368818f"
                           }
                         ],
-                        "ID": "ada48134-c9b5-4497-8ce1-df23c88478b8"
+                        "ID": "fa91c682-02f8-43a4-8df5-7865afacd2d5"
                       },
                       {
                         "CommandList": [
@@ -2285,7 +2297,7 @@
                             "Type": "success",
                             "Duration": 3000,
                             "Offset": null,
-                            "BreakpointIdentity": "5dc40b8d-1459-4dc4-8209-50696cf70e36"
+                            "BreakpointIdentity": "33465799-deda-444b-b379-ecaeca6cb424"
                           },
                           {
                             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -2298,16 +2310,16 @@
                                 "clearSort": false
                               }
                             },
-                            "BreakpointIdentity": "a41acac2-1897-48e1-baac-398e8c7b7a26"
+                            "BreakpointIdentity": "b670e7cd-e05a-4149-9d5d-775bf6f72580"
                           }
                         ],
-                        "ID": "8a5e6ff0-dd34-47fc-bbe2-2f5adbc56e9b"
+                        "ID": "7fe47749-0541-4b3e-9f86-1e86278d9055"
                       }
                     ],
-                    "BreakpointIdentity": "54988acf-35b6-41b3-97b2-8b243a789985"
+                    "BreakpointIdentity": "e435756f-e57a-41af-bbaa-0f209d95ce8f"
                   }
                 ],
-                "ID": "e6b71e3f-6c74-4ca5-879b-79cc8db5ef99"
+                "ID": "b759b0c9-50c4-437d-953c-bb47a0c7f96f"
               },
               {
                 "Condition": {
@@ -2340,13 +2352,13 @@
                       }
                     ],
                     "LoadBindingDataOption": 1,
-                    "BreakpointIdentity": "c686b498-45eb-4fa2-9b82-65e3f8992b02"
+                    "BreakpointIdentity": "b7a3cefc-1c12-4028-985b-dab486565b29"
                   }
                 ],
-                "ID": "52e385cb-40f8-4688-9b26-12257ee768f4"
+                "ID": "813c73e7-33e7-41cc-a74e-d85ba3833c57"
               }
             ],
-            "BreakpointIdentity": "5b550966-fb87-4cbb-80e2-9dbf06c4c9c8"
+            "BreakpointIdentity": "728697f4-7d48-4870-9fbd-a51db82e7ffe"
           }
         ],
         "ClickMode": 1
@@ -2404,106 +2416,171 @@
     "Styles": [
       {
         "FontSize": 14.666666666666666,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
         "Foreground": 0,
-        "Formatter": 2
-      },
-      {
-        "FontFamily": 1
-      },
-      {
-        "FontFamily": 1,
-        "FontSize": 14.666666666666666
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
-        "FontSize": 16.0
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 16.0,
         "Foreground": 0,
-        "Formatter": 2
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 18.666666666666664,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 21.333333333333332,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "Formatter": 2
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 16.0,
-        "Formatter": 2
-      },
-      {
-        "BorderBottom": 0
-      },
-      {
-        "BorderBottom": 0,
+        "Formatter": 2,
+        "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
+        "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "FontSize": 14.666666666666666
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
         "Foreground": 0,
         "HorizontalAlignment": 3,
-        "Underline": true
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 1,
         "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "HorizontalAlignment": 3
+        "HorizontalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
         "Foreground": 7,
         "HorizontalAlignment": 3,
-        "Underline": false
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -2704,131 +2781,122 @@
       "12,59": 13,
       "12,60": 13,
       "13,1": 14,
-      "13,2": 15,
-      "13,3": 16,
-      "13,4": 16,
-      "13,5": 16,
-      "13,6": 16,
-      "13,7": 16,
-      "13,8": 16,
-      "13,9": 16,
-      "13,10": 16,
-      "13,11": 16,
-      "13,12": 16,
-      "13,13": 16,
-      "13,14": 16,
-      "13,15": 16,
-      "13,16": 16,
-      "13,17": 16,
-      "13,18": 16,
-      "13,19": 16,
-      "13,20": 16,
-      "13,21": 16,
-      "13,22": 16,
-      "13,23": 16,
-      "13,24": 16,
-      "13,25": 16,
-      "13,26": 16,
-      "13,27": 16,
-      "13,28": 16,
-      "13,29": 16,
-      "13,30": 16,
-      "13,31": 16,
-      "13,32": 16,
-      "13,33": 16,
-      "13,34": 16,
-      "13,35": 16,
+      "13,2": 14,
+      "13,3": 14,
+      "13,4": 14,
+      "13,5": 14,
+      "13,6": 14,
+      "13,7": 14,
+      "13,8": 14,
+      "13,9": 14,
+      "13,10": 14,
+      "13,11": 14,
+      "13,12": 14,
+      "13,13": 14,
+      "13,14": 14,
+      "13,15": 14,
+      "13,16": 14,
+      "13,17": 14,
+      "13,18": 14,
+      "13,19": 14,
+      "13,20": 14,
+      "13,21": 14,
+      "13,22": 14,
+      "13,23": 14,
+      "13,24": 14,
+      "13,25": 14,
+      "13,26": 14,
+      "13,27": 14,
+      "13,28": 14,
+      "13,29": 14,
+      "13,30": 14,
+      "13,31": 14,
+      "13,32": 14,
+      "13,33": 14,
+      "13,34": 14,
+      "13,35": 14,
       "13,36": 14,
-      "13,37": 16,
-      "13,38": 16,
+      "13,37": 14,
+      "13,38": 14,
       "13,39": 14,
-      "13,40": 16,
-      "13,41": 16,
+      "13,40": 14,
+      "13,41": 14,
       "13,42": 14,
       "13,43": 14,
       "13,44": 14,
       "13,45": 14,
-      "13,46": 16,
+      "13,46": 14,
       "13,47": 14,
       "13,48": 14,
-      "13,49": 16,
-      "13,50": 16,
+      "13,49": 14,
+      "13,50": 14,
       "13,51": 14,
       "13,52": 14,
-      "13,53": 16,
-      "13,54": 16,
+      "13,53": 14,
+      "13,54": 14,
       "13,55": 14,
       "13,56": 14,
       "13,57": 14,
-      "13,58": 17,
+      "13,58": 14,
       "13,59": 14,
       "13,60": 14,
       "13,61": 14,
-      "15,4": 18,
-      "15,41": 18,
-      "15,42": 18,
+      "15,4": 15,
+      "15,41": 15,
+      "15,42": 15,
       "15,46": 3,
-      "16,4": 19,
-      "16,9": 20,
-      "16,15": 20,
-      "16,26": 20,
-      "16,33": 20,
-      "16,40": 20,
+      "16,4": 16,
+      "16,9": 17,
+      "16,15": 17,
+      "16,26": 17,
+      "16,33": 17,
+      "16,40": 17,
       "16,41": 2,
       "16,42": 2,
       "16,43": 2,
-      "16,44": 20,
-      "16,45": 20,
-      "16,46": 20,
-      "16,52": 21,
-      "16,58": 22,
+      "16,44": 17,
+      "16,45": 17,
+      "16,46": 17,
+      "16,52": 18,
+      "16,58": 19,
       "35,1": 2
     },
     "SheetStyle": {
       "FontFamily": 1,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "10,2,3,11",
-    "35,1,1,61",
-    "16,2,1,2",
-    "3,2,1,8",
-    "3,11,1,8",
     "2,2,1,8",
     "2,11,1,8",
     "2,20,1,8",
     "2,29,1,9",
-    "6,2,1,8",
-    "5,2,1,8",
-    "5,11,1,8",
+    "3,2,1,8",
+    "3,11,1,8",
     "3,20,1,8",
     "3,29,1,9",
     "3,50,1,3",
-    "13,50,1,3",
     "3,54,1,3",
-    "13,54,1,3",
-    "6,11,1,8",
-    "5,20,1,8",
-    "6,20,1,8",
-    "11,50,1,3",
     "3,58,1,3",
-    "13,58,1,3",
-    "16,58,1,3",
-    "11,54,1,4",
-    "17,2,17,59",
-    "16,46,1,6",
-    "16,40,1,4",
-    "16,4,1,5",
-    "16,9,1,6",
-    "16,15,1,11",
-    "16,26,1,7",
-    "16,33,1,6",
-    "16,52,1,6",
-    "13,35,1,2",
-    "11,46,1,3",
-    "13,34,1,1",
+    "5,2,1,8",
+    "5,11,1,8",
+    "5,20,1,8",
+    "6,2,1,8",
+    "6,11,1,8",
+    "6,20,1,8",
+    "10,2,3,11",
     "11,35,1,8",
+    "11,46,1,3",
+    "11,50,1,3",
+    "11,54,1,4",
+    "13,35,1,2",
+    "13,50,1,3",
+    "13,54,1,3",
+    "13,58,1,3",
     "15,2,1,2",
     "15,4,1,5",
     "15,9,1,6",
@@ -2838,7 +2906,19 @@
     "15,40,1,4",
     "15,46,1,6",
     "15,52,1,6",
-    "15,58,1,3"
+    "15,58,1,3",
+    "16,2,1,2",
+    "16,4,1,5",
+    "16,9,1,6",
+    "16,15,1,11",
+    "16,26,1,7",
+    "16,33,1,6",
+    "16,40,1,4",
+    "16,46,1,6",
+    "16,52,1,6",
+    "16,58,1,3",
+    "17,2,17,59",
+    "35,1,1,61"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -2849,14 +2929,14 @@
         "ShareCommandContainerRefer": {
           "ShareCommandContainerID": "9a55bd9e-1368-4325-96e8-4a35973ca070"
         },
-        "BreakpointIdentity": "ec487589-2ff9-47b1-9631-09d8b97da6e9"
+        "BreakpointIdentity": "2b899f17-7313-4cec-994f-b4be5ed88605"
       },
       {
         "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
         "ShareCommandContainerRefer": {
           "ShareCommandContainerID": "c7ce3d97-2191-4b6e-9185-1daee73dd8e1"
         },
-        "BreakpointIdentity": "88c08012-1b57-46cd-b4f4-ce1ad78e661b"
+        "BreakpointIdentity": "80a43c5f-50ba-4716-b04c-ddf3114b6e3e"
       },
       {
         "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
@@ -2866,7 +2946,7 @@
         },
         "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
         "MethodName": "ExecuteCommand",
-        "BreakpointIdentity": "5e8b3892-531f-49bf-bca0-0bdd5f451088"
+        "BreakpointIdentity": "ed88d7ea-84b3-4413-8370-551a40034798"
       }
     ],
     "PermissionData": {
@@ -2877,15 +2957,15 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "潜客表",
     "ConditionFormatRulesCollection": {
       "Rules": [
         {
@@ -2912,7 +2992,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "3aabba63-c80b-4a7e-975f-9a1119f8e298.png",
+      "Name": "bfe8de1b-de5f-41fb-b1e0-fcaf7c35301b",
       "DisplayName": "背景图2",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -2927,7 +3007,7 @@
       "BoxShadowString": "1 0 1 5 #33000000"
     },
     {
-      "Name": "fe2c2977-3a2e-472b-922c-88a7c4a41381.png",
+      "Name": "1ea2d806-ced2-49f7-9ba1-df8d3ab0a960",
       "DisplayName": "背景图3",
       "StyleInfo": {
         "CornerRadius": 4.0,
@@ -2948,4 +3028,4 @@
       "Formula": "潜客列表!$BL$6"
     }
   ]
-}//GS009DRW+rgl6oXyfE/B+kq1+7KZJ4fxtfcrtiWwnSVKCvCreGJibmwxf2Jdf891fddjsQxVKl4AiR0UPghu7HpB7qcPDl6wln+Fk+r90HVmJsc8Uzshon4UzwScFqrfyRFY/8zt9rgPpl2XCElMPbQCPwglc+08yciIyrXXNcBYe0TNRsbJieswaeVyXip4bx8/WZCNQwUOVxAzSQfiHJwn6xtylRursqHHndoE6bIo/pPk0rjwBCRmJZxOFtvYr0fInJjmQnLDsf1At/jz9JXASfqCpl3CnBK4+cs8mFIb1V+oWczmhhyz4+YwmXfJVNx2hr+Qhg7/9mVwT8b/Lazii9XCBsFHhypzJ7+UDRqozLQbIrKtoYZN4zFZLuBVjxugQ4264UYJzufnWAl5vC3AYhhm4QYAHDJHAk7qJYYviqXYuv2G4bCL6tlDiyyal6BldAl/q7J+zhIgOxsymGWcayDZGs8dHDnwPjF62mngbDw61ONGjVuvWV8oP3NwMCttBlqCAIelFnppETfFAPGFYSCLlcRCR3QQzfjNGuwjpr0MMhYt0fmfWpw9mkKynxLm/KoIbo3KTIx5k+kd8s320wlZdPvY0/0MTq319RKCLS4+XJWnon8GJGU/oImg8xIneBn1YtQ5jfjMsmesbzj8HitIdlv2JPhxn9CZF49J0yrC+1ubLQSaqABb62rvX6aG1QxaYL62zhAVKStUliutkGmtqrHKKhO/k9iVlc1jdygqMUQy6m+7jC1oPODgFgCXLs4NzrB7FXX5Z4DpF8Y+ofg1IhGpb9n3XLNHJvNAF7De1IAdA02SFiaDXWjwYx682p9KmTDisOgQagqF/Po5fvuy95z104W8swT+wH4qS6F2SywuMxUR21kxUB7pw/5mq0y11i9CMIR9M4iaZA==|920
+}//0c0Ooorhxn2igwpM0hY3FTfLtCuBfW39jiyilg2QAd3fbGWGRMUcUn41DcTxiE4K/BizSqsB+/2fbUpBe2NT4qz2Nf34qRBpF2cvKL5QyTKRXC8RmADwD8H9/c+e5ElDXFWaSjA1MEH6YwRpr5Q2j+A8bibvxdfgiCWVWXaVomYhaHSBaNMn8NcrjosdSAlATWvxyWFr9PMOqs/oHIdJHhhlNdbqSv5dtPmqH6GeFgYFB4V0EQzIrRzYjJSw4opb406JiOMuUwll1OepY3DAeMkVxCcLiaFM9K8bjw/Ybq1qTNvbOarXemfqHAq3Tq+rRvvsx897kro+XCjT4yD/ba47ueqdStWLyT5bnXNvbA0fPtMqgn+FycweRtcKLVu9gnzbJJj8CsE/nAba3RxQ8mMEy/xb+rLd8+Dg38zqWHT4mAucRKO7M5jKPUl36nyo68u0bbGV4m+Xy1si21GA4ujYgXuh/JTSWjoSVxzRDTGzjYwTx2+DwqGDkrOwyTrJk1IUZ279lSMmjnbm94a1PiaVKU4E1dz64FZo1WryjRSdjPGSFuiBU+J0HE+sOdrPCMZL5/bo0hnp8FU6kvILLlTQQU38c0E4d4q+ctLShpZm9v5WA3RDVmksEVxOClA/xvmhkYnbjnq+7Cck5ZnXt4s6Ys6jFx2BVZcwyQ6yRzh/knPFOYIwIUDX6t/L8fozjkE/5qHS3F6FO9P1gLipXr3zDUHNA9cmDSTB8gDrWL6I7gFjImrxR8MnWNxZBUd/aPfgA3u6JP4Ute4b/lK6EmNzlAHJfztymqalH2IbRBlHUh97BhYKmc8TiAnT+Sir1QSO0qhxMr82n3xsirb8SVDo4JV6WoHTjACci78m2Q7wn/8p6LjDfZWMSrrZSHMcJRGNNK4w/VRqQYRQUw5+5fNB9wF+MS0fBzpx5BxCiMmwpsHF/d/pwQ6FofeOIV6CXwkynS1GU8A9OjLexawA7dEm/5047MdhYPztPF8y7OTn3zzZz8ykYNugoc4XsGHXHQ2VbtvYbFZFB8Q/6fg2f+/KZdwdcIioclFbw+m8gYiFkaPoXRQGB9RMwYLQ8ZHEUKfpSXb0YwwIUTMyA0ITohweThq9VADuxU8LVdQvqh/YWr7looK/cGlCU9sd7yKvWFrgGqUonQIwXZyEs5JYXl1BWr7CyZse28jwQ1la5SHUpRr3Ub5ueoQlh8y6gnHO/n3aUQX4Jt9BmNlIeDCJLJP6Tk5bWniv0+D3pGvyOAs8BjEvwd80w2rC6hq1DiV3Z6GdTuqMbFA1VnPm6LXfSUsFwRe0uoKit12r/0gZIPtHku5R+EKqiJPUJdlO0knnYKgEkkYhKVIZpGZOjYTrNw8P6udmqISe2jCA47B+TKKP8VK6CC46URNqyJlzaYfTsa3YKjYelQijeFMjhIfoS48Txsyr32/dTjIS2SCjzcPtk6a7OMxulFqsJqc0K8xQ6d8wahq9fuokjCRBQaC6PcM5dCV9j/G0oitygW6ydJmWvyccCGwHREjsVYKnSCrBaqcdnUfiVL5O+nT49Dgz9PRSbf/H60demRiRCxS64b8RqL9ZoRiTPWpjadt5f4YWvmSNXoqEMR93dZBoRSTTbN6jzPnVMU+p0JCD/YRJ9PxdNCrU1hRjJvAJ+ZsgqUzyK+bsA3cMK9abpux9eo/tj6Sd2YFO86oeeCxStXs/8VdUBHZRxyQvVXCoXzM/ozzIvZRaLC/HOSxGMDn6JeFtkrmMZgNxln1oCbGBfKo6dQLUwxt59vUFoxyEbHGHytzxFvowoDB/CTNWWQ4mYUJs7E0m8KFWxMXFZsaWewG6hMv/I6b5Q4TVt+Rcm2rzVio+1aBPlFvbRhUdAnWgo4mAEFwJO0XEKuHqUp37801QyUVBk9djQStNYsyIvePtOtNAP5tO+K5FKClycTgITMtnEw==|1944

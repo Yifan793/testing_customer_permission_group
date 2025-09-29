@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -92,7 +96,7 @@
                 }
               },
               "ID": "e7758f778fe2470f9271638e7f47283b",
-              "BreakpointIdentity": "dfadda8f-46d2-451d-ad15-609001e78d09"
+              "BreakpointIdentity": "31b2ba4c-bf35-4557-b93f-76e32f3da1af"
             },
             {
               "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -120,11 +124,11 @@
                           "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                           "ErrorCode": "-1",
                           "Message": "当前潜客已被他人认领",
-                          "BreakpointIdentity": "57951943-ab7d-41af-8a7e-8dbf1bed7776"
+                          "BreakpointIdentity": "7b43bd18-5495-4a41-819e-4f7b5fd9f800"
                         }
                       ]
                     },
-                    "ID": "e1476896-433d-4708-a1cb-d2a2260528d6"
+                    "ID": "cbc7c104-f486-4157-b227-15026c03a556"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -174,7 +178,7 @@
                               }
                             ]
                           },
-                          "BreakpointIdentity": "3bb055b4-18b3-455d-9e09-2c8080f6ad05"
+                          "BreakpointIdentity": "44fb6f16-35d0-4c3d-8b50-41a4dbbb1617"
                         },
                         {
                           "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -209,19 +213,19 @@
                               }
                             ]
                           },
-                          "BreakpointIdentity": "f8ab5949-0fc0-4b8e-a95d-6cce9315106c"
+                          "BreakpointIdentity": "077c6a8c-0f7b-4781-8e4f-6e55feccc084"
                         }
                       ]
                     },
-                    "ID": "78fd9d01-0178-4232-a0d0-8d51905a04fe"
+                    "ID": "d9db537d-7bd0-4cbb-9164-0a3d5fac8557"
                   }
                 ]
               },
-              "BreakpointIdentity": "3c5cbdec-efda-4ed3-afdc-58268241a7fa"
+              "BreakpointIdentity": "97639b9f-7166-4a7b-a7b1-36395f4641aa"
             }
           ]
         },
-        "BreakpointIdentity": "8e0589e4-8985-4f8e-9879-543d4f8f65b4"
+        "BreakpointIdentity": "a1119f1b-a914-4dd1-b4fa-75d1ba1492da"
       }
     ]
   }

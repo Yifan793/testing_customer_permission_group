@@ -439,7 +439,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "BreakpointIdentity": "769ca4da-e221-40bc-9182-87b7f8f828f0"
+            "BreakpointIdentity": "d4089c1d-aa1a-49bb-80ef-782d8b755e86"
           }
         ],
         "Text": "取消",
@@ -511,7 +511,7 @@
             },
             "RefreshAfterFinish": true,
             "CheckDataValidation": true,
-            "BreakpointIdentity": "d2d0a8b7-40af-45ee-ad4f-9bdf149b1c50"
+            "BreakpointIdentity": "f1094698-23b3-4add-ab5c-67171398e266"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -536,7 +536,7 @@
                     "Type": "success",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "4d1cda71-db00-4396-b1a7-ebce82b5306f"
+                    "BreakpointIdentity": "26ce2cda-cb8e-45be-83ba-b821e1038568"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -552,16 +552,16 @@
                         }
                       }
                     ],
-                    "BreakpointIdentity": "fd3f1296-f606-4ca2-80ae-695d00634743"
+                    "BreakpointIdentity": "b7be863e-39b9-4096-87f2-52ff0e0011f4"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "PassValueBack": true,
                     "ReloadData": true,
-                    "BreakpointIdentity": "c841ac6b-ad3a-4709-8fe4-b4fe189f3cb7"
+                    "BreakpointIdentity": "98cfddf8-3f57-492b-b8d0-688fdd703a23"
                   }
                 ],
-                "ID": "f2c9a249-bfb1-41e5-a76d-11516d500c14"
+                "ID": "e07dcf46-5312-40a0-8d00-251e303ca1c8"
               },
               {
                 "CommandList": [
@@ -574,13 +574,13 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "6cd580a6-e4ac-4e82-a2f5-84caa132ee98"
+                    "BreakpointIdentity": "a5483968-5144-4094-aa15-87c24ee3af5c"
                   }
                 ],
-                "ID": "3ae85d7c-436a-4033-83fc-5dac1a614040"
+                "ID": "a5907cea-93fa-41fe-a018-677266df99de"
               }
             ],
-            "BreakpointIdentity": "1c0165d2-1f47-4e93-8bad-a253f7f8ec13"
+            "BreakpointIdentity": "3557fb7e-289c-4944-9b02-d68ff069061a"
           }
         ],
         "Text": "保存并新建",
@@ -652,7 +652,7 @@
             },
             "RefreshAfterFinish": true,
             "CheckDataValidation": true,
-            "BreakpointIdentity": "ac501239-a9ef-42d2-b85a-03545b213051"
+            "BreakpointIdentity": "78c5f1a5-b7bd-4158-a42a-c6f7cb4eaf6c"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -677,15 +677,15 @@
                     "Type": "success",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "323eaa0d-eeb1-4dac-ae2a-91bfa48b105b"
+                    "BreakpointIdentity": "9373fd68-f622-4c75-9d60-4ea0161e309e"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "ReloadData": true,
-                    "BreakpointIdentity": "da4321a3-6134-49f6-8b59-a36cd281cfab"
+                    "BreakpointIdentity": "3c100665-6709-4617-952f-742c4193b5a3"
                   }
                 ],
-                "ID": "6c944baf-c5ec-4403-996c-cc8484c13483"
+                "ID": "8d3bf5d9-3ec9-4b18-b330-318ac1e64039"
               },
               {
                 "CommandList": [
@@ -698,13 +698,13 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "8fdffbb7-b502-43a3-a99f-2b162fd34ca1"
+                    "BreakpointIdentity": "a5594229-1284-4d3b-b80b-ec2c0a88530f"
                   }
                 ],
-                "ID": "56965caa-27be-4827-a803-f2b06132b471"
+                "ID": "6a7f304c-3077-437b-aace-fa25e2fad772"
               }
             ],
-            "BreakpointIdentity": "de7361dc-93c7-4c15-86ee-3d158408e371"
+            "BreakpointIdentity": "d7850e8f-3bbd-4b47-be96-6f1e2e6b0d7c"
           }
         ],
         "Text": "保存",
@@ -718,35 +718,63 @@
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 1,
-        "HorizontalAlignment": 2
-      },
-      {
-        "FontFamily": 0
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
-        "FontSize": 14.666666666666666
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
-        "Foreground": 3
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
         "Foreground": 1,
         "Formatter": 4,
-        "HorizontalAlignment": 2
+        "HorizontalAlignment": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
-        "FontSize": 16.0
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666666666666,
-        "Formatter": 4
+        "Formatter": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -888,27 +916,31 @@
     },
     "SheetStyle": {
       "FontFamily": 0,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "1,1,1,16",
-    "2,1,1,16",
     "1,18,1,16",
+    "2,1,1,16",
     "2,18,1,16",
     "3,1,1,16",
+    "3,18,1,16",
     "4,1,1,16",
     "4,18,1,16",
+    "5,1,1,16",
     "5,18,1,16",
-    "3,18,1,16",
     "6,1,1,16",
     "6,18,1,16",
     "7,1,1,16",
     "8,1,1,33",
-    "10,30,1,4",
-    "10,23,1,6",
     "10,18,1,4",
-    "5,1,1,16"
+    "10,23,1,6",
+    "10,30,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -920,8 +952,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -935,7 +968,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "d8a73ab1-ea5f-43fe-bee8-e16e0f6df72e.png",
+      "Name": "a8148d2f-eb24-4487-8110-d49544e5bbc3",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 0.0,
@@ -949,4 +982,4 @@
       "Size": "610,432"
     }
   ]
-}//Iv8nhhaEZ87myZgHxF1NBa78pcXagZIKlcJDr1yfXfmwXykJXL1MXtZLoaMMmWWl03v7ozsFMj5rA1PegsFTA55mhNpmvqMBKoqUJr36x0ArrHnTiXD0sPomFgBU7+dyfFE+kqhtm7OFZQkXjKqt89Ru26dGSJDfdDzBMfbewZhrA9ioVKwmRLycwPz/W51yVYUK7JcqMiPOMajsJN8kDx4KftsW9l4Im1955J81TtIhu0bmBYTRzVWqu+ioaeMVfsyq9HtW5y6PG2GvzG58A+7EH45rBluN14D0xEA2jlox4YsN3OTDWRfirgKJduOEadg/Mty8akIf43Jx7NOzifEJ7tM8ON1pC4ZaQEyEEKgl4X3tEFM0T2FHSAYJXzg5sgnwvs61+V7bywt0wsM3MykMaMhWxdmzE/xFAztCw/F4Zql6W9qr+pZ4+C32zxTDJvJ+ZP6BkO1Sj50ioS0/uVZWlCyJ9vs+A1tV7rn9VWAQ5YyP+qjFBa8OA3rokgItAPyF8/YrPHlbRJFoRitSxCoilET09OFQ4nmIo6qR2R6p02R2eg5UkYBwZMuhChlpgMStcTDVh9uTz6Lv7WzzGRs+nnBQJ8z7r8xcxNKuXtWE6kwxgwnGv9NgYNYsgm4DCeObY9RJ1y6iQw2PDrnriKSns0+QYePL45onb2m2QkQLaGlD05RMYeBBCu2UbiS1YFfTpA6oYMquW6sRwjx6PVLwKTX091ykl2Ogv+fHqfNHvTze4FcGVamLv0M70d6GOpO+LknxbpJrtyNsnLgx7lZUjbpTG7pn6nzJZFsMvjVNaEPx4E1FVTnOFshARYlFyD3olXmlOuAh7bnTP2EPyK/oHiak1Kypx6h7f3KKAcPSTbffXSFdArwamaj2XQQLktZRXCnZdVPbLkWcvZPTYA==|920
+}//uwklM71F2+HUJqagNw0EgbCoLcTzNnW6cQS+BIlASvT82N9mSG7v7sd2ghOn5RXawnRivQ3iCPlCcU9Q72fzKSaQuFbhdCEMMSUSjFmYaw1Pech/cQotYTpkvpLstRRiPM5chiwC44Fla5VhD9JDcQIfCRGjLa4sYcMtcomEC2+k0U41ygveqsWoyr1XjYO81hgju5rrwlJR+YsLonJvl9hQdTXG9vt9e9WJpC6R+t9gYiUMD70jMRqsafb9mPc53Rjp1+GVqcI0SJMRt6OzJm3vcKeQDm03m5LNr/wQK94RxfPl02UQSBK5x5EjIfkO/2hJlcud1COJALxwTUXdF0IuHzyQnrpjrQl8ByaqT4gR9K+/Z4HXLjbW9lRKYquM/zPeyX8l1EnxaHsGrnHrbLY+kmENipGzEz2zvh//7bFrkNHsRAZYp9n34UvoIoaLgNXfai/L9K2vPtlbrjoaFqHpa8TzMZ1x1hSktqIOdFyqfz3RPNBj2kghjTjIoK3FgsHlZlybiIyTy4zTp+uUkO+zNsXzD09iLJPZE/eljGiVR0AUX6w7gmXlqNGfw6/iLC8n7czfeG0raC32/5XHhsCZimQqJVRfuVwHnqrCIW3hf0MP6xAA/8mm1OtNEW5bH/0Yz+0RIP60IXV74sGdC0g2sLv5sfCjABTD8v4GwGlkB/oWTN9s4Zn/j/fh6+AA4McIC7i7CBPsx+Uc20bs1P8I6yfiX04yHy4CDFxOaqtl8F35sk6b1YamrEI1YzxRpEKe28JkE4riQBS2i0/c/qy3Dh00EdTl/ZSWLjjIUddDTgn/OihxEBhvqQoBq/i7VE9aRyaCF7Nl6TRWGm/rPfc0GvIkbYvtqVJLhZlvJ//fCTI95QU9tC1jXz1HKIo2/lmqTZBSnCBTJX6GjuTJAGIDnsoudyH49dylZMOSY2U4KriEOkZaLJBuMI+Q3VOHQm+OqAyuOfFJravkkraZ7o150RaOOPADffXrMlBXzazK+nfmo3yOoTEWdDHcASFloD25lUhq0lCnmqDRPO4twQvqcoH0KnXVoaYuBXRYTW5qIepSp/DVxg6CFRuRfCVjTOIvgzy5AKpyBAYHoGAkxUMitnnf6qhv9i20rf9edlJ1qqA5CUpB/wLqHyxPj+fgagaxlN9Atw28Gctvt7Xvi+he6IqEgbQr4ukJ13qxXlTQV2bUPjnx8kQ4Db8FgqkRHjxsP22JAvUYAEQLiUJnR0Bjamup4a4MJrWx82KpV6W5pfBwThUYMQRPPb61KrH9mKsNqKCLXAahkrN9DHTXHWGxIfuk9Xg0eyhHhMluLdwNl9QVKC+X4pX49GicCazegdWPm4e+nI3pOnt+OYDh6B11IiTUBxVz4CMk8XHh+LJTELM1PVHSSkO25Z++nEckNIK6Sc6nVoPvQm7C9fgznary7I2AMYxy66eKiNBiS93G7I6LiNk6uVVymveaOuPs/BsW/JGn0En7ZCmPNXlvoDXhvB5PUjttYiQk2utxd/DHayt/YSqJ4pczZmeAc++V3iiTHWtyPv2FdoDD+k8pxILLPLkAwdMt9hFuhwrvQ1g30W/Lrh9nwunr9cO63kYIywjC6r208nyzeM5ArPOW6XLdtRWuuqTfvs9v1ifx1mWDf3MDM9qFdnyY8oLVdg23wlgFoyy5zwnP15GcltKYk+taeCmgI+BZ9Ow2Ul8bPjyQgIRLNni+wnD6yLPUaY/dNtxHYtNacua7MjTFfQSTVi3QhGTZ3zWikSTr1X3PvhpMyMh2KQpy3nEGzIYtT1BCW1yMrPoz1Y4GYYLEOPSBYzbxOfiSTXGkjbQfLbwdJ1A+u3SpPKE7igqPHavq4P9xvCtU4SLqQBLEG/YPp2CMexZoYnKdwCAp1nVFMcYg3tXxHek0OApMNqUBhu7d9NycwWZPBFQg74hDtmPxY1ClXg==|1944

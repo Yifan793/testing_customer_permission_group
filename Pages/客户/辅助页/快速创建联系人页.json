@@ -380,7 +380,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "BreakpointIdentity": "e3e6239f-a067-4bae-910a-f9dd9c3badcd"
+            "BreakpointIdentity": "46eb2535-2d76-489c-9f04-3ede2f463f17"
           }
         ],
         "Text": "取消",
@@ -396,12 +396,12 @@
             "TableName": "联系人表",
             "UpdateType": "add",
             "ShowConfirm": false,
-            "BreakpointIdentity": "3060f222-d6bf-4bba-a6da-4599e68d4659"
+            "BreakpointIdentity": "1674b532-e0fc-4037-84c7-ff1ffccadbbb"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
             "PassValueBack": true,
-            "BreakpointIdentity": "3077c31b-2f5b-4da2-90f4-6309e926e50d"
+            "BreakpointIdentity": "6bd4390b-1da7-48e5-9222-8a1c7be23179"
           }
         ],
         "Text": "保存并关联",
@@ -412,22 +412,42 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Foreground": 0
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
-        "Foreground": 1
+        "Foreground": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "Foreground": 0
-      },
-      {
-        "FontFamily": 2
+        "Foreground": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "Formatter": 3
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -557,24 +577,28 @@
     },
     "SheetStyle": {
       "FontFamily": 2,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "1,1,1,12",
-    "7,1,1,12",
     "2,1,1,25",
-    "8,1,1,25",
-    "14,1,1,25",
-    "13,1,1,12",
     "3,1,1,25",
-    "10,1,1,12",
-    "12,1,1,25",
-    "11,1,1,25",
-    "16,20,1,6",
-    "16,15,1,4",
     "4,1,1,12",
-    "5,1,1,25"
+    "5,1,1,25",
+    "7,1,1,12",
+    "8,1,1,25",
+    "10,1,1,12",
+    "11,1,1,25",
+    "12,1,1,25",
+    "13,1,1,12",
+    "14,1,1,25",
+    "16,15,1,4",
+    "16,20,1,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -587,18 +611,18 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "RelatedDataTableName": "联系人表"
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "PaperSize": {},
     "Margin": {}
   }
-}//2GYAU+xXk8/vAo5KUcL6xYWGNS6DNMun4PXri38vdfTl6x7HYDn7sObF/SlJU/YJbNRdIYEaMqzDxGsCEkBRoTyzUbP0VeV5NwV+S/46oiBh+3H6folPjnhqHBTtE780PywIG7PXwtuuZqln8sYnICOlkSOJoNC8suLQukBFxm2xw9CgdY6brRl71eGYmixmtIS8vZZKJHv1+zv39JveE+6nRQR/E/9OLZsGjFbdlJPzHhEQtY74s90CGi85Mv1C7wURSmtWYa8ZjnmrxmngwuMwGLDyMmxxVTlKROchU3tNEzVaB3sMfamfx822u+sU91BjmAMGTvpRiZmQ1d9sCaC2AMEeJWZDYtaUV0jU/dIcvcSEaY0LTVDHCMFYzw5tHQbb4viNGGsl+AFWzEE7h+Uo9sh6otM7mw3wFWFHmM3usZa9JbM15Mscf25P+QdkHErCtMhAAA1IiAga1cHtzyU3pbEaDhs1h3I5RN3Z5O+TksP9B2gWA92VRI1gs9lzDVl8mVy8+1dxE3qHdSRFmNPvr9LaUwy2vDxqyA9ZBublvqO4Ow6qII1XrR5cFd7EvwFjFjLb2ZE51zgHA0A3QMU74OfMmQQSXSUbsLoQFj5wjGFyVeQofBriXr9gkpU941fJTfS/aveyo5IMQNqR+gNMD7cuXdTKzJusPoC6B+DSb+tCDokxOwGmPKwUrnzIGeXkhJzm0W/4Ckd4QkSMsQNXXdG8zJs76t+++RjEU1QkqOd87H9OrkDrYjywtuys7+Pr//uApsm/aU3mLOMgB71boyvGBGZUy+Q5wHU8DmLq34e1pB4fzE6lGxbnt7OtWHJYqDlo0lexIJZbxfdv2Kb0DJqlKYxdJlfk2pn2y93qr+8WzI/ncHvhMzdqkW8ofKqHSr2HfWDETXCX33MaJQ==|920
+}//HmXXHvwTnpFRNLpupxwSR6+I5YBWZFk9jjhV4eNkUFtTkSrq8gduXVhXktyWbMjaeLjaSi2T0Yp5o7qkF5dZb2e9hGQ71K7Jqnv1/h2C52fWE8rYhnha5SKaxL/RVGGoJdj0MdYACOGL/ZvDCJPl1UDQwheLFLQwYI61WfnWjVqUuZKUFsfgeRrZWrFsVoEvMXywEYJV7IgkhMhphNHC+dvlURgr0qmwy+rK3TRrD6cyIHLXg5e185sPSc/uQugBobIc9e5YF/8QC0OWm6soJ+GoynmaEw0tbTCOxwJJprZNI2mzA1Gns8xOE85ARjsaToXWcp/7JSvi+xSBKkDrNdbnuFR2H/CWb9gZKX5BUnJYHz4xOM6QFO6tzlkRjM8mx8pKUicasrWemdM/jWndO+OC3oHyA8/5hcNuWizbAK6477PNAz0jV0tQAs8vPChUB+goC7kJjIHe25TCTY6Gu3NeQFO5HXJwmgoor2/wBCh3AjMouwqubgUROtCt1JmUWdI7WzG3vL1J62AbSjL/+QmWSXhwinmz6npjNG+ScX2+3TVZi2nDPl+nWGQCVzlE/m8DncTOAnDVhv0RIDV8CRGl5WWfB8+2rasBWD8ZGyXXBjeSbE9E6Yyf0vp3Ni8DIUMmJgLBp6z2A/2Soy7okSzZ4PQ0/5JOZT849GUM2TLfSYYq6/i6yXc2Y8S5950UHapkqyTgf/Bck5KEdRmwNN2UYEDSQODnWeJP20CD1MHefcsTDOj2MWqMxSH7hedNFyIUu6GHfW6QaM3f4xFM49jm+z0ewAolYi8S2do5NrHuDSg77OILCaCP37u5IjGuIfVXAssgCEccgxZ7aGly67V7JVfCvkgGr/CgL0gu9tCcWG1oyaSSKG0izO+ResdyT2nIQgxQwQ3UiMNFj89Ss2o3GTI2q14cynrzFN02bKQLAdm7FwwtiDBS18lF1P1ylF6/lN/5kPI7MfH/KA8/ZjnpwJkOMZSBoNo3Hrl5Bf7AMfLTaZ59DlpRWHrY9v1Iwouqq0fEEUOyhGhkdlZ4g0e6zwCAAJk7YkS7asFJYNZL92UganxxmlfvDF/5CrJ36tEJbwyKj247akcdLzVUmmCLVDGCbjiO6wTvfpZIQw4KWn3/DyZmWctgmvJRbarZ2pXBTeWazu8iGWw24QnTrJQ86LBA4tp0I0dNONHi5l8NfNHbY8us8fAcow+fw5lNAEeytGZIP05dNX5y/YHnA/8mEbQ17io26PQ9noDDGNIWRiu9LBwR8TaTTfZyAIj3umje3xecbmIpBcGYEJF3LA9cGJSdExZQWFdfxAofDSZ++M8zfLKRiHfify3UzpUlgWynHBFkAjEnofBgQfQ4Y4tjHcqH2kJQpCleW+1jS8gEKtV5dI2iUFFbhISBmrxaDGI1PZzp9Ppysy2Zk4f5y4ivXZMLaJauniCA4cF+8Bi8cdeTxoeGe7yQ89Ljr0cvnhjoaQLIoOkR7ztkwrsKq5nixyBAyXGiJTxybRNNJhDudQwslqlLZ6+GNbnOaXI8cQb7mu504/7DSmKxfmH4TRE90aZg7Soz2u0jQ98z+lWrNcVVy04wH7Oy40Rwx2oFB2DImCZKFmzjGdmIwiX6vyxOOSAGFNHY2SgSpGpLFQ2/vQXPYxgcnllooEb9qopnKaekew3sZ3n6S6NgRZhS+owdAQGHOgPNfKd6RQqxuTtWLzSBQykpKv/jTYu3S2C4SzmTTh2phljtRzZHXaDp91c0yMHqneP9o6R7U5xDi1Y6zthAi9zYdnVNXCAMvuI6p5XX7uwsmYKFXBJWwu97K2KTBihkTcdbwIb+CyeyhXYOJjxByK14T3psHNdyDqOEbHfHZxYTD8OTBHoVAfUBcYivKwYu7e7inSM/PIIz6jL97Fe46dXR/i+KwWQpjkoSlTFIAzpk6/qRLyil+1zxVA==|1944

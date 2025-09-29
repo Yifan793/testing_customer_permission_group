@@ -285,8 +285,8 @@
     "29,86": "导入"
   },
   "Formulas": {
-    "10,3": "CONCATENATE(\"已录入\",CN4,\"条记录。\")",
-    "3,91": "COUNTA(D14)"
+    "3,91": "COUNTA(D14)",
+    "10,3": "CONCATENATE(\"已录入\",CN4,\"条记录。\")"
   },
   "AttachInfos": {
     "7,3": {
@@ -298,7 +298,7 @@
             "FileName": "潜客导入模板",
             "FileGuid": "f0bf2aab80bb44e0beed6dcefdbc89ec",
             "FileExtension": ".xlsx",
-            "BreakpointIdentity": "8a4c309d-59b9-4751-b62d-4348a7c8ef2f"
+            "BreakpointIdentity": "a48dcbdd-aea2-4b1d-8f0e-c8a5f821b0f1"
           }
         ],
         "Text": "潜客导入模板",
@@ -398,7 +398,7 @@
                 "ColumnName": "电话"
               }
             ],
-            "BreakpointIdentity": "7c9f593e-c379-4a8c-80f4-67dae7a10f2c"
+            "BreakpointIdentity": "4957a519-69ae-43a6-ae1d-3c34f6aaf4e7"
           }
         ],
         "Text": "上传模板",
@@ -503,7 +503,7 @@
       "BindingInfo": {
         "TableName": "潜客表",
         "ColumnName": "潜客来源ID",
-        "GUID": "aada3c77-37ba-4877-a0da-0e90d42cfb16"
+        "GUID": "1061d19c-70a7-4e30-8968-5b605274cb06"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -525,7 +525,7 @@
       "BindingInfo": {
         "TableName": "潜客表",
         "ColumnName": "行业ID",
-        "GUID": "87db0610-ae4c-4555-8a18-8141ef9a0fe6"
+        "GUID": "6f311cd8-4419-4527-b74b-5ae2daf288aa"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -554,7 +554,7 @@
       "BindingInfo": {
         "TableName": "潜客表",
         "ColumnName": "客户类型ID",
-        "GUID": "604a3baa-b58b-4672-9bfb-a4ada3e76a56"
+        "GUID": "1b30d229-e3ff-416d-869b-66d26be09b91"
       },
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
@@ -639,7 +639,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "BreakpointIdentity": "779c83c9-7a27-4e2d-8085-ccc6660b4a68"
+            "BreakpointIdentity": "804ce2f8-0117-4eb1-96e5-d1c249f7503e"
           }
         ],
         "Text": "取消",
@@ -673,10 +673,10 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "55cf3f3e-4286-4b44-9368-d46584f3df75"
+                    "BreakpointIdentity": "2b0d4faf-d4d7-4ac2-b989-7a8a7bd9192e"
                   }
                 ],
-                "ID": "768aef26-d568-47e8-a2a5-80db1693b51b"
+                "ID": "2983607e-701f-4c3f-a26a-fe353210f582"
               },
               {
                 "CommandList": [
@@ -710,10 +710,10 @@
                               }
                             ],
                             "UpdateRowType": 2,
-                            "BreakpointIdentity": "fb165f96-d41d-4e80-a275-8ac7a10abec1"
+                            "BreakpointIdentity": "9a7e6b63-54be-4c91-b34b-5ce899125970"
                           }
                         ],
-                        "ID": "c02066db-105c-4c38-a920-c23015518cb2"
+                        "ID": "80118277-c905-47f6-8815-61a9b9d4331a"
                       },
                       {
                         "Condition": {
@@ -749,19 +749,19 @@
                               }
                             ],
                             "UpdateRowType": 2,
-                            "BreakpointIdentity": "a1e1be17-76e8-4e23-aa92-b6d4166f447c"
+                            "BreakpointIdentity": "1e767af8-2c4d-4b41-bf16-ef378c4a3b09"
                           }
                         ],
-                        "ID": "692c0390-eca7-4521-be8c-7603ebc8341d"
+                        "ID": "f5d593a6-bfd4-42e0-be9f-e0707e48e9bb"
                       }
                     ],
-                    "BreakpointIdentity": "80ab4d26-c5cf-4834-aecb-d610b384d86f"
+                    "BreakpointIdentity": "2e8dda73-c5b5-4124-9c6d-32d21f99e92d"
                   },
                   {
                     "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
                     "ListviewName": "表格1",
                     "UpdateType": 3,
-                    "BreakpointIdentity": "31e9d6e9-5845-4e47-bd08-6a4f4a34b504"
+                    "BreakpointIdentity": "0e6ad7aa-31f3-4e87-9936-c010495f81f3"
                   },
                   {
                     "$type": "ElementUI.Commands.ShowMessage, ElementUI",
@@ -769,18 +769,18 @@
                     "Type": "success",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "aca50b3a-19b1-4476-9181-9bf7efb49782"
+                    "BreakpointIdentity": "685aa7ae-918a-4f1b-9846-25d56dc6dc39"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "ReloadData": true,
-                    "BreakpointIdentity": "72862f65-597c-4f81-a836-012d3b2f42d7"
+                    "BreakpointIdentity": "dc1d6d95-c105-4e83-9aae-55c05a61d841"
                   }
                 ],
-                "ID": "3cec1283-0fc4-4c0e-9f4f-6409054bd9ca"
+                "ID": "6be3a18e-ed1d-4b37-a0ea-d456d78124ae"
               }
             ],
-            "BreakpointIdentity": "df2b9dfd-41c4-4423-821b-9d2942631a1f"
+            "BreakpointIdentity": "1aeacdb7-7c0b-4417-8f33-a9b2fc51958c"
           }
         ],
         "Text": "导入",
@@ -792,36 +792,71 @@
     "Styles": [
       {
         "FontSize": 18.666666666666664,
-        "FontWeight": 0
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "FontSize": 16.0
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "Foreground": 2,
-        "Underline": true
+        "Underline": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 3
+        "Formatter": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "FontFamily": 5
+        "FontFamily": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 5,
         "Formatter": 6,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 5,
-        "HorizontalAlignment": 7
+        "HorizontalAlignment": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -1129,32 +1164,20 @@
     },
     "SheetStyle": {
       "FontFamily": 5,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "1,1,1,33",
     "4,2,1,32",
-    "10,3,1,85",
     "6,3,1,31",
-    "27,3,1,76",
-    "29,86,1,4",
-    "29,78,1,6",
     "7,3,1,22",
-    "13,81,1,9",
-    "13,47,1,6",
-    "13,74,1,5",
-    "13,68,1,6",
-    "13,61,1,7",
-    "13,53,1,8",
-    "13,39,1,8",
-    "13,32,1,7",
-    "13,25,1,7",
-    "13,19,1,6",
-    "13,9,1,10",
-    "13,3,1,6",
-    "14,3,12,87",
     "9,3,1,14",
+    "10,3,1,85",
     "12,3,1,6",
     "12,9,1,10",
     "12,19,1,6",
@@ -1166,7 +1189,23 @@
     "12,61,1,7",
     "12,68,1,6",
     "12,74,1,5",
-    "12,81,1,9"
+    "12,81,1,9",
+    "13,3,1,6",
+    "13,9,1,10",
+    "13,19,1,6",
+    "13,25,1,7",
+    "13,32,1,7",
+    "13,39,1,8",
+    "13,47,1,6",
+    "13,53,1,8",
+    "13,61,1,7",
+    "13,68,1,6",
+    "13,74,1,5",
+    "13,81,1,9",
+    "14,3,12,87",
+    "27,3,1,76",
+    "29,78,1,6",
+    "29,86,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1178,8 +1217,9 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
@@ -1201,4 +1241,4 @@
       "Formula": "导入页面!$CN$5"
     }
   ]
-}//xnHxplYeoT1b+BlQnfcNjcn5cZfcIk7enDOzLcFFVon5jUMM7RIkV3k8Hsb6gqCnweHUcMNAxJO4/7cRFSbaZVwsJmhIGWzGQgihvW+AMZgaOypXgJLUdW3r4Xbqki49pkKqjkJnT/CsoCzs39ojNs4C0Ad3E89Cr+6QPD2e6rCsa8OaFAU85sr00YodagT/yCpfGHd7kHnHZALbpey6SuhyKku11AcaAoxKEYuuz0uzJZey5p5f8pAAwCRDFSyLxid2czHwSaY4cFGviAyzEtxw/pTSlYAZEKgUt7NsQqZkmzyk8wSYgu+AzUyB3Gxn6fAWqgKW1hePCC3HVvPNLuYxl1Z5CDBJyfSfqtcunlKsIn4563eqg/blh0OrZJ4R9aRaXVGPVRQvD1h8NgdRtxiRkv3kp6f4c5cIsbueg0SIw+cCxDeMNPPbHR6XzqIIPvtAOSQW+Wj3VSL1F4EZ87m5SVk4UlvZatoKcF7P8Xic9CWMe+e+0uG6VYXlyYAqZyT0v59QZ3kLRC1gNyeRVSs2eaHfzJ/B2rnkFhLPtpOXhZcbkOvGEYPLGA5ZECeAMvr92sAc3vWj5gDAAtH8CSfCE7hP784cJeTFA3/M4uEyEyW0NyCvH8TiVbWCau5Rgtc3uk6CYABru0Eyng3TpKt7Vpcq/m/GFidvAZ6ZVToBDajyihLHnvChTp6fBh8U6GPMR+zSyBbaYp5civQ2AL6A6bzAb0/BQDZ3EKkuMqcY2FrUqeTqFWqylPQbvZQ7pQVvg0qzn1bKQJq/PlxKSGyl9qYoVfJxpKJrlBMD4vdOpjmYrCMSuQixkAv78nSA9EDR4Ld1JCCoupWIL5kaf6jvzCwuzkUqoB44wVfpuJCqFCUQ5JqXo54J6ZBoy94oBfc3iPWK6bLIgPe2TSxnwA==|920
+}//4drmyAr6OdJ4V+T3S27iY7Hywzl+jYLApBRdcXwHn7LdkvLoKDgsaIMQHFd4q1LMQrjoJ3OAKH9Rg/LDnyi3g1h+eaBhMx1QYAmjsK1CndFhrxX/9qA6ZBdFBBPR0TOydMW3bXKo0p7fX5czw2vt/K5emVs7e4WaZls1U2I0uW2JHuLo+Izb6w/23jfEsdPEyF0bZd1tyWeaOdHOazeRlAQqD3A0Hw+mT4LEP0XjrpEwB8w5cdAulp17L0mqpDk814qRbcShGEhwPkbAujUVGMCKXF8NBi3WH7KpxftSL3nVE8F8dU2m3wEdQiNcCdBCMABU2FXF3cAZJDeizlBAQGLdg9lAB8RsV3ChoGg8pQdM9LGVTh4On3NdsN2WD3GicZFo7AHvj3F9R98eQh5VfisnTmv75q5beFVhoUJSTHYbGk+3tsYALHPfuvvUKH60XTLe1z+7SacOSawBMKKp0rodNiptNHHgrRHnPP1gTQNSPNnp5GDHeQy11t61f0tjHemEOsNnxZN306ayzqgDH2rUe/BwznC/nNhJnTCrVGvxk8SJlWiEewIEIDcUpAW1AwS/tLX3vO3OInvk1hTcfiqFb5jmRWooGlaVgtTUFV9wy9ZCuMGAq/x2ZBpfhlzaSBbnmez6vJp6yf+NJn0o6H1o7vz4AxlRb/HY75trMjPXUj7itsttckqg9fmIXXwS1serk7x+PvMPkadk/hOw7OKI5vXWfJTvrlP/80/2Ws3lUMfzmPTvzDd+/kqHn/wxjOsAkHCbRZP9TFl382N2+OQYWVCoOIjGk7MRWvOgkaO1rvDQiVppn1fhpTOuc2CsRLhNCjQlAPHJq/fVTm5uxmmEikQNbtuSrrAgj1hxkytFjPZCo9llecHPM2OzMIEsTnLoKfQuvRaKgPZP2s9byoLf9Xi46Maql+wgX1r2UjhCHXaofVl+zaL5I1iLsgy6f83OJBDb9dEg9RnUKxJl/tDRX5g1NVYKYcByqPefgAiou1blHzaamfutvOUDHwy/GUBSZ3ylbCQXQZ2rtFRx4/vEQbgyqGtLrKGcYSA1eAe1+yV+IeCb9Pa00GIIdiPDV+35RAf8CBwRNo/RB8hYLt2Z1FiOYRqY7sMIS3eBbQSKWWqH6Pjz9a2Y576vi26tR6qVsbLsItvLYal8KQmW2TQp89CgUgoP3h915+tgLm02pEs3gidYRgPBhMbcoC9b0fGNsLJ3lBQtdv9W8l9pBU28ebZnE1CZC7BaLUiN5OvvbsfqFdDNJJY7aQQyjFJ9I0RvVyJ0dF/l5T7g9k/nv6j1cE2ddNg+lsu5WjDUQLHrp4V4FkssN2qrgAI/hj/ZN7+0k0jSQJTro2wr48SZK3MMqSzLmnn0oqgUyiIt7/41eCBPB6BmnwVvoYrfL8sEA5FVJPlLHKTQiYO5TJDaaoBMv8W8Mlf5j0xjHnfoF3sloh2FtBZbEVlncPfqO/QiKntEK1tXiSGi8IYM7Aroy6uWM9BxKAZyMtsLp8FylQlNw5C+iH/NP/RxlJ2vaoYAJytGt7woQ+KJNtwe2uNLgXO+JssvbNeIEnYxjE+wqo20EM+338eRCJ9XdILg0wBdUL+unUWc6PeLTLDphUIissUKvG9eekK0sNCMCMsvVxpTIihJC6Gmx6P+yr1Ki4Xw73HubnznJZbSU6ufnNqd/rDbzUe3yUIpnlf0c7c3OaZ5I1CuHxrWMV6Hc4udWBs3RV2nCQVwem6Z/GJvhHvAg7nrvU2xVE4GTMXugewdS4wiZNwmMZ/ywady8Nx8xjq0ZE9Nx/VmdY/M5/D8Wqf2Byg4t4jPCZZIzy9fVDohjJVlRMvR/lgyaV5POaotOrG0IRrOo7zxLILEYTjN4H1ijcbPGgj2ARST38luPb7MFj6qyeI9+mkoDmj9cn6y5HsSzadpza6CHo2rH64W7su/9w==|1944

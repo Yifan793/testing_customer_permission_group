@@ -4,8 +4,7 @@
     "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionData, Forguncy.RbacPermission.Core",
     "permissionResource": {
       "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionResource, Forguncy.RbacPermission.Core",
-      "isExternal": true,
-      "detailTables": []
+      "enabledTypes": 2
     },
     "permissionBindings": [
       {
@@ -17,8 +16,9 @@
           }
         },
         "dataPermissionType": 1,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       },
       {
@@ -28,12 +28,22 @@
           "operationTypes": 5,
           "dataFilter": {
             "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 1
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "负责人",
+                "GUID": "5dfac599-e70c-4008-9953-740785f368d9"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
           }
         },
         "dataPermissionType": 2,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       },
       {
@@ -43,12 +53,37 @@
           "operationTypes": 1,
           "dataFilter": {
             "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core",
-            "filterType": 2
+            "filterType": 4,
+            "condition": {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "潜客表",
+                "ColumnName": "负责人",
+                "GUID": "dac25497-13aa-4220-9b48-05a8d16cad0c"
+              },
+              "Value": "%Null%"
+            }
           }
         },
         "dataPermissionType": 2,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       },
       {
@@ -84,8 +119,9 @@
           }
         },
         "dataPermissionType": 4,
+        "roleNames": [],
         "permissionGroups": [
-          "e8cd8c16-7795-4e40-9235-454e164dda34"
+          "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
         ]
       }
     ]

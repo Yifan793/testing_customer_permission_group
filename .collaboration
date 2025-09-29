@@ -115,12 +115,6 @@
     "IconType": 24
   },
   {
-    "ModuleName": "TableView/用户信息视图",
-    "ModuleType": 23,
-    "IconType": 27,
-    "ExclusiveType": 0
-  },
-  {
     "ModuleName": "Table/联系人表",
     "ModuleType": 7,
     "IconType": 24
@@ -136,6 +130,136 @@
     "IconType": 24
   },
   {
+    "ModuleName": "Pages/内建页面",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/FGC_登录",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_401页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_验证页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/内建手机页面",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "MobilePage/FGC_登录_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
     "ModuleName": "Pages/产品",
     "ModuleType": 6,
     "IconType": 7
@@ -147,71 +271,6 @@
   },
   {
     "ModuleName": "PCPage/产品列表",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "Pages/内建页面",
-    "ModuleType": 6,
-    "IconType": 7
-  },
-  {
-    "ModuleName": "PCPage/FGC_修改用户信息",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_两步验证_验证页面",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_邮件订阅",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_修改密码",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_登录",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_忘记密码",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_连接已断开",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_维护中",
-    "ModuleType": 1,
-    "IconType": 1
-  },
-  {
-    "ModuleName": "PCPage/FGC_401页面",
     "ModuleType": 1,
     "IconType": 1
   },
@@ -274,71 +333,6 @@
     "ModuleName": "PCPage/联系人关联页",
     "ModuleType": 1,
     "IconType": 1
-  },
-  {
-    "ModuleName": "Pages/内建手机页面",
-    "ModuleType": 6,
-    "IconType": 7
-  },
-  {
-    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_修改密码_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_登录_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_维护中_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_重置密码_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_401页面_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
-    "ModuleType": 2,
-    "IconType": 2
-  },
-  {
-    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
-    "ModuleType": 2,
-    "IconType": 2
   },
   {
     "ModuleName": "Pages/客户",
@@ -407,18 +401,8 @@
   },
   {
     "ModuleName": "PCPage/潜客列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\ShaySong",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2025-09-29T17:42:44.4244645+08:00",
     "ModuleType": 1,
-    "IconType": 1,
-    "ToRemoveFiles": [
-      "Pages\\潜客\\潜客列表.json",
-      "Pages\\潜客\\潜客列表.rd"
-    ]
+    "IconType": 1
   },
   {
     "ModuleName": "PCPage/潜客详情页",
@@ -471,12 +455,12 @@
     "IconType": 1
   },
   {
-    "ModuleName": "MasterPCPage/PC母版页",
+    "ModuleName": "MasterPCPage/FGC_母版页",
     "ModuleType": 3,
     "IconType": 3
   },
   {
-    "ModuleName": "MasterPCPage/FGC_母版页",
+    "ModuleName": "MasterPCPage/PC母版页",
     "ModuleType": 3,
     "IconType": 3
   },
@@ -636,12 +620,7 @@
     "IconType": 39
   },
   {
-    "ModuleName": "Image/fgc_loading.gif",
-    "ModuleType": 38,
-    "IconType": 41
-  },
-  {
-    "ModuleName": "Image/fgc_logo_light.png",
+    "ModuleName": "Image/fgc_built-in-page-401.png",
     "ModuleType": 38,
     "IconType": 41
   },
@@ -656,12 +635,17 @@
     "IconType": 41
   },
   {
-    "ModuleName": "Image/fgc_built-in-page-401.png",
+    "ModuleName": "Image/fgc_loading.gif",
     "ModuleType": 38,
     "IconType": 41
   },
   {
     "ModuleName": "Image/fgc_logo_dark.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_logo_light.png",
     "ModuleType": 38,
     "IconType": 41
   },

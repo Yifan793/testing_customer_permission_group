@@ -498,9 +498,9 @@
     "40,48": "前端保存"
   },
   "Formulas": {
+    "8,53": "IF(BB6>0,BB6,-1)",
     "17,18": "IFERROR(ODATA(\"省市区表?$select=城市代码&$filter=编号 eq \"&IF(ISBLANK(B18),\"null\",B18)),\"\")",
-    "17,35": "IFERROR(ODATA(\"省市区表?$select=邮政编码&$filter=编号 eq \"&IF(ISBLANK(B18),\"null\",B18)),\"\")",
-    "8,53": "IF(BB6>0,BB6,-1)"
+    "17,35": "IFERROR(ODATA(\"省市区表?$select=邮政编码&$filter=编号 eq \"&IF(ISBLANK(B18),\"null\",B18)),\"\")"
   },
   "AttachInfos": {
     "1,53": {
@@ -958,7 +958,7 @@
                 }
               }
             ],
-            "BreakpointIdentity": "dcac7962-42b3-4dc5-b928-2820231ac4c2"
+            "BreakpointIdentity": "65a53059-2c5c-4e61-b456-50c10040d08e"
           }
         ],
         "Text": "客户",
@@ -1366,7 +1366,7 @@
           {
             "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
             "PageName": "联系人关联页",
-            "BreakpointIdentity": "78799430-954b-4ac1-a4f7-8d638f485d88"
+            "BreakpointIdentity": "3cfd4191-b27a-4368-aab7-9ca38be1ca14"
           }
         ],
         "Text": "关联现有联系人",
@@ -1397,7 +1397,7 @@
                 }
               }
             ],
-            "BreakpointIdentity": "88f45742-2f00-4a11-ac58-1911a236fa9e"
+            "BreakpointIdentity": "5b6c914b-f41b-4811-b57a-b4f5fad69e37"
           }
         ],
         "Text": "新联系人",
@@ -1499,7 +1499,7 @@
               }
             },
             "ID": "56cc05f594894469bdf17df779aac1a0",
-            "BreakpointIdentity": "c346deed-76e3-434c-b26e-cdf1b3f3b16f"
+            "BreakpointIdentity": "f3bebd47-725e-4fa2-94e5-39e9aad57b51"
           },
           {
             "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
@@ -1550,7 +1550,7 @@
               }
             ],
             "InsertInRear": true,
-            "BreakpointIdentity": "d7ca6c9a-8235-478b-b31a-05c1aef04886"
+            "BreakpointIdentity": "d2f731c8-c303-4b07-a1fe-cf057e2a3987"
           }
         ]
       }
@@ -1597,7 +1597,7 @@
             "CancelButtonText": "取消",
             "DialogResult": "确认结果",
             "AdvancedSettings": {},
-            "BreakpointIdentity": "7414b0b7-d854-40d0-800c-ed9e58bd8259"
+            "BreakpointIdentity": "35bbe22a-8874-4c37-a9f2-4faa8c7d0cfc"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -1620,13 +1620,13 @@
                     "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
                     "ListviewName": "表格1",
                     "UpdateType": 2,
-                    "BreakpointIdentity": "ea465114-8e24-46ec-a0f2-17272c1d92e6"
+                    "BreakpointIdentity": "402651bb-44b3-4fe7-9a12-47762d1cc2a1"
                   }
                 ],
-                "ID": "97460baf-5ff7-4b70-a2d6-8c411a5cdc63"
+                "ID": "de9c65be-bbaa-42cb-8c40-2ba745e7f680"
               }
             ],
-            "BreakpointIdentity": "a250ab7a-0d31-4aa3-8637-e0c8b478a03a"
+            "BreakpointIdentity": "ac1a3973-d997-464b-bcf7-69cca675e608"
           }
         ],
         "TemplateKey": "_RS_Mini",
@@ -1713,7 +1713,7 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
-            "BreakpointIdentity": "f200276d-1e40-4c74-86c7-91dd74adb9d4"
+            "BreakpointIdentity": "8ddb4561-7ea3-4fdf-94a2-15c8693b5402"
           }
         ],
         "Text": "取消",
@@ -1866,10 +1866,10 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "6abc2b5c-fb3f-4e21-8f79-80780dc5184e"
+                    "BreakpointIdentity": "de31f054-48f6-443e-bf67-daa5f459fda3"
                   }
                 ],
-                "ID": "32e3d3d6-a6b8-4b75-8fe3-69e4b8d4afa7"
+                "ID": "4babe7b4-6174-4b08-9351-4ed2e747e44c"
               },
               {
                 "CommandList": [
@@ -1989,13 +1989,13 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "10da8d3f-073b-4c22-9838-7df56e301027"
+                    "BreakpointIdentity": "9b84e696-158f-4447-81a3-2faedb4f6d53"
                   }
                 ],
-                "ID": "e0a90682-313a-49d8-b618-80820a457f7c"
+                "ID": "889c4bca-1180-466b-a3c6-444eaf683a58"
               }
             ],
-            "BreakpointIdentity": "ccf16119-20bb-4331-aad7-3a3cdbceb034"
+            "BreakpointIdentity": "543f1f9a-4954-4d3c-8147-f9e587c2a857"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -2024,10 +2024,10 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "95d135d8-7edc-44b5-8e5b-f6e3872d77f5"
+                    "BreakpointIdentity": "5b532304-5ca4-4de2-afdc-299c0adf6518"
                   }
                 ],
-                "ID": "64a0130e-8c7c-45e5-ba24-2d4685bd56ed"
+                "ID": "033e96d7-e845-4bb7-bc5f-3f66a65107fd"
               },
               {
                 "CommandList": [
@@ -2037,7 +2037,7 @@
                     "Type": "success",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "bdb7200c-e2c7-4d4e-ba43-baf0c1eb2f38"
+                    "BreakpointIdentity": "0647e029-cbfe-4f95-bffa-a3ab40d47564"
                   },
                   {
                     "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
@@ -2053,19 +2053,19 @@
                         }
                       }
                     ],
-                    "BreakpointIdentity": "49ef736b-158e-47d8-ac43-034f1cdbe8b8"
+                    "BreakpointIdentity": "3b2ab0ef-af38-48fe-bec0-f18d9b00202e"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "PassValueBack": true,
                     "ReloadData": true,
-                    "BreakpointIdentity": "db2e8e5d-0ced-4f2a-9ddc-67af455f9101"
+                    "BreakpointIdentity": "55192b00-389c-4415-85e7-dc3e9414dc2f"
                   }
                 ],
-                "ID": "af806268-95cb-43d4-a044-f89725cb24b7"
+                "ID": "cc4a0cd1-9419-431a-97c0-6139ee64feaf"
               }
             ],
-            "BreakpointIdentity": "625fbbc4-2614-4308-b4fa-70019f8225f1"
+            "BreakpointIdentity": "fdc64b99-1852-4b6d-ab97-46f2d45c1972"
           }
         ],
         "Text": "保存并新建",
@@ -2218,10 +2218,10 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "3b536acf-7c2c-4da4-b7a7-954153f414aa"
+                    "BreakpointIdentity": "7fe42355-b4e3-41c8-9b60-9d55087a35bd"
                   }
                 ],
-                "ID": "f63c8f8e-e9fb-41c9-a8e7-3c5e34e7404e"
+                "ID": "15a4c9d0-10c6-4217-ae0e-628fa4f94a8f"
               },
               {
                 "CommandList": [
@@ -2341,13 +2341,13 @@
                     },
                     "RefreshAfterFinish": true,
                     "CheckDataValidation": true,
-                    "BreakpointIdentity": "c728a947-f1a1-4403-982d-a7dd74958578"
+                    "BreakpointIdentity": "58bbbf6a-f550-4578-9764-e29e108dcede"
                   }
                 ],
-                "ID": "e379e6dd-ee02-43a7-9765-ab625575e97d"
+                "ID": "7bde7ab3-4f2c-49b1-8fae-d29a9d7392e1"
               }
             ],
-            "BreakpointIdentity": "6269e843-865e-474c-93e6-4d9378ff0369"
+            "BreakpointIdentity": "5ec3888d-01db-4294-9924-a4fcc28d9df0"
           },
           {
             "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -2376,10 +2376,10 @@
                     "Type": "error",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "f161f4a3-2f06-48b4-a68d-afa3be995439"
+                    "BreakpointIdentity": "0be73c41-1d57-48c9-81b8-4f895cd072e6"
                   }
                 ],
-                "ID": "b7c84e2b-243f-4a5d-b55e-10da9a1ac073"
+                "ID": "a0d9f579-7b8d-4920-9fa0-e5dfde1adc00"
               },
               {
                 "CommandList": [
@@ -2389,18 +2389,18 @@
                     "Type": "success",
                     "Duration": 3000,
                     "Offset": null,
-                    "BreakpointIdentity": "73a26104-9f4e-4f17-8388-151ecc70efb6"
+                    "BreakpointIdentity": "2c88ff03-11b0-4e36-9362-bef5eb597086"
                   },
                   {
                     "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
                     "ReloadData": true,
-                    "BreakpointIdentity": "71a3723d-9025-4cb9-976c-ef544d17a421"
+                    "BreakpointIdentity": "970706f2-3eb6-4e2f-9fd8-ef15595e8c06"
                   }
                 ],
-                "ID": "e968fb85-60c5-4834-9483-1d8cf67ac6ec"
+                "ID": "598321a7-8284-4590-bde6-b91141fca557"
               }
             ],
-            "BreakpointIdentity": "9c3c0d3b-fcf2-4554-8171-1d572345dafb"
+            "BreakpointIdentity": "76333f55-c53f-4c94-99bd-37e01accc377"
           }
         ],
         "Text": "保存",
@@ -2433,7 +2433,7 @@
                     "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
                     "TableName": "客户表",
                     "ShowConfirm": false,
-                    "BreakpointIdentity": "53a3f331-19a8-4a24-a044-1ecf693915fe"
+                    "BreakpointIdentity": "9d8aa327-a2eb-4d74-a717-9aa9c347bc58"
                   },
                   {
                     "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2460,7 +2460,7 @@
                           }
                         },
                         "ID": "bcbb6b747ef9413b90cc747367779249",
-                        "BreakpointIdentity": "1e2838ee-9fff-4114-90b4-8ab81b7f293b"
+                        "BreakpointIdentity": "f77c9373-6ca5-4a54-9761-df15ab957837"
                       },
                       {
                         "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -2497,19 +2497,19 @@
                                     }
                                   }
                                 ],
-                                "BreakpointIdentity": "929f959e-4aa2-42be-99e4-4e4b23339c32"
+                                "BreakpointIdentity": "725e9e5d-1b7c-4ab9-bd32-5d800930ac1f"
                               }
                             ],
-                            "ID": "f8f826e0-35e5-42ca-8cc2-1a2f9c420e13"
+                            "ID": "a418f86c-4ca9-4cb0-83d2-a9e0b1bf61d9"
                           }
                         ],
-                        "BreakpointIdentity": "13e774f3-9666-4a7b-adbb-d07d3a74e2e2"
+                        "BreakpointIdentity": "2f2bbf6f-b848-42ad-bebd-49b040457bcd"
                       }
                     ],
-                    "BreakpointIdentity": "9c2103ba-da72-4fa9-94db-dc23eea12711"
+                    "BreakpointIdentity": "131b2e11-9aed-4a72-aecf-faff94b47eb7"
                   }
                 ],
-                "ID": "f8e62688-ef15-4ba4-b130-dbb8ce647aa6"
+                "ID": "0b470051-017d-4d4a-a360-1ea915892dc8"
               },
               {
                 "CommandList": [
@@ -2518,7 +2518,7 @@
                     "TableName": "客户表",
                     "UpdateType": "add",
                     "ShowConfirm": false,
-                    "BreakpointIdentity": "e5a7263c-ff08-47be-8f77-0ab88dbbb434"
+                    "BreakpointIdentity": "f1916ee4-ddd9-4620-a115-f22c9e64d7ad"
                   },
                   {
                     "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
@@ -2545,7 +2545,7 @@
                           }
                         },
                         "ID": "a5161c6ca54f42428eef3970164f89df",
-                        "BreakpointIdentity": "2b9ea4f3-919f-45d2-b164-4bffd079619a"
+                        "BreakpointIdentity": "9c33dabb-dc70-4722-a5c5-b2388975103a"
                       },
                       {
                         "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -2582,27 +2582,27 @@
                                     }
                                   }
                                 ],
-                                "BreakpointIdentity": "bf5411e0-69b0-49a9-9d1a-a6a56103817c"
+                                "BreakpointIdentity": "ead5072c-5787-4150-962e-c032d06b2c6c"
                               }
                             ],
-                            "ID": "32168fc9-c3c2-410a-95ac-2800f35d26c0"
+                            "ID": "07d82815-e02c-44c0-aebb-8c42d0c4f639"
                           }
                         ],
-                        "BreakpointIdentity": "2d37049b-475c-4960-9fe0-72846e528dd4"
+                        "BreakpointIdentity": "0a657ce9-e978-4baf-ad3a-71df39b77264"
                       }
                     ],
-                    "BreakpointIdentity": "0268a553-f869-470d-9462-484b7e8bd01d"
+                    "BreakpointIdentity": "39aafaee-849a-4f02-bcdd-47f181ac1042"
                   }
                 ],
-                "ID": "84c73556-62ec-4313-87d3-c0acb4bcf374"
+                "ID": "1fc4b3f4-194f-40b8-ba3d-8822629a8e91"
               }
             ],
-            "BreakpointIdentity": "817f4182-8510-488e-ad8f-6f7d52524215"
+            "BreakpointIdentity": "d9c9593c-8c6e-4d68-a7f1-31b770e86ba7"
           },
           {
             "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
             "ReloadData": true,
-            "BreakpointIdentity": "d5ab72fa-37db-4028-9283-652f40851772"
+            "BreakpointIdentity": "f600684a-7c15-46e5-bcb5-c03668ef8109"
           }
         ],
         "Text": "前端保存",
@@ -2614,128 +2614,213 @@
     "Styles": [
       {
         "FontSize": 21.333333333333332,
-        "FontWeight": 0
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 18.666666666666664,
         "Foreground": 3,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 21.333333333333332,
-        "Foreground": 3
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
-        "Foreground": 4
-      },
-      {
-        "FontFamily": 2,
-        "FontSize": 14.666666666666666,
-        "Foreground": 4
-      },
-      {
-        "FontFamily": 2
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
         "Foreground": 4,
-        "Formatter": 5
-      },
-      {
-        "FontSize": 14.666666666666666
-      },
-      {
-        "FontSize": 16.0
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "FontSize": 14.666666666666666
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.666666666666666,
+        "Foreground": 4,
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
-        "Foreground": 6
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 13.333333333333332,
-        "Foreground": 6
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
-        "Foreground": 7
+        "Foreground": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 16.0,
         "Foreground": 4,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "FontSize": 16.0
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "FontSize": 13.333333333333332
+        "FontSize": 13.333333333333332,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 18.666666666666664,
         "Formatter": 5,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 16.0,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 21.333333333333332,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
         "Foreground": 6,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "Formatter": 8
+        "Formatter": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 9
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
-        "HorizontalAlignment": 9
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
         "Foreground": 7,
-        "HorizontalAlignment": 9
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontSize": 13.333333333333332,
-        "Foreground": 6,
-        "BorderBottom": 0,
+        "HorizontalAlignment": 9,
+        "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
@@ -2743,7 +2828,11 @@
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -3458,7 +3547,7 @@
       "33,49": 12,
       "33,50": 12,
       "33,51": 12,
-      "34,0": 26,
+      "34,0": 1,
       "34,1": 18,
       "34,2": 1,
       "34,3": 1,
@@ -3475,42 +3564,42 @@
       "34,14": 1,
       "34,15": 1,
       "34,16": 1,
-      "34,17": 27,
-      "34,18": 27,
-      "34,19": 27,
-      "34,20": 27,
-      "34,21": 27,
-      "34,22": 27,
-      "34,23": 27,
+      "34,17": 21,
+      "34,18": 21,
+      "34,19": 21,
+      "34,20": 21,
+      "34,21": 21,
+      "34,22": 21,
+      "34,23": 21,
       "34,24": 21,
       "34,25": 21,
       "34,26": 21,
       "34,27": 21,
       "34,28": 21,
-      "34,29": 27,
-      "34,30": 27,
-      "34,31": 27,
-      "34,32": 27,
-      "34,33": 27,
-      "34,34": 26,
-      "34,35": 27,
-      "34,36": 27,
-      "34,37": 27,
-      "34,38": 27,
-      "34,39": 27,
-      "34,40": 27,
+      "34,29": 21,
+      "34,30": 21,
+      "34,31": 21,
+      "34,32": 21,
+      "34,33": 21,
+      "34,34": 1,
+      "34,35": 21,
+      "34,36": 21,
+      "34,37": 21,
+      "34,38": 21,
+      "34,39": 21,
+      "34,40": 21,
       "34,41": 21,
       "34,42": 21,
       "34,43": 21,
       "34,44": 21,
       "34,45": 21,
       "34,46": 21,
-      "34,47": 27,
-      "34,48": 27,
-      "34,49": 27,
-      "34,50": 27,
-      "34,51": 27,
-      "34,52": 26,
+      "34,47": 21,
+      "34,48": 21,
+      "34,49": 21,
+      "34,50": 21,
+      "34,51": 21,
+      "34,52": 1,
       "35,1": 20,
       "35,2": 20,
       "35,3": 20,
@@ -3590,29 +3679,34 @@
       "36,32": 15,
       "36,33": 15,
       "37,1": 9,
-      "39,35": 28,
+      "39,35": 26,
       "39,36": 7,
       "39,37": 7,
       "39,38": 7,
-      "39,40": 28,
+      "39,40": 26,
       "39,41": 7,
       "39,43": 7,
       "39,44": 7,
       "39,45": 7,
       "39,46": 7,
-      "39,48": 28,
-      "40,48": 28,
+      "39,48": 26,
+      "40,48": 26,
       "40,49": 7,
       "40,50": 7,
       "40,51": 7
     },
     "SheetStyle": {
       "FontFamily": 2,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
     "1,1,1,16",
+    "3,1,1,5",
     "5,1,1,16",
     "5,18,1,16",
     "5,35,1,17",
@@ -3633,6 +3727,7 @@
     "12,18,1,16",
     "12,34,1,4",
     "13,1,1,16",
+    "14,1,1,5",
     "16,1,1,16",
     "16,18,1,16",
     "16,35,1,17",
@@ -3642,31 +3737,29 @@
     "19,1,1,16",
     "20,1,1,51",
     "21,35,1,17",
-    "24,1,1,8",
-    "27,1,1,2",
-    "27,43,1,9",
-    "36,1,1,16",
-    "37,1,1,51",
-    "39,35,1,4",
-    "39,40,1,7",
-    "3,1,1,5",
     "22,1,1,7",
-    "28,1,5,51",
-    "34,1,1,6",
-    "14,1,1,5",
-    "27,3,1,8",
-    "27,11,1,8",
-    "27,19,1,10",
-    "27,29,1,13",
+    "24,1,1,8",
     "24,10,1,6",
-    "39,48,1,4",
-    "40,48,1,4",
     "26,1,1,2",
     "26,3,1,8",
     "26,11,1,8",
     "26,19,1,10",
     "26,29,1,13",
-    "26,43,1,9"
+    "26,43,1,9",
+    "27,1,1,2",
+    "27,3,1,8",
+    "27,11,1,8",
+    "27,19,1,10",
+    "27,29,1,13",
+    "27,43,1,9",
+    "28,1,5,51",
+    "34,1,1,6",
+    "36,1,1,16",
+    "37,1,1,51",
+    "39,35,1,4",
+    "39,40,1,7",
+    "39,48,1,4",
+    "40,48,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -3678,15 +3771,15 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
     },
     "RowBreakLines": [],
-    "RepeatRangeSettings": [],
-    "RelatedDataTableName": "潜客表"
+    "RepeatRangeSettings": []
   },
   "PrintInfo": {
     "PaperSize": {},
@@ -3694,7 +3787,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "d8a73ab1-ea5f-43fe-bee8-e16e0f6df72e.png",
+      "Name": "d65ac41e-2c16-40c5-a760-a30c1131ff7c",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 10.0,
@@ -3708,4 +3801,4 @@
       "Size": "840,1036"
     }
   ]
-}//6rAp40iRETuMALB8BUwr9eFMoXVVr4nz5LQP1xj0iWOZaryeJPuOSkWUmYCznQgZLH/DZMX+V/Ba4srd4Hg4EU9B6Bl6I6EdrBRLXqm2R+lVX5k+Dhcm7/rAwX/yxP/Dlj9jiG0jhkNjmZhmZ3AEgv/9KUAuMFXDuN6LUP3Wk0KIpzJo1/Da1hSpfViJH+bbTALB0hu8LKzYuJ6Aq2ZM0BxzgbC/XbRYHeo7Vy5Mk9cBVwlaR1UKK6vDeDcoFqNzVw0054oCbCGjQVY9M2yhDmv96Ik0H0j/c4k3rv00KUh8v/HBsOyNFvP9x9k2ntLqXN7mGyd1TRhYS54KWxijzKI8guviu/Ku4AdsFAgCvNIxC8YiDNsT+G3W2jhd2SEKRpJUfZTTnOFBAGMI+wqU8jpnUjhqFzrQ+isCWL5ybbjoqMjoR0sZSxwV5TLdtv6F8zMLm/WtSeTg66nzaZmxLXId7VBRDkdvwcCx0LZIqiFMW61ihi8Qgs0iwt0RS+yM+f6BW+F6Kolz1VKEYqsSOOz7TW4Q1E6C9tVi7/xHeXwogqLm0iCF9LdlW0A0OG3h/FpNZyJ5VH4eNOa1O0Hm1AoAT5TQQvd8g6KNF2v8MWSEwYYPXik52KkDp9okS3VFJWns4NYaLMOm/DTnmXNkBvYP+zGWPUsVuU1yjY4NLF52txbUXCc9DF71WgWHwH/RPKLeXFjtVYsKwv227oMDoxn5weVMe7UinkzSihdqx+o8xFU7OUS3WITnD7qJqCZmGDBUgajnIdcSNPprFrPxZzbWS9VTOc/UOoiQrh6mOKIMjv1wFCCXhKprlu2cXWKCSgYY7WaZBsRwcNvnpwcHMsYi8EZkgiSB8r6dAY72FH4vJbpHzQNK2qoHRNXBoZ3oMj6IW60zLXn9RNUwCoj5ng==|920
+}//sItRoHFOXZnL9UDa2o1LOQspukiz0dlxHjp0e7iDcb+tDoFWr22KxNZcDklXUv/mOiEvHtoG9VaPxFoCVzmO8C6mVZetv1WpFknhOmirHKKJfZtVj3LyTXuvc6wxyRNIA6ujaclMffXEfA6XPnNwtSw2PezLoTF9oa5dRmWN45/ewd2a2uVJqzZs6/B9F2OUEjTkK0axVED/biBtofcXW7dBa2ETFT8ssF04u+3iN0oFZpVtzENqpyZxdWlM0X1teB+P616zu7BNSMI/RC5voe2uPex64O+QGiWm5UgNjpk7Go2rNOo11v8AHXw/Wgg1+XtnRYzbmeeS1RQQEqFQQwaCfJz+nNXa3yNU/eY4Tgpms4lOOcGPHTrn8hecuUVE3gxOJ+fwa5DgpW08dGtvWyg4X5TQNzudhtW9N019lmQ8JkgaIVIvIX3q9a1fLiI0fUljV1DdICVWg9TlFMj38uc6vycAwD0VzeEiFqBMXVMONQ3kd5J3IrK+IQiAY7GcrJj6H/izO9MVxVXWGiObdwYfVv23ESsg9C2CLTzJpkMN8CREuhtkbRzcO9jsbtjw/2zZMGYW5oNWlY4vMZshAj8hqv3oPxtBt1MaDP7SSGptnJGp2EXZyeytc++J2ThrC0gAie5mLsEufTCuqK9TCfdVt8RpSlNjkXFh6YyzImYmoKm0gTxdE0PvoJBs3pqXaJyu794I+N1ugSKI1QyH35mT35/t2d0pWsfOY2C+tVuGvdoNHkiqwVDxzmRED6d1A33paDKaEC3Pbpgj6MtZ6WFqPxR38s59UXcxoWDZ+OF0njqj/PX9C8iZ+8v2PeE5fVTtWvU5joL6ixmwRhNVDRk/yftV/4DIeulbdwjjcwE6//ZY83ZRndF0QTS1nK0P4QWBnrPO6rnWG2Kje1KK3qwLDi161FFPCHiXxRLS0FtkFGopBjw45aomvv6R3deWk9aEnXZnRlYArnWEJE4JcP2XAInJgblFynQhktS0cvByF72XJRG+GH/jA2hl8zW4x4epAygStnLeRvJzxC1NMCsQurLXA4XPKzLLVCOKGd2+/MEfj4woVAogKMX1JtaZRBOB1wSQUAoXwWvyFQKMcnYORgXWbYA0M3l4Znm2ZQn+kz23DXZJyB6iSb+ZC0vo0SjYkjbGWmQxkHMrpT/qgmzgG1ElrPv+E7EDqawf/7OLsHeGR/ui74hSWRhPv2ppG79ki7XTWPClzzOugjYp3Iptu1bQOhDxHuUIACBdd2Bbvf4lzD1KeqaKrY3EfHW6rRoyCHDhA5g771uEyxDVuYqhzKKCpltV2Q7mTc5aAKMdGPcdqcrE/mCt0sGx7UvWQpKUAIyfp4fV8m3zDih+pARabskK5sJoFYg7qSFGdY9R7YTu14qXGpX1vzVovTZw4S4SZVx4MdK3yCmn6T52G2aUkllTIz7n5MMUgOBplvriC2wr60g10sfgv9GHbnhmkf92uZEei9e5gkuU6ApUR79XUWJXM6TuTjwmfVQ60IOmuj58kxjg+DTiMPLPbnpEhSe6ZW9f3JXXGkFfRIA7OvFYIAucXUOTw6gPCjJUuQqIqtPHdhm5QxWO54ijsjy5EN8yaucXbiGi8GM9Tj+hOGKoa3I8Nt1U51EvLf8uqRxVAVKI+UJGf81W9TIJ7n6iNBEq1q2N1rcvbBqc+SLWPqjJXqBQM4H1Y69yRutTbvuzLj5gTvjvXSlu+k8lwf20PqscoR0KzGsWjJGRHB4BsJLmmDLKATwLfLdbuyi7dQGOdoatMyhJaO2T7QpHFsaRHlDn7GgD8bEXH7HFMZiU86uU9LxEj40VXVr1XhN2eREtS4la662gp5xqYx7y/W+HzJgjgPjUJvQp54Et0U70/XuQmIgQZRtTyYT4FymnBDtKdEJQ8Dm0nhbBHK6FlpoRHf9jZLAfAsVEstT8E09JQQ==|1944

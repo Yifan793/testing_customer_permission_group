@@ -3,8 +3,8 @@
   "ColumnCount": 92,
   "RowCount": 31,
   "Formulas": {
-    "10,3": "CONCATENATE(\"已录入\",CN4,\"条记录。\")",
-    "3,91": "COUNTA(D14)"
+    "3,91": "COUNTA(D14)",
+    "10,3": "CONCATENATE(\"已录入\",CN4,\"条记录。\")"
   },
   "CustomNames": [
     {

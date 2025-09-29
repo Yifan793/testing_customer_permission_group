@@ -507,7 +507,7 @@
             "dataColumnName": "阶段",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
             ],
             "label": "阶段",
             "width": 100,
@@ -525,7 +525,7 @@
             "dataColumnName": "预期金额",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
             ],
             "label": "预期金额",
             "width": 100,
@@ -543,9 +543,10 @@
             "dataColumnName": "预期成交日期",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
             ],
             "label": "预期成交日期",
+            "formatStr": "yyyy/MM/dd",
             "width": 100,
             "colStyle": {
               "formatString": "yyyy/MM/dd",
@@ -562,7 +563,7 @@
             "dataColumnName": "可能性",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
             ],
             "label": "可能性",
             "width": 80,
@@ -580,9 +581,10 @@
             "dataColumnName": "修改时间",
             "allowRoles": [],
             "allowPermissionGroups": [
-              "e8cd8c16-7795-4e40-9235-454e164dda34"
+              "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
             ],
             "label": "修改时间",
+            "formatStr": "yyyy/MM/dd hh:mm:ss",
             "width": 164,
             "colStyle": {
               "formatString": "yyyy/MM/dd hh:mm:ss",
@@ -634,75 +636,141 @@
     "Styles": [
       {
         "FontSize": 21.333333333333332,
-        "FontWeight": 0
+        "FontWeight": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 18.666666666666664,
         "Foreground": 3,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 21.333333333333332,
-        "Foreground": 3
+        "Foreground": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 16.0,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
         "Foreground": 4,
-        "Formatter": 5
-      },
-      {
-        "FontFamily": 2
-      },
-      {
-        "FontSize": 14.666666666666666
-      },
-      {
-        "FontSize": 16.0
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "FontSize": 14.666666666666666
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 2,
+        "FontSize": 14.666666666666666,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 13.333333333333332,
-        "Foreground": 6
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
-        "Foreground": 4
+        "Foreground": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
-        "Formatter": 7
+        "Formatter": 7,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 14.666666666666666,
-        "Formatter": 8
+        "Formatter": 8,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
-        "FontSize": 16.0
+        "FontSize": 16.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 13.333333333333332,
-        "Foreground": 6
+        "Foreground": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
@@ -715,11 +783,10 @@
         "FontFamily": 2,
         "FontSize": 18.666666666666664,
         "Formatter": 5,
-        "BorderBottom": 0
-      },
-      {
-        "FontFamily": 2,
-        "BorderBottom": 0
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
@@ -732,33 +799,10 @@
       },
       {
         "FontFamily": 2,
-        "FontSize": 13.333333333333332,
-        "Foreground": 6,
-        "BorderBottom": 0
-      },
-      {
-        "FontFamily": 2,
-        "FontSize": 18.666666666666664,
-        "Formatter": 5
-      },
-      {
-        "FontFamily": 2,
-        "BorderBottom": null
-      },
-      {
-        "FontFamily": 2,
         "FontSize": 18.666666666666664,
         "Formatter": 5,
-        "BorderBottom": null
-      },
-      {
-        "FontFamily": 2,
-        "FontSize": 13.333333333333332,
-        "Foreground": 6,
-        "BorderBottom": null
-      },
-      {
-        "BorderBottom": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
@@ -766,28 +810,36 @@
         "FontSize": 13.333333333333332,
         "Foreground": 6,
         "BorderBottom": 0,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
-      },
-      {
-        "FontSize": 13.333333333333332,
-        "Foreground": 6,
-        "BorderBottom": 0
       },
       {
         "FontFamily": 2,
         "FontSize": 21.333333333333332,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontFamily": 2,
         "FontSize": 16.0,
         "Foreground": 4,
-        "Formatter": 5
+        "Formatter": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
         "FontSize": 14.666666666666666,
-        "WordWrap": true
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       }
     ],
     "Types": {
@@ -1011,47 +1063,47 @@
       "16,18": 16,
       "17,0": 17,
       "17,1": 18,
-      "17,2": 19,
-      "17,3": 19,
-      "17,4": 19,
-      "17,5": 19,
-      "17,6": 19,
-      "17,7": 19,
-      "17,8": 19,
-      "17,9": 19,
-      "17,10": 19,
-      "17,11": 19,
-      "17,12": 19,
-      "17,13": 19,
-      "17,14": 19,
-      "17,15": 19,
-      "17,16": 19,
-      "17,17": 20,
-      "17,18": 21,
-      "17,19": 21,
-      "17,20": 20,
-      "17,21": 20,
-      "17,22": 20,
-      "17,23": 20,
-      "17,24": 20,
+      "17,2": 17,
+      "17,3": 17,
+      "17,4": 17,
+      "17,5": 17,
+      "17,6": 17,
+      "17,7": 17,
+      "17,8": 17,
+      "17,9": 17,
+      "17,10": 17,
+      "17,11": 17,
+      "17,12": 17,
+      "17,13": 17,
+      "17,14": 17,
+      "17,15": 17,
+      "17,16": 17,
+      "17,17": 19,
+      "17,18": 19,
+      "17,19": 19,
+      "17,20": 19,
+      "17,21": 19,
+      "17,22": 19,
+      "17,23": 19,
+      "17,24": 19,
       "17,25": 17,
-      "17,26": 20,
-      "17,27": 20,
-      "17,28": 20,
-      "17,29": 20,
-      "17,30": 20,
-      "17,31": 20,
-      "17,32": 21,
-      "17,33": 21,
+      "17,26": 19,
+      "17,27": 19,
+      "17,28": 19,
+      "17,29": 19,
+      "17,30": 19,
+      "17,31": 19,
+      "17,32": 19,
+      "17,33": 19,
       "17,34": 17,
       "17,35": 7,
       "18,0": 7,
-      "18,1": 22,
-      "18,2": 22,
-      "18,3": 22,
-      "18,4": 22,
-      "18,5": 22,
-      "18,6": 22,
+      "18,1": 20,
+      "18,2": 20,
+      "18,3": 20,
+      "18,4": 20,
+      "18,5": 20,
+      "18,6": 20,
       "18,7": 7,
       "18,8": 7,
       "18,9": 7,
@@ -1087,46 +1139,46 @@
       "20,0": 7,
       "20,34": 7,
       "20,35": 7,
-      "21,0": 23,
-      "21,34": 23,
+      "21,0": 7,
+      "21,34": 7,
       "21,35": 7,
-      "22,0": 23,
-      "22,1": 24,
-      "22,2": 24,
-      "22,3": 24,
-      "22,4": 24,
-      "22,5": 24,
-      "22,6": 24,
-      "22,7": 23,
-      "22,8": 23,
-      "22,9": 23,
-      "22,10": 23,
-      "22,11": 23,
-      "22,12": 23,
-      "22,13": 23,
-      "22,14": 23,
-      "22,15": 23,
-      "22,16": 23,
-      "22,17": 25,
-      "22,18": 25,
-      "22,19": 25,
-      "22,20": 25,
-      "22,21": 25,
-      "22,22": 25,
-      "22,23": 25,
-      "22,24": 25,
-      "22,25": 23,
-      "22,26": 25,
-      "22,27": 25,
-      "22,28": 25,
-      "22,29": 25,
-      "22,30": 25,
-      "22,31": 25,
-      "22,32": 25,
-      "22,33": 25,
-      "22,34": 23,
+      "22,0": 7,
+      "22,1": 20,
+      "22,2": 20,
+      "22,3": 20,
+      "22,4": 20,
+      "22,5": 20,
+      "22,6": 20,
+      "22,7": 7,
+      "22,8": 7,
+      "22,9": 7,
+      "22,10": 7,
+      "22,11": 7,
+      "22,12": 7,
+      "22,13": 7,
+      "22,14": 7,
+      "22,15": 7,
+      "22,16": 7,
+      "22,17": 16,
+      "22,18": 16,
+      "22,19": 16,
+      "22,20": 16,
+      "22,21": 16,
+      "22,22": 16,
+      "22,23": 16,
+      "22,24": 16,
+      "22,25": 7,
+      "22,26": 16,
+      "22,27": 16,
+      "22,28": 16,
+      "22,29": 16,
+      "22,30": 16,
+      "22,31": 16,
+      "22,32": 16,
+      "22,33": 16,
+      "22,34": 7,
       "22,35": 7,
-      "23,0": 26,
+      "23,0": 1,
       "23,1": 18,
       "23,2": 1,
       "23,3": 1,
@@ -1143,40 +1195,40 @@
       "23,14": 1,
       "23,15": 1,
       "23,16": 1,
-      "23,17": 27,
-      "23,18": 28,
-      "23,19": 28,
-      "23,20": 27,
-      "23,21": 27,
-      "23,22": 27,
-      "23,23": 27,
-      "23,24": 27,
-      "23,25": 26,
-      "23,26": 27,
-      "23,27": 27,
-      "23,28": 27,
-      "23,29": 27,
-      "23,30": 27,
-      "23,31": 27,
-      "23,32": 28,
-      "23,33": 28,
-      "23,34": 26,
-      "24,1": 29,
-      "24,2": 29,
-      "24,3": 29,
-      "24,4": 29,
-      "24,5": 29,
-      "24,6": 29,
-      "24,7": 29,
-      "24,8": 29,
-      "24,9": 29,
-      "24,10": 29,
-      "24,11": 29,
-      "24,12": 29,
-      "24,13": 29,
-      "24,14": 29,
-      "24,15": 29,
-      "24,16": 29,
+      "23,17": 21,
+      "23,18": 21,
+      "23,19": 21,
+      "23,20": 21,
+      "23,21": 21,
+      "23,22": 21,
+      "23,23": 21,
+      "23,24": 21,
+      "23,25": 1,
+      "23,26": 21,
+      "23,27": 21,
+      "23,28": 21,
+      "23,29": 21,
+      "23,30": 21,
+      "23,31": 21,
+      "23,32": 21,
+      "23,33": 21,
+      "23,34": 1,
+      "24,1": 22,
+      "24,2": 22,
+      "24,3": 22,
+      "24,4": 22,
+      "24,5": 22,
+      "24,6": 22,
+      "24,7": 22,
+      "24,8": 22,
+      "24,9": 22,
+      "24,10": 22,
+      "24,11": 22,
+      "24,12": 22,
+      "24,13": 22,
+      "24,14": 22,
+      "24,15": 22,
+      "24,16": 22,
       "24,17": 11,
       "24,18": 11,
       "24,19": 11,
@@ -1204,54 +1256,55 @@
       "25,13": 7,
       "25,14": 7,
       "25,16": 7,
-      "25,17": 30,
-      "25,18": 30,
-      "25,19": 30,
-      "25,20": 30,
-      "25,21": 30,
-      "25,22": 30,
-      "25,23": 30,
-      "25,24": 30,
-      "26,1": 31
+      "25,17": 23,
+      "25,18": 23,
+      "25,19": 23,
+      "25,20": 23,
+      "25,21": 23,
+      "25,22": 23,
+      "25,23": 23,
+      "25,24": 23,
+      "26,1": 24
     },
     "SheetStyle": {
       "FontFamily": 2,
-      "FontSize": -999.0
+      "FontSize": -999.0,
+      "BorderBottom": null,
+      "BorderTop": null,
+      "BorderLeft": null,
+      "BorderRight": null
     }
   },
   "Spans": [
-    "5,1,1,16",
-    "7,1,1,16",
-    "25,1,1,16",
-    "14,1,1,16",
-    "3,17,1,1",
-    "23,17,1,1",
-    "8,1,1,16",
-    "8,18,1,16",
-    "5,18,1,16",
-    "14,18,1,16",
-    "11,1,1,16",
-    "11,18,1,16",
-    "13,1,1,16",
-    "13,18,1,16",
-    "10,18,1,14",
-    "7,18,1,16",
-    "16,18,1,16",
     "1,1,1,16",
     "3,1,1,6",
-    "23,1,1,6",
+    "5,1,1,16",
+    "5,18,1,16",
     "6,1,1,16",
+    "6,18,1,16",
+    "7,1,1,16",
+    "7,18,1,16",
+    "8,1,1,16",
+    "8,18,1,16",
     "9,1,1,16",
     "9,18,1,16",
+    "10,18,1,14",
+    "11,1,1,16",
+    "11,18,1,16",
     "12,1,1,16",
     "12,18,1,16",
+    "13,1,1,16",
+    "13,18,1,16",
+    "14,1,1,16",
+    "14,18,1,16",
     "15,1,1,16",
     "15,18,1,16",
-    "26,1,1,33",
-    "17,17,1,1",
+    "16,18,1,16",
     "17,1,1,6",
     "19,1,3,33",
-    "6,18,1,16"
+    "23,1,1,6",
+    "25,1,1,16",
+    "26,1,1,33"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
@@ -1263,15 +1316,15 @@
       "permissionBindings": [
         {
           "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "roleNames": [],
           "permissionGroups": [
-            "e8cd8c16-7795-4e40-9235-454e164dda34"
+            "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
           ]
         }
       ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": [],
-    "RelatedDataTableName": "潜客表",
     "ConditionFormatRulesCollection": {
       "Rules": [
         {
@@ -1310,7 +1363,7 @@
   },
   "BackgroundPictures": [
     {
-      "Name": "d8a73ab1-ea5f-43fe-bee8-e16e0f6df72e.png",
+      "Name": "3973bf0f-5427-495a-a320-471cc96e838b",
       "DisplayName": "背景图1",
       "StyleInfo": {
         "CornerRadius": 10.0,
@@ -1325,4 +1378,4 @@
       "Size": "568,808"
     }
   ]
-}//IGTz7UaVyLdOHGMGHX/KBi/V35a0r1NDx43byDN6/4iWbZ+z7sdkbsc69F8HlMf+kHCZMnKuSqw9E1tszseu8s+xxG3OjO/tK0cHrJH+zON+vPqyjXZogB09/QRb+3J6f/RAHypSmZ/dYQFvPt9dVCnGyRV+F9p2WPAtBAEeEfBVahGm30QsWGfY9rwEkFPvQ/2Wfpid3WWSvVczRcuJuEY6QozJE3P35Tt5Tpfy5nGWyxQa4A8Bz2CuibwiDVr4yINelo/6PpXNIg+VlKOzRbfj1Cxdg90BnfYU0LoVfN8OadhWY7OzCVeinpb3M7RnIdT60MIINwYzA0hVvrufs1gJH+GluF9sC5R+kCPGQriH2RqyahJ2LRDjiE5kbXwl2ymfvL5vGwjpp/AA25tvDhMmao680DK4VR/EOBNbt7W1TSJ2both5qq88pK9TRJwMeOi7T9+FK2z1ptzv4ltLtIEHEUqmbItwoy6XYBt7RTU8e9w5+jujGq4Q5qQgS8tHe60WUR5FGmJO2xaGHJa7kNZo1rXlFqqI/bBXC4ggZIRFDqbTndaIo23BhjC/ovD96Mac/5rr/F8A7LS7yV3cjhX3xNoxuBBA9Wnc/8A6M/Hq4wgvXIaJz0TYBYdakpc8UTJqxSZube5lFHw1MYdZ37w31Pk1pxadARWdnFP29jaXdbV724OYRPmJoyhpotvYAN1Fp5oYxdckuovEE0bUema2N4WzIQsnNvp+XAPKVybuB6aL6oXILE85GQq0SgepiVZ73IQhswhciTuLqvNsyTDA37gZfN+HAhwF5rzTjAXCVOmVDQ+yPwiNT0HbzN1Zm//W/TCJDnV+lEc+7UKamuZdYrJbA2xJby5hWeJqH+cUg7YFoDF7ICAJYt9b0NgPKyzZQf1z4+0qyrz5SLvMA==|920
+}//DAj+taqug7qaNbGVHFSlHpwckUaKUkG22qpehY9vja4r8byANm/sPRUmP2jkH35dTU1ekyw6U9SqyAoLO/RZJOnMhvH0NqFWMAfG82V8vVnnpSSkAafn/+ciBzgnp7/lducUqWvLHJlLKIUzQptjD8eDaftK90BTH2n4MXqQyKfNPqb8Yvl5ExCMf/lUBspsvKFRTPTg7IAs6rMisOHBMW6DmsPmrBwL2IT7uvqUKRzOT/S7+iQFExqiUOhAxzSBI/9b+1kkXymjKNvAOlT/z/+YKuLXWjE3eDbLcLjQJ4zMmIdCncjI1PQAIHkds97o+t6sx8MQAmEzXf3tmBn78pBtl7D9W7RWQyZg/W5anG6kkEj5eVzZ5pZFWDzxPA71SXTQ29yzteoI9Ko3YutVTqIjb8r+2CJ2HTtMwzxhxXJ6LGtxhukKcpMTPL/8+8eUqecUqdq+8Zdnq9QYlvf0WdilHXXMGu30dU0MPtKQ+iQHLlk5FbLqSLCX4oDB0l9NSBA81wCztKXvR8l4JBxVELnEIVp9nn2Ka67VUNC6vjFa4b/VQYtFSss1yDHobaw2TNFiR+xGnQ7vobrO/7vIS1LxU+7ngPdMJhOdbQFehYvuUR9lQjDYxVNtP3UZlW6DP8R+s4SZHXe7fTXzWaliqkMY1nT73jb8tReLV3fTLwzsUxbYcipIuT1K0CacIveBvp2dtHTS2rCNjc34ClgA+Y5O1eWNMw+bbolpHu5hOUrwE5UZzfBaUVekUfgFX8MloeophdkP7LMvClj5QgAILvG5UDRxRtCZbB0FggNp849BGAyOseT/B3I+A126M9Z+MTZSyvZY2uk71YHoLa5/c/rxiQLRmLhIPi2J5j/1Tv6/KlVSa6Wtr8hQ0AQn181dFi2/5nJBEB3WeGiyVSC22dpfMUUwYVxnJmbu3kQJ3xO4EHpaS5tFE6lYFWkOnBvEwpwHQ0d1fDBjAcrUGFAi7gZNcBdZyjPzgJKjLoeoBpQIqkLrQ2wmYBZlN+io4Z50mYI/CIjWwDgNc+ixNt5Bqihlf5CVr7oDBF/y5k5tnUA5vN7bq83kMOTH2/i7VW4KXYGDSD2e+6sTQ1MCttZoo4ykIzP7kh00R2hyWIslpYv2NgTXHoL+XH4nqz4Il27MxHTP4FLXH1onS+DatcjrdYTZ5ZlPfncFprWpCOe5vB+ZqBxUOZNfdsU9745pIkck8mxsCI0RWv2ALPKO7CKePxXr9pnIZgNjnMz11AJ/HYJsxketq708rqEv/TvKBSOqHPNtENIz13qTSzvCcHOpwPHrzrlcd/i6X1cIyEA0pgOFrbVFi8U/me4X/GDwmzFPkEJabyQDa0YM2rmFmIzBoZW43eHDgWBon4YsuuXXiYs0NfXiIIAC6pNt5g5VqPgvy3IAEgk64d6u+JJmE0ULefLAyh57Y+nMnBCew6MgJ2TS3z1PnuCd5aBRCsnKTgjf7S7xytAePMwB2Zk2M6RuKBRx8xgcHqpYFUjhb2dIOKsjy8k5ywJflbrmHrKVOUlVtUfXfoMGIxnKXGe/OYeM+GoW56NJOo4OWijGAziUtIWZh5xUOH5L/QuW+PtCqzAauYK+6NIyHke//cc18SsgW8ju11GfPf4Mx2mMraYxnwjfe/WJKzYv+t/YtcJdEv3pEmky4ICt7tH+QdWtyG6YrJwSpDq93r+AWU3BD4bi2HMa65cDbo8VPUeM4VGJXz79hOCkqQWxrS3XqeaxYQAwTCgbvol69tpMIFFoM7T7LQHtfpjHYJrgK9/CqxccbnLgNvtlzjDrlSZQjgHHBX91KuG7MNzOdACXbLcOO0vlsNeU8uWaCbLfBkWPnxFSAQJp+Y27SvuMF5kIU+wvrkrFfdkbAZL/70vLcnHTE7f7Tb8UiArmZ3gAEitRQB9UIeq7I1uBMQHXq2WgESYeWe8EBQ==|1944

@@ -1,20 +1,15 @@
 {
   "IntegrateWithOtherApplication": {
-    "Password": "IlQTZB~zAacj"
+    "Password": "(#fGW7X*mTQV"
   },
   "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
+  "ServerPropertySecurityID": "28315e7f-028f-448b-aab2-e994dbdd3d1e",
   "GlobalProperties": [],
-  "WebSitePort": 46992,
-  "UserServicePort": 33934,
-  "ExecConcurrentScheduledTasks": false,
+  "WebSitePort": 16906,
+  "UserServicePort": 31528,
   "StartDateFiscalYear": 1,
   "BaseOnStartingMonth": true,
-  "KeepMasterPage": false,
-  "UseInputManModernStyle": false,
-  "PageBindingTablesIncludeDataSource": false,
-  "NameConflictPolicy": 1,
-  "PageLoadingMode": 2,
   "MultipleLanguageSettings": {
     "Languages": [
       {

@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -115,7 +119,7 @@
                   }
                 ]
               },
-              "BreakpointIdentity": "10cf3f52-2d40-4e31-95ec-4c13d9876857"
+              "BreakpointIdentity": "a8b0e538-93d4-4c6b-8615-9da0e51a5184"
             },
             {
               "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
@@ -150,11 +154,11 @@
                   }
                 ]
               },
-              "BreakpointIdentity": "05975e82-29fb-4b8f-b76f-3c4a37671dc9"
+              "BreakpointIdentity": "4a3206fe-931f-48e6-b59c-9e4c1f66cb0b"
             }
           ]
         },
-        "BreakpointIdentity": "4e2e38d6-7ae1-4d20-93e2-cab67757ee8e"
+        "BreakpointIdentity": "1de280c0-c0c9-48b7-9edf-54cea99fd92e"
       }
     ]
   }

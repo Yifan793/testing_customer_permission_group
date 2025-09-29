@@ -19,10 +19,14 @@
               "$values": [
                 {
                   "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "roleNames": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": []
+                  },
                   "permissionGroups": {
                     "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
                     "$values": [
-                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                      "7cc7ba95-af77-448d-9a3a-7a8a302e18e9"
                     ]
                   }
                 }
@@ -75,7 +79,7 @@
                 }
               },
               "ID": "6d6fe526c26f436cacd39c491e275e3a",
-              "BreakpointIdentity": "0beddbcc-98ed-4f7b-854f-123a813c0fd3"
+              "BreakpointIdentity": "feff8d89-4a67-4c6c-9a8b-1b05b29dabfc"
             },
             {
               "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
@@ -103,11 +107,11 @@
                           "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
                           "ErrorCode": "-1",
                           "Message": "该联系人已被商机使用，不能删除",
-                          "BreakpointIdentity": "f2fb582d-50de-47c4-b0fa-5858eedcf20a"
+                          "BreakpointIdentity": "06a1579b-6a2a-4dfa-84f2-424267733b42"
                         }
                       ]
                     },
-                    "ID": "e9508665-8966-43cb-96d0-4304a43ad786"
+                    "ID": "72bfd10a-7802-41a6-adc3-dc28afb52054"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -134,19 +138,19 @@
                               "SerializeProperty": "=联系人ID"
                             }
                           },
-                          "BreakpointIdentity": "dbb43109-d198-4ba3-b833-6949092ef6b9"
+                          "BreakpointIdentity": "6f525e6c-d269-4448-a5f3-a1e4e3769739"
                         }
                       ]
                     },
-                    "ID": "c076f076-2a56-4999-b6d5-96a72d3fdd30"
+                    "ID": "25f05c81-4b8e-4b2a-9b58-d616246f3e5d"
                   }
                 ]
               },
-              "BreakpointIdentity": "88d48084-a863-4407-92df-787ed201cea9"
+              "BreakpointIdentity": "5dd32df9-0232-4b18-8178-3e415493c36d"
             }
           ]
         },
-        "BreakpointIdentity": "5b31ac39-342f-4dcb-aedb-0d5edc9ac59a"
+        "BreakpointIdentity": "9d21b0b8-c670-4ccb-9183-e4395bc1ae31"
       }
     ]
   }
