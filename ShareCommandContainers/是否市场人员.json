@@ -1,0 +1,50 @@
+{
+  "ID": "c7ce3d97-2191-4b6e-9185-1daee73dd8e1",
+  "Name": "是否市场人员",
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "市场人员",
+      "ParameterValue": "市场人员",
+      "ID": "52ca1269feeb4fbcac197bc020664a80",
+      "BreakpointIdentity": "c33555a6-33b5-4677-94e4-fb9a8f999295"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=市场人员"
+                }
+              ]
+            },
+            "value": "%CurrentUser.Role%",
+            "compareType": 12
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=是否市场人员"
+                  },
+                  "Value": "1"
+                }
+              ],
+              "BreakpointIdentity": "5ddcd4aa-ecba-4d53-8d82-67a3f6a01fd5"
+            }
+          ],
+          "ID": "a7f6ecb8-8e2e-4348-b524-3ebf2869c548"
+        }
+      ],
+      "BreakpointIdentity": "745c35d5-d206-4ef0-88de-7f5ad5304a22"
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "Forguncy.CustomMenu.ForguncyMenuCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "无填充横向菜单",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "LEVEL0": {
+          "NormalStyle": {
+            "FontColor": "Background 1 0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "SelectedStyle": {
+            "Background": "#FF60687A"
+          }
+        },
+        "LEVEL1": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "LEVEL2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        },
+        "LEVEL3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    }
+  ],
+  "Forguncy.ButtonCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "白底无边框",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "#FF018CFA",
+            "Background": "Background 1 0",
+            "BorderString": "",
+            "InsideHorizontalBorderString": "",
+            "InsideVerticalBorderString": "",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "DisableStyle": {
+            "FontColor": "#EEEEEE",
+            "Background": "#AAAAAA",
+            "BorderString": "1px solid #AAAAAA"
+          },
+          "Transition": "0.15s"
+        }
+      }
+    }
+  ],
+  "Forguncy.ImageCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "小图标",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "CONTAINER": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px",
+            "PaddingLeft": 4,
+            "PaddingRight": 4,
+            "PaddingTop": 4,
+            "PaddingBottom": 4
+          }
+        }
+      }
+    }
+  ],
+  "Forguncy.TextCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "样式1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "#394047",
+            "Background": "rgba(255,255,255,0.6)",
+            "BorderString": "1px solid #ced4da",
+            "BorderRadiusString": "3px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid rgb(77,184,255)"
+          },
+          "DisableStyle": {
+            "Opacity": 0.5
+          },
+          "Transition": "0.15s"
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "FontColor": "#394047",
+            "Background": "rgba(255,255,255,0.6)",
+            "BorderString": "1px solid #ced4da",
+            "BorderRadiusString": "3px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid rgb(77,184,255)"
+          },
+          "Transition": "0.15s"
+        }
+      }
+    },
+    {
+      "Key": "样式2",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "Background 1 -50",
+            "BorderString": "1px solid Text_1_70",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1",
+            "BoxShadowString": "0px 0px 4px 0px Accent_1"
+          },
+          "DisableStyle": {
+            "Opacity": 0.5
+          }
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "FontColor": "Background 1 -50",
+            "BorderString": "1px solid Text_1_70",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1",
+            "BoxShadowString": "0px 0px 4px 0px Accent_1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "样式3",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Background 1 0 50",
+            "BorderString": "1px solid Background_1_-30",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1",
+            "BoxShadowString": "0px 0px 4px 0px Accent_1"
+          },
+          "DisableStyle": {
+            "Opacity": 0.5
+          }
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "FontColor": "Background 1",
+            "Background": "Background 1 0 50",
+            "BorderString": "1px solid Background_1_-30",
+            "BorderRadiusString": "4px 4px 4px 4px"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1",
+            "BoxShadowString": "0px 0px 4px 0px Accent_1"
+          }
+        }
+      }
+    },
+    {
+      "Key": "样式4",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "#FF394047",
+            "Background": "#FFFFFFFF",
+            "BorderTopString": "",
+            "BorderRightString": "",
+            "BorderBottomString": "1px solid #FFCED4DA",
+            "BorderLeftString": "",
+            "InsideHorizontalBorderString": "",
+            "InsideVerticalBorderString": "",
+            "BorderRadiusString": "0px 0px 0px 0px",
+            "BoxShadowString": "0px 0px 0px 0px #999999"
+          },
+          "HoverStyle": {
+            "BorderBottomString": "1px solid Accent_1_0"
+          },
+          "FocusStyle": {
+            "BorderBottomString": "1px solid Accent_1_0"
+          },
+          "ActiveStyle": {
+            "BorderBottomString": "1px solid Accent_1_0"
+          },
+          "DisableStyle": {
+            "FontColor": "Background 1 -25",
+            "BorderBottomString": "1px solid Background_1_-15",
+            "Opacity": 0.5
+          },
+          "Transition": "0.15s"
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "FontColor": "#FF394047",
+            "Background": "#FFFFFFFF",
+            "BorderTopString": "",
+            "BorderRightString": "",
+            "BorderBottomString": "1px solid #FFCED4DA",
+            "BorderLeftString": "",
+            "InsideHorizontalBorderString": "",
+            "InsideVerticalBorderString": "",
+            "BorderRadiusString": "0px 0px 0px 0px",
+            "BoxShadowString": "0px 0px 0px 0px #999999"
+          },
+          "HoverStyle": {
+            "BorderBottomString": "1px solid Accent_1_0"
+          },
+          "FocusStyle": {
+            "BorderBottomString": "1px solid Accent_1_0"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 2
+    },
+    {
+      "Key": "样式5",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "#394047",
+            "Background": "#FFFFFFFF",
+            "BorderString": "1px solid #ced4da",
+            "BorderRadiusString": "3px 3px 3px 3px"
+          },
+          "HoverStyle": {
+            "BorderString": "1px solid Accent_1_0"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1_0"
+          },
+          "ActiveStyle": {
+            "BorderString": "1px solid Accent_1_0"
+          },
+          "DisableStyle": {
+            "FontColor": "Background 1 -25",
+            "BorderString": "1px solid Background_1_-15",
+            "Opacity": 0.5
+          },
+          "Transition": "0.15s"
+        },
+        "FGC_BUILDIN_ERROR": {
+          "NormalStyle": {
+            "FontColor": "#394047",
+            "Background": "#FFFFFFFF",
+            "BorderString": "1px solid #ced4da",
+            "BorderRadiusString": "3px 3px 3px 3px"
+          },
+          "HoverStyle": {
+            "BorderString": "1px solid Accent_1_0"
+          },
+          "FocusStyle": {
+            "BorderString": "1px solid Accent_1_0"
+          },
+          "Transition": "0.15s"
+        }
+      },
+      "StyleTemplateFashionScope": 2
+    }
+  ]
+}

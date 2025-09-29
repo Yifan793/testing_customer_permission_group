@@ -1,0 +1,66 @@
+{
+  "Rows": {
+    "Count": 38
+  },
+  "Cols": {
+    "Count": 55
+  },
+  "Values": {
+    "30,4": "这是活字格的内建页面，为了和你的应用程序匹配，你可以修改这个页面"
+  },
+  "AttachInfos": {
+    "4,4": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 12.0,
+        "Foreground": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Text 1 50",
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "30,4": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 2,
+      "FontSize": -999.0,
+      "Underline": false,
+      "Strikethrough": false
+    }
+  },
+  "Spans": [
+    "4,4,26,47",
+    "30,4,2,47"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [],
+    "IsBuiltInPage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "9d382752-f3ea-48a3-bb53-d6d47ed4c55a.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "Accent 1 0"
+      },
+      "IsAutomaticFill": false,
+      "Location": "80,0",
+      "Size": "940,60"
+    }
+  ]
+}//a8FmZPh9Q00h31nsBbR1UpLFYd7uKljpBS0GaE4JCJ/n6Gc9xeuBb60FqSwqEfSxOC4x85bEi2MAkMboOjmzM8JjuNv+N+PI5DUaEhsOwhmrT4W/KL1lo6QNCkRxp7yrRBPESf09COb8dImHh7NPYuVgIGElXwDLZPHha9WndZ8nFdBnJgzibBkgez3Unuj6Eo2q5zrKz2aco7rFQ6btzdbNEnWo2z22dQtkT0Hzqyrkf0y5o4djQkX43cfFnDdt9zGWpDPSElZ2XmeJ+1ZtQdOTBjMjs7uKjGtxbaXdYUEnn3yofEUzN2EoOulJlt80PLGC509mTzUs4q3A/j9rrsHLKi+YURBx8qOwIh51Lm3rYtJRruQO85YMb54+gsb9LDFjAdpz1h4R0ZW32VdktOAm9H8RrTP2d5828eRz4TXEo/TtXWhYddTRqskR0TkfeXsdto3S4R9wUSyDCbABNhHqDHMBr5SAi5dN9L5We+iH6OiWYCN/D+ldSbrySdXBBwriE15sX01wY+fRmI966RW6RNeJhgT/M6p7QyRVnxOkAIF/w+c94ORPjNXqpg3VYC8BBalNkZSC7KEV21k+Fdo7qH8gr5iuHWY1PD/MBJ17Gwlp3ZFSoj821gbczpmTfNnzE8iTcSJcLCUDy6ZDZWHDhX8bn+jK3VP2wiIoWnFAvIUsv6NaH4UP/vdoP8naxqtrcHgx8MZ99dSsD+aDuJgtnYU3qNwV4BjdLPDzTZuVygEWekixSmObcTf3vw69nnBNrZBsbNzx+usbGZbsOpn8vZVF+UEt+k7cuff6JNjhhhicCfIy44buZQ86qcmiKbtfz5orncyUSfqCXy7ZJhG6KqhUP33cIyC1KL8aqm6e2WctW09eXO5ZiCtvSG9arfQ1qmai3LRhYhKi3Ty0Cw==|920

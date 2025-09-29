@@ -1,0 +1,271 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 5,
+    "DefaultSize": 16.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 177.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 197.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      6
+    ],
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "3,2": "取消",
+    "3,4": "确定"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1
+          },
+          {
+            "Scope": 4
+          }
+        ],
+        "type": "text",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "ErrorMessage": "原因不能为空",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=取消资格!B3"
+        }
+      }
+    },
+    "1,6": {
+      "BindingInfo": {
+        "TableName": "潜客表",
+        "ColumnName": "ID",
+        "GUID": "171817b6-f495-4cb6-841a-6322ca58a9c2"
+      }
+    },
+    "3,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "14abc62a-8f71-4f0b-84b6-3e269eaaf613"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "3,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "取消资格",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "潜客ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=取消资格!G2"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "取消原因",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=取消资格!B2"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "ad1cfd0a-5fb1-4ff8-8c09-0048aac1a03a"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=取消资格!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=取消资格!返回信息"
+                    },
+                    "Type": "error",
+                    "Duration": 3000,
+                    "Offset": null,
+                    "BreakpointIdentity": "a81863ff-846e-4232-889b-59eb88e693e4"
+                  }
+                ],
+                "ID": "edf76945-adb9-4b46-a1f6-f5fa46695ff4"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true,
+                    "BreakpointIdentity": "2cebc46b-84c0-4b2b-bc58-4c19476e6258"
+                  }
+                ],
+                "ID": "106e8073-dbb3-4489-8ec1-0278a7564a08"
+              }
+            ],
+            "BreakpointIdentity": "e230a727-f689-432f-8748-94f7d4be7f26"
+          }
+        ],
+        "Text": "确定",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 14.666666666666666
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "#FFFF0000"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,6": 1,
+      "2,1": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "1,1,1,4",
+    "2,1,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "请输入取消资格原因",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "permissionGroups": [
+            "e8cd8c16-7795-4e40-9235-454e164dda34"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//Om6E33QmRQDCA0k4h0ThUtcdFLWPZI0BS8xPUoya5xt6o/+E8VI1uuF42EIZ6zxM2MYvwkX0grY4KhzWFX95kHCOthSk30V1FrGphX0XWRqDH4Cll5aRd7TUD/iJD7/jAFvAolKoXHHrOn/gChqdjQb7vDtYOGKSq1skBWWuw/a/ZSJgfwqIpDsFBQ/wYWOd/+Cse+BS7aSrniOkovFcODqpvWqFtPqVp6TEC5Pxd0fqN+M+uZmYi+BWlvQeMWmhDY+4nXS5RcDj+pbMi0K4p0ARBE/b/0XKO8ORF47JYZLQV32gZYFi6fuFJcXILhURnboJ/OKNrETd76LRKIb08gglznR2bXTYYvf/C8WuHy1dJTPE6UunRzX0AYTZAdadJ2SbxEaC5ERZR88Tx1P4Jvvcc8kJciFyMZsL/mD5WCz95ldO4nFAxyqLpUoMZCYtoJ86ZXXUjNLqQjaeS48KMaaczOZKBSPiXJBFZTG+9kgA1TVFSozXho1psuPPN4xIZhxB9QwKkPnNohR5c5xiv61Tz4IwFC0gWZ+s0ObiDgfMb5PYiZ6Oi0hoVRqiWgr07XzTRREBrkHS8dMWZv65pIymUDeS5eIcokL2ZZ3fRoAVJ8UvutkGFnZSxZeiHvK9aMhzQzYvAL6RZ5WxiKSBIJA+D/03nS6oIPuDHW/VvLugXs9jXSUU2td7Oisa4O2+eZ6PfN+NaY1fUA7F8xH+dFiRr/fOP9ajJGnXXggXvTo+MV+WxNOapxqSG3tuEcJynpepmCyocTYfyMyeZbM6vwESXZy/P1SBHhyR3yfsQ3DJbJaz0S0l58sVihqWtHAQa184mdx6AyGaAxX2KkwlsCjogb1bRtOjoxq7LN70Acp+gJ2JZEv0uJCLyHaYJHqRwYVXmKbpNtbpU16NYAOS5g==|920

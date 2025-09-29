@@ -1,0 +1,83 @@
+{
+  "Name": "计划任务_潜客1",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.SaveLoad.EndDBInsertTriggerSaveData, ServerDesignerCommon",
+      "DataParamName": "变更数据",
+      "TableNameParamName": "数据表名",
+      "PrimaryKeyParamName": "主键",
+      "OperatorParamName": "操作人",
+      "OperationTimeParamName": "操作时间",
+      "SelectTables": [
+        "潜客表"
+      ]
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+      "TableName": "潜客计划任务操作表",
+      "UpdateType": "add",
+      "ShowConfirm": false,
+      "UpdateBindingValues": [
+        {
+          "BindingInfo": {
+            "TableName": "潜客计划任务操作表",
+            "ColumnName": "主键",
+            "GUID": "04349b28-9111-46f8-94fb-8b2107b6e402"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=主键"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "潜客计划任务操作表",
+            "ColumnName": "表名",
+            "GUID": "a0ef6d1f-f711-481c-a57a-3ba8da396042"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=数据表名"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "潜客计划任务操作表",
+            "ColumnName": "变更数据",
+            "GUID": "3496e774-df50-4186-a103-7598bcb42411"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=变更数据"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "潜客计划任务操作表",
+            "ColumnName": "操作人",
+            "GUID": "ef413242-ac22-4f37-b142-6da828d9026a"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=操作人"
+          }
+        },
+        {
+          "BindingInfo": {
+            "TableName": "潜客计划任务操作表",
+            "ColumnName": "操作时间",
+            "GUID": "3e338bdb-c6a7-4184-973b-570599caa443"
+          },
+          "Value": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=操作时间"
+          }
+        }
+      ],
+      "BreakpointIdentity": "a678f56d-57c3-4d1f-8a1a-80fcdc0f7db7"
+    }
+  ]
+}

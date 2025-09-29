@@ -1,0 +1,135 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      34
+    ],
+    "Count": 35
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 59
+  },
+  "Values": {
+    "34,1": "修改"
+  },
+  "AttachInfos": {
+    "0,1": {
+      "BindingInfo": {
+        "TableName": "帮助手册",
+        "ColumnName": "内容",
+        "GUID": "934adb61-9d5d-44ab-b505-aef2f9b8cb9d"
+      },
+      "CellType": {
+        "$type": "HtmlRichEditor.HtmlRichEditor, HtmlRichEditor",
+        "ShowToolBars": false,
+        "ReadOnly": true
+      }
+    },
+    "34,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+            "TableName": "帮助手册",
+            "ShowConfirm": false,
+            "BreakpointIdentity": "039c299d-22fc-4c30-a3b7-6b8853b5963a"
+          }
+        ],
+        "Text": "修改",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Types": {
+      "Strs": [
+        "Body"
+      ]
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "34,1,1,5",
+    "0,1,34,58"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "PC母版页",
+    "PageLoadedCommandList": [
+      {
+        "$type": "SetCurrentRowCommand.SetCurrentRowCommand, SetCurrentRowCommand",
+        "CurrentRowInfo": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "ColumnBindingInfo": {
+            "TableName": "帮助手册",
+            "ColumnName": "ID",
+            "GUID": "eeb0826d-7820-4c47-b06d-ef1ac84c844c"
+          },
+          "Value": "1"
+        },
+        "BreakpointIdentity": "36c20530-d2a5-490f-a0b3-caef2d437ae5"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "permissionGroups": [
+            "e8cd8c16-7795-4e40-9235-454e164dda34"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//6UxQBmDkX99lRqvgYYtT7/gPKX7diPqnyRRwC+FQ/L20mMPKfV/J6LDNa3CgyRmyPeIVEvSRQ5FgsfYhmFF38udILGyesg+aGqujS9jaxWD6ZQtXhcRd2ZlF04K/J4IE64RvrO9YwhpF4s0VHpGFixnkgUUMwneCIBxRBvoWjs7XMEQ9T7xfc6xfVpTZx7SSeieBsCmr08odE4YO1ZqHHPHaeeOOl5sRPVy/2cKPSea8EyxNYPqpE4VWHen2SaDa6H9Vm2B5QB/8zmTEQUN/GHh/JRb7rv9/X8h2zswRreEcJTokxRLXvTU9kZ8SZYf19ZfNRU+Jpqxx1oCdAoad+cnCaiM4N9uWYosYuW9aeKxZR1thJ5RSrxmy7PRWoOnN9nZIpnS8eXW/UYbR+i1zBX8izV9P0v/tlHmhEWKB2aMm1p4N8a+Mh3PznIHNwmlcjaO661ETLbzuBU6O1HbQ5S5gCmW+VRAHeP34sOMA+bRbiWIc2s7fFZTsQVOh7LP1WAYq2XkQnRalymcgUIkw2MOmqoTnreSXl03mcP/ocNiNwfrXWphCseF6y/JrvUCvYYLx76gm2ktPMi6NtsonzkCSFgxu1jRbbP+8ltF+MP8LMPHU5GWqlCHtQc93EtRsDIvt+fhz3F+2D0rtHBBnZeJRNy40A6w5aulzN3sRrIAqoALA0K8aYdjWgmNN0FmXaPS45VTk0gSi7ta1Tw+AQU30EtnaXF5h17jZEVsqk5zklOrJBBckifC6SLWbVo7SImi+nVfRfxX4RwG6o2m5SRCz6LLP7hO2XQYHAv+qslxQuv7g4xEBOxZE3SIcsB0pHcqaWSLkqSAxxkjPnayysT0A8ECxt7M7GR7xPZ7tWkhekyUcUv4JJ2TegcJ+5AO2Ubdywh7v9Wxl7zgmiGFLGQ==|920

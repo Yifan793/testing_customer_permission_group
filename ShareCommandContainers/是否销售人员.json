@@ -1,0 +1,50 @@
+{
+  "ID": "9a55bd9e-1368-4325-96e8-4a35973ca070",
+  "Name": "是否销售人员",
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "销售人员",
+      "ParameterValue": "销售人员",
+      "ID": "e4be8bbc54b04277bae6bbbb2950d211",
+      "BreakpointIdentity": "6ef16e15-f496-4dd2-888e-78fc7947542e"
+    },
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+              "cellLocations": [
+                {
+                  "SerializeProperty": "=销售人员"
+                }
+              ]
+            },
+            "value": "%CurrentUser.Role%",
+            "compareType": 12
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+              "PropertyItemsList": [
+                {
+                  "TargetCells": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=联系人列表!是否销售人员"
+                  },
+                  "Value": "1"
+                }
+              ],
+              "BreakpointIdentity": "1fe7ea08-fcbb-4d34-8c1a-8d37768c47ed"
+            }
+          ],
+          "ID": "ff3431f7-26dd-4e69-8ce2-c226d8a6d65a"
+        }
+      ],
+      "BreakpointIdentity": "0d6c8729-7eea-4d91-91f0-957a73d62fdb"
+    }
+  ]
+}

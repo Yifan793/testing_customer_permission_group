@@ -1,0 +1,713 @@
+[
+  {
+    "ModuleName": "Tables/订单",
+    "ModuleType": 22,
+    "IconType": 28
+  },
+  {
+    "ModuleName": "Table/订单明细表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/订单表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Tables/商机",
+    "ModuleType": 22,
+    "IconType": 28
+  },
+  {
+    "ModuleName": "Table/商机表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/商机阶段历史表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Tables/字典表",
+    "ModuleType": 22,
+    "IconType": 28
+  },
+  {
+    "ModuleName": "Table/潜客跟进阶段表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/潜客来源表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/行业表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/省市区表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/商机阶段表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/订单状态表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/潜客状态表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/客户类型表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Tables/潜客表",
+    "ModuleType": 22,
+    "IconType": 28
+  },
+  {
+    "ModuleName": "Table/潜客计划任务操作表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/潜客表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/潜客记录操作表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Tables/产品",
+    "ModuleType": 22,
+    "IconType": 28
+  },
+  {
+    "ModuleName": "Table/产品类型表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/产品表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/计划任务更新表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "TableView/用户信息视图",
+    "ModuleType": 23,
+    "IconType": 27,
+    "ExclusiveType": 0
+  },
+  {
+    "ModuleName": "Table/联系人表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/帮助手册",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Table/客户表",
+    "ModuleType": 7,
+    "IconType": 24
+  },
+  {
+    "ModuleName": "Pages/产品",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/产品维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/产品列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/内建页面",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改用户信息",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_验证页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_邮件订阅",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_修改密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_登录",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_忘记密码",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_两步验证_扫码页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_重置密码发送邮件成功",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_连接已断开",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_维护中",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/FGC_401页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/商机",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/商机维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/商机列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/商机详情页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/订单",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/订单维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/订单详情页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/订单列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/选择页",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/联系人选择页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户选择页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/联系人关联页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/内建手机页面",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "MobilePage/FGC_连接已断开_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_登录_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码发送邮件成功_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_修改用户信息_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_邮件订阅_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_维护中_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_重置密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_401页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_验证页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_两步验证_扫码页面_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "MobilePage/FGC_忘记密码_手机版",
+    "ModuleType": 2,
+    "IconType": 2
+  },
+  {
+    "ModuleName": "Pages/客户",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "Pages/客户/辅助页",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/快速创建联系人页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户详情页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/客户列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/潜客",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "Pages/潜客/辅助页",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/取消资格",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/导入页面",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/授予资格",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/潜客操作",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/潜客维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/潜客列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/潜客详情页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "Pages/联系人",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "Pages/联系人/辅助页",
+    "ModuleType": 6,
+    "IconType": 7
+  },
+  {
+    "ModuleName": "PCPage/快速创建客户页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/联系人维护页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/联系人详情页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/联系人列表",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/帮助文档",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/登录页-用户信息",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "PCPage/主页",
+    "ModuleType": 1,
+    "IconType": 1
+  },
+  {
+    "ModuleName": "MasterPCPage/PC母版页",
+    "ModuleType": 3,
+    "IconType": 3
+  },
+  {
+    "ModuleName": "MasterPCPage/FGC_母版页",
+    "ModuleType": 3,
+    "IconType": 3
+  },
+  {
+    "ModuleName": "ServerCommands/潜客",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/取消资格",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/授予资格",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/潜客维护",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/认领",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/联系人",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/删除联系人",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/订单",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/删除订单",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/修改订单",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/添加订单",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/客户",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/添加客户",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/修改客户",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/删除客户",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/产品",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/产品维护",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommands/商机",
+    "ModuleType": 20,
+    "IconType": 17
+  },
+  {
+    "ModuleName": "ServerCommand/商机维护",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ServerCommand/AddUser",
+    "ModuleType": 15,
+    "IconType": 15
+  },
+  {
+    "ModuleName": "ShareCommandContainer/是否销售人员",
+    "ModuleType": 36,
+    "IconType": 38
+  },
+  {
+    "ModuleName": "ShareCommandContainer/是否市场人员",
+    "ModuleType": 36,
+    "IconType": 38
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_客户2",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_客户3",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_潜客1",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_潜客3",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_客户1",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "TaskScheduler/计划任务_潜客2",
+    "ModuleType": 16,
+    "IconType": 19
+  },
+  {
+    "ModuleName": "ApplicationSetting",
+    "ModuleType": 8,
+    "IconType": 10
+  },
+  {
+    "ModuleName": "Theme",
+    "ModuleType": 9,
+    "IconType": 11
+  },
+  {
+    "ModuleName": "image/内置图片",
+    "ModuleType": 37,
+    "IconType": 39
+  },
+  {
+    "ModuleName": "Image/fgc_loading.gif",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_logo_light.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-maintained.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_built_in_page_disconnected.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_built-in-page-401.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/fgc_logo_dark.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/Visionlogo_2021堆叠版_1.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "Image/grapecity_b_32.png",
+    "ModuleType": 38,
+    "IconType": 41
+  },
+  {
+    "ModuleName": "UserService",
+    "ModuleType": 11,
+    "IconType": 12
+  },
+  {
+    "ModuleName": "CustomLibrary",
+    "ModuleType": 12,
+    "IconType": 13
+  },
+  {
+    "ModuleName": "MapJsonFile",
+    "ModuleType": 14,
+    "IconType": 14
+  },
+  {
+    "ModuleName": "DataContectionSet",
+    "ModuleType": 25,
+    "IconType": 31
+  },
+  {
+    "ModuleName": "Upload",
+    "ModuleType": 26,
+    "IconType": 30
+  },
+  {
+    "ModuleName": "PublishConfiguration",
+    "ModuleType": 39,
+    "IconType": 42
+  },
+  {
+    "ModuleName": "Plugin",
+    "ModuleType": 40,
+    "IconType": 43
+  },
+  {
+    "ModuleName": "PublishSetting",
+    "ModuleType": 41,
+    "IconType": 44
+  },
+  {
+    "ModuleName": "PermissionGroupConfig",
+    "ModuleType": 44,
+    "IconType": 45
+  }
+]

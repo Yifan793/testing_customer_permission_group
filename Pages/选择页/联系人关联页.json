@@ -1,0 +1,491 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 1
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 16,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      34
+    ],
+    "Count": 45
+  },
+  "Values": {
+    "14,35": "取消",
+    "14,40": "关联"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1
+          },
+          {
+            "Scope": 4
+          }
+        ],
+        "type": "text",
+        "placeholder": "输入联系人姓名/职位/手机/微信",
+        "prefixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/046_search_7.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none",
+        "clearable": true
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "SelectionPanel.SelectionPanel, SelectionPanel",
+        "ListViewName": "表格1"
+      }
+    },
+    "5,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "联系人表",
+        "RowIndex": 5,
+        "ColumnIndex": 1,
+        "RowCount": 7,
+        "ColumnCount": 43,
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "SubConditions": [
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "联系人表",
+                "ColumnName": "客户ID",
+                "GUID": "ee7ecf42-c70c-41e2-953c-ef94a6e54f0a"
+              },
+              "Value": "%Null%"
+            },
+            {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "SubConditions": [
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "联系人表",
+                    "ColumnName": "姓名",
+                    "GUID": "ddac586e-0bac-40cc-87df-a3b4264b9a8d"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=联系人关联页!B2"
+                  },
+                  "LeftBracket": 1
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "联系人表",
+                    "ColumnName": "职位",
+                    "GUID": "5d7a3872-8c40-4593-b63f-65515cf3a3c7"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=联系人关联页!B2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "联系人表",
+                    "ColumnName": "手机",
+                    "GUID": "d04fc875-683e-450f-92e7-c3f23e2026cd"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=联系人关联页!B2"
+                  }
+                },
+                {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "联系人表",
+                    "ColumnName": "微信",
+                    "GUID": "2b602df9-a815-4891-a30a-b8cafe93dfcc"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=联系人关联页!B2"
+                  },
+                  "RightBracket": 1
+                }
+              ],
+              "RelationType": 1
+            },
+            {
+              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+              "ColumnBindingInfo": {
+                "TableName": "联系人表",
+                "ColumnName": "FGC_Creator",
+                "GUID": "da481b14-7f49-40b9-bfa7-f427214dc222"
+              },
+              "Value": "%CurrentUser.UserName%"
+            }
+          ]
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "基础表格",
+        "ShowColumnHeaderInDesigner": true,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AlwaysReservedSelections": true,
+        "ColumnOperation": 2
+      }
+    },
+    "6,3": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "姓名",
+        "GUID": "0fb245c8-a2aa-4fac-ab77-ee4033cc035f"
+      }
+    },
+    "6,11": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "职位",
+        "GUID": "4a87f740-7b0e-4120-a6de-8131ae608a54"
+      }
+    },
+    "6,18": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "手机",
+        "GUID": "f2b16881-4088-4ef7-b5ba-48e7a119222a"
+      }
+    },
+    "6,26": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "电子邮箱",
+        "GUID": "35ab2abc-8f92-4df1-b5dc-81587b3db550"
+      }
+    },
+    "6,34": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "ID",
+        "GUID": "426e93e8-8d18-42e7-9153-c7c1b9d05870"
+      }
+    },
+    "6,35": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "微信",
+        "GUID": "5ce78893-120b-4393-9f3e-b4af90179ee4"
+      }
+    },
+    "12,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pageSize": 5,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    },
+    "14,35": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "ffcb91e9-b3bf-4ab3-ab64-9c5519fe29a9"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "14,40": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "PassListviewDataCommand.PassListviewDataCommand, PassListviewDataCommand",
+            "PassRowMode": 1,
+            "ImportMode": 1,
+            "PassValueItems": [
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!D7"
+                },
+                "TargetCell": "姓名"
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!L7"
+                },
+                "TargetCell": "职位"
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!S7"
+                },
+                "TargetCell": "手机"
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!AA7"
+                },
+                "TargetCell": "电子邮箱"
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!AI7"
+                },
+                "TargetCell": "ID",
+                "IsPrimaryKey": true
+              },
+              {
+                "SourceCell": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人关联页!AJ7"
+                },
+                "TargetCell": "微信"
+              }
+            ],
+            "Source": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=联系人关联页!D7"
+            },
+            "BreakpointIdentity": "2a3fa18a-113f-4fb9-886d-99c8c213faa8"
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "dcb2b752-b52f-4c9b-9e54-c8a9ba04756f"
+          }
+        ],
+        "Text": "关联",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 16.0
+      },
+      {
+        "FontSize": 16.0,
+        "HorizontalAlignment": 0
+      },
+      {
+        "FontFamily": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Center",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "5,3": 0,
+      "5,11": 0,
+      "5,18": 0,
+      "5,26": 0,
+      "5,34": 0,
+      "5,35": 0,
+      "6,3": 1,
+      "6,11": 1,
+      "6,18": 1,
+      "6,26": 1,
+      "6,34": 1,
+      "6,35": 1,
+      "14,35": 2,
+      "14,36": 2,
+      "14,37": 2,
+      "14,38": 2,
+      "14,40": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 1,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "1,1,1,15",
+    "12,1,1,43",
+    "6,1,1,2",
+    "6,3,1,8",
+    "6,11,1,7",
+    "6,18,1,8",
+    "6,26,1,8",
+    "3,1,1,43",
+    "7,1,5,43",
+    "14,40,1,4",
+    "14,35,1,4",
+    "6,35,1,9",
+    "5,1,1,2",
+    "5,3,1,8",
+    "5,11,1,7",
+    "5,18,1,8",
+    "5,26,1,8",
+    "5,35,1,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "选择联系人",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "permissionGroups": [
+            "e8cd8c16-7795-4e40-9235-454e164dda34"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//qyRnffWLeo+mphMG97nkWdYTvScDLzmUhTMjSt1Jh4hpn1jMWRg0t/GV2ys3y2bYFSR0cVRiL/3U5JHyTorcXqm2ha60IGatUOC3MSfXmW0OwSNlNoggIITBlYZMh7UjBcANy1CS9SZrqVygfWSxDCxZArv9eccWkGHskMRx+q6mKvnor+tEsCzlddi1twJg9ErhVn6KlnOdzfQFFWwf235LPGMzlOVFRKfWHJAJThQa7EhdOUM3QHIcrgak988hxSdrxQyxNw1v6OU12byMxMNiVjtEHYw28wNrVjpR0OdmPGwaP+SrgdDYy1KzDr4VCV2vlptL9AfuAkkjPtEhxBaR2lgqMkGdcvmYBlWJFMhf5OeRjrRqLDCXaY3xggYf6hGQhe9jKJKFFp+dqc5pqhNlOQ+JPc9LZanG2PeanlnBwbMioEl6Bmcihiw4Jcy3pbmBUrEJH81JG0zmWDWaWwlQC+bNxFw+xSnBGQhhGAF5ixVHUvUzQZ5uY/UAdaik341AmBw24TRBPt+xORMn3rS0/S89NWfm79TF4OS1BVxXQN2+0rekI8k4/qSONununbRTtEj9skM+3Kg3RV7eeEkzXjYeC0oP8007Ku7pEOMjQjX5/etSwr7Nl+c4TPZbNkdn4P/whi1l/EtL8g/C1iKGgKQKJ7EXpyCQ0SkT4myoJ9D3y2SV5qfgYefSAVJMWqcncfusU+VugQtxMHjXpc+GoXoNwNj1Dn0NXSaveOJaZ64FwptCearPz2Slwrlum4GiRHTFgdvGEmgrLEY+r2xKHfM1RfXw4NAQovWhZQMTTdxNTbo3Z61JM+e8PVoIXL9hw8DVDhowh/sQb2jmNS16ZLw4eEqikJZCrYZvmaA2zw9VU7uBf93Em90KY0pvgjW+1JkrCtoDP8lRcnfw1w==|920

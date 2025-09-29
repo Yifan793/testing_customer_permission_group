@@ -1,0 +1,757 @@
+{
+  "$type": "Forguncy.SaveLoad.ServerCommandSaveData, ServerDesignerCommon",
+  "Name": "授予资格",
+  "Enabled": true,
+  "Triggers": {
+    "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.TriggerSaveDataBase, ServerDesignerCommon]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.SaveLoad.PostRequestTriggerSaveData, ServerDesignerCommon",
+        "Permission": {
+          "$type": "Forguncy.SaveLoad.ServerCommandPermissionSaveData, ServerDesignerCommon",
+          "PermissionData": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionData, Forguncy.RbacPermission.Core",
+            "permissionResource": {
+              "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionResource, Forguncy.RbacPermission.Core"
+            },
+            "permissionBindings": {
+              "$type": "System.Collections.Generic.List`1[[Forguncy.RbacPermission.Core.Impl.ServerCommand.IServerCommandPermissionBinding, Forguncy.RbacPermission.Core]], System.Private.CoreLib",
+              "$values": [
+                {
+                  "$type": "Forguncy.RbacPermission.Core.Impl.ServerCommand.ServerCommandPermissionBinding, Forguncy.RbacPermission.Core",
+                  "permissionGroups": {
+                    "$type": "System.Collections.Generic.List`1[[System.String, System.Private.CoreLib]], System.Private.CoreLib",
+                    "$values": [
+                      "e8cd8c16-7795-4e40-9235-454e164dda34"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "Parameters": {
+          "$type": "System.Collections.Generic.List`1[[Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "潜客ID",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "授予类型",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            },
+            {
+              "$type": "Forguncy.SaveLoad.PostRequestParameterSaveData, ServerDesignerCommon",
+              "Name": "商机名称",
+              "DataValidationInfo": {
+                "$type": "Forguncy.SaveLoad.DataValidationInfoSaveData, ServerDesignerCommon"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "Commands": {
+    "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+    "$values": [
+      {
+        "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+        "CommandList": {
+          "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+          "$values": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "潜客信息",
+              "TableValue": {
+                "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                "TableName": "潜客表",
+                "TableValueType": 1,
+                "BindingInfos": {
+                  "$type": "System.Collections.Generic.List`1[[Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon]], System.Private.CoreLib",
+                  "$values": [
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "757abf5d-0b07-4537-ba9c-e4bab8b915e3",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "姓名",
+                        "GUID": "b872e7f0-562c-49c5-b108-1b86cd928fc8"
+                      },
+                      "ColumnName": "姓名"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "f6019e99-d064-4383-b8d5-5ec137bc2e5d",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "公司",
+                        "GUID": "ca491c36-9ae2-4728-b0bd-330811df8978"
+                      },
+                      "ColumnName": "公司"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "eae555e3-85e4-4938-b490-2a46669aa235",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "职位",
+                        "GUID": "a6578a6c-48c9-4d37-a98e-f561c574fd97"
+                      },
+                      "ColumnName": "职位"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "cb5d57e9-a02b-4cb7-bfa0-650cd8686566",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "手机",
+                        "GUID": "2892566d-2395-4900-8a83-0db0c0c68eaa"
+                      },
+                      "ColumnName": "手机"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "3af913a9-28c1-4621-9363-2aeaa237f6af",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "电子邮箱",
+                        "GUID": "2c34cc45-6a73-489a-9317-1031b178f189"
+                      },
+                      "ColumnName": "电子邮箱"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "1e5002aa-9e6e-4130-b711-9073ee8f5d65",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "潜客来源ID",
+                        "GUID": "90474a6f-1c4a-4430-b377-220554f6ec37"
+                      },
+                      "ColumnName": "潜客来源ID"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "93ee8fea-7329-4545-b937-1bb8789f9502",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "网站",
+                        "GUID": "cbb96940-53a6-458c-aefc-8dad4186e490"
+                      },
+                      "ColumnName": "网站"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "82fe2c80-e1c3-43cc-95c3-838383ba6446",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "行业ID",
+                        "GUID": "beac1dc1-6e9d-415b-abe9-42436f8932f2"
+                      },
+                      "ColumnName": "行业ID"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "34185f24-46e4-4b9c-a0a4-26fda65ccaec",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "客户类型ID",
+                        "GUID": "5795dbcf-7a3b-4a8a-81fa-e51f8120df27"
+                      },
+                      "ColumnName": "客户类型ID"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "f91dc46e-1109-40ce-ab42-6ca4d5fe4c57",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "年收入",
+                        "GUID": "ae93f890-d30d-4d85-9bb1-1cd3b0903de1"
+                      },
+                      "ColumnName": "年收入"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "d1120bad-5eea-4870-8723-34c0ca5bac85",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "员工数",
+                        "GUID": "ed4b405f-8b3e-44da-9e48-94334428ac71"
+                      },
+                      "ColumnName": "员工数"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "ad5d526e-17d0-469d-8b4d-8b1d977689b5",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "地址编号",
+                        "GUID": "63415a70-a262-4ea9-b14e-e47716100ad7"
+                      },
+                      "ColumnName": "地址编号"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "be029beb-f4ec-476e-b0dd-3e84fa4ed02a",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "详细地址",
+                        "GUID": "362339ca-a814-44b7-a04f-9e55df1b82ff"
+                      },
+                      "ColumnName": "详细地址"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "11e73381-eca6-46fa-b32c-b3d69ad89edf",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "负责人",
+                        "GUID": "51fd2fd4-7754-4745-8d58-8ca70879830a"
+                      },
+                      "ColumnName": "负责人"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "ffc63ec1-d11c-43ba-b603-897c5a468cb3",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "备注",
+                        "GUID": "166599dc-dbbc-4acd-944c-c305fea05a32"
+                      },
+                      "ColumnName": "备注"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.ParameterTableValueColumn, ServerDesignerCommon",
+                      "GUID": "e1392605-69da-4c4f-80ce-0fe36f4ff7b5",
+                      "BindingInfo": {
+                        "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                        "TableName": "潜客表",
+                        "ColumnName": "电话",
+                        "GUID": "119b5663-d3c0-4efd-8f3c-77c9678ce6aa"
+                      },
+                      "ColumnName": "电话"
+                    }
+                  ]
+                },
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "潜客表",
+                    "ColumnName": "ID",
+                    "GUID": "b0305f39-21e3-4498-ab63-b306e14930d2"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=潜客ID"
+                  }
+                }
+              },
+              "ID": "6dc1553d3eb046ed9e4b1ac8414a7521",
+              "BreakpointIdentity": "923f3477-7079-470a-abdc-4fe8e99cf41e"
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "客户行数",
+              "TableValue": {
+                "$type": "Forguncy.Model.Commands.ParameterTableValue, ServerDesignerCommon",
+                "TableName": "客户表",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                    "TableName": "客户表",
+                    "ColumnName": "名称",
+                    "GUID": "f2c69ef2-0c97-4e0e-a8c0-951311ddce2f"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=潜客信息.公司"
+                  }
+                }
+              },
+              "ID": "dcbe932e425941159e37c52cebe46f28",
+              "BreakpointIdentity": "85f18ab8-469c-4287-ba8c-6c6acee1d7ed"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": {
+                "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                "$values": [
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                        "ParamObject": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=客户行数"
+                        }
+                      },
+                      "value": "0",
+                      "compareType": 2
+                    },
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                          "ErrorCode": "-1",
+                          "Message": "当前客户已存在，请在该客户下关联联系人",
+                          "BreakpointIdentity": "c65519fa-8190-47de-b35d-ba5e67d9df23"
+                        }
+                      ]
+                    },
+                    "ID": "1c343afa-e6e0-487d-b6d1-ce7fee216eae"
+                  },
+                  {
+                    "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                    "CommandList": {
+                      "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                      "$values": [
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "潜客表",
+                          "ShowConfirm": false,
+                          "RowsToUpdate": 1,
+                          "RowsToUpdateCondition": {
+                            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                            "ColumnBindingInfo": {
+                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                              "TableName": "潜客表",
+                              "ColumnName": "ID",
+                              "GUID": "e847e252-f43d-4cd6-9e58-04fa4c9c5eec"
+                            },
+                            "Value": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=潜客ID"
+                            }
+                          },
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "潜客表",
+                                  "ColumnName": "状态ID",
+                                  "GUID": "36b95490-19d9-402a-b473-82e65175ea15"
+                                },
+                                "Value": "4"
+                              }
+                            ]
+                          },
+                          "BreakpointIdentity": "74ad33fc-e535-4bfa-9809-d8a09f72be9f"
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "潜客记录操作表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "潜客记录操作表",
+                                  "ColumnName": "潜客ID",
+                                  "GUID": "cda5b01c-c59d-4798-af9b-213a613e7e35"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客ID"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "潜客记录操作表",
+                                  "ColumnName": "操作类型",
+                                  "GUID": "9711d3b0-2d82-418c-90a3-56f54119b027"
+                                },
+                                "Value": "授予资格"
+                              }
+                            ]
+                          },
+                          "BreakpointIdentity": "ab4d32bc-888f-4c0a-b298-6d6750185fd1"
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "客户表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "名称",
+                                  "GUID": "7294bc03-3891-4db1-b32f-5ee4d73dd585"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.公司"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "电话",
+                                  "GUID": "100ac785-e5bb-4426-a268-5e2c43ae9827"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.电话"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "行业ID",
+                                  "GUID": "19a77706-642d-4d51-be50-5389cdf9da03"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.行业ID"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "网站",
+                                  "GUID": "a053df32-5b64-4b23-b20f-79090272a6e7"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.网站"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "年收入",
+                                  "GUID": "5f710f9a-0cf7-4aae-9590-b52f10741340"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.年收入"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "员工数",
+                                  "GUID": "3142cc75-8621-4658-b578-e3f0974a9bcd"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.员工数"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "地址编号",
+                                  "GUID": "5ffe90ce-5d28-4d82-b8d8-67395de16cd3"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.地址编号"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "详细地址",
+                                  "GUID": "e54332b1-5370-460f-8a64-ac293f2a07f1"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.详细地址"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "客户表",
+                                  "ColumnName": "客户类型ID",
+                                  "GUID": "7891bd33-d44b-471d-8157-7f91b78726c0"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.客户类型ID"
+                                }
+                              }
+                            ]
+                          },
+                          "ParamNameToSaveNewRowValue": "新客户",
+                          "BreakpointIdentity": "0ccf29e1-22e5-4e47-a221-7e568e4544a2"
+                        },
+                        {
+                          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                          "TableName": "联系人表",
+                          "UpdateType": "add",
+                          "ShowConfirm": false,
+                          "UpdateBindingValues": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "姓名",
+                                  "GUID": "4e8ee5a9-b987-4dd9-8512-6fcca0d532ab"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.姓名"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "职位",
+                                  "GUID": "260ef642-fbe2-4515-8111-eabc227c99e5"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.职位"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "手机",
+                                  "GUID": "5c3281a0-2e3c-4f1a-8055-9031cc1c6729"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.手机"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "电话",
+                                  "GUID": "2b63edd6-7871-4694-9b18-6248c46574c2"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.电话"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "电子邮箱",
+                                  "GUID": "84f11951-ef56-4568-b444-e97e2678f15f"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.电子邮箱"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "客户ID",
+                                  "GUID": "d62f42bd-3667-46f3-8e4f-423cfce8bfd2"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=新客户.ID"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "地址编号",
+                                  "GUID": "c03520a5-bde4-47a4-8f18-e6b2b17a3610"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.地址编号"
+                                }
+                              },
+                              {
+                                "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                "BindingInfo": {
+                                  "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                  "TableName": "联系人表",
+                                  "ColumnName": "详细地址",
+                                  "GUID": "9ef54a0c-4c90-474c-9301-13f9df0ba617"
+                                },
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "=潜客信息.详细地址"
+                                }
+                              }
+                            ]
+                          },
+                          "ParamNameToSaveNewRowValue": "新联系人",
+                          "BreakpointIdentity": "4622dedc-e863-4f7e-b30f-26420baf1162"
+                        },
+                        {
+                          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                          "ConditionAndCommandPairList": {
+                            "$type": "System.Collections.Generic.List`1[[Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon]], System.Private.CoreLib",
+                            "$values": [
+                              {
+                                "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
+                                "Condition": {
+                                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                                  "param": {
+                                    "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                                    "ParamObject": {
+                                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                      "SerializeProperty": "=授予类型"
+                                    }
+                                  },
+                                  "value": "1"
+                                },
+                                "CommandList": {
+                                  "$type": "System.Collections.Generic.List`1[[GrapeCity.Forguncy.Commands.Command, Forguncy.Commands]], System.Private.CoreLib",
+                                  "$values": [
+                                    {
+                                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                                      "TableName": "商机表",
+                                      "UpdateType": "add",
+                                      "ShowConfirm": false,
+                                      "UpdateBindingValues": {
+                                        "$type": "System.Collections.Generic.List`1[[Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon]], System.Private.CoreLib",
+                                        "$values": [
+                                          {
+                                            "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                            "BindingInfo": {
+                                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                              "TableName": "商机表",
+                                              "ColumnName": "商机名称",
+                                              "GUID": "7e5da294-3467-4b79-9251-78e42e6ca8e3"
+                                            },
+                                            "Value": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=商机名称"
+                                            }
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                            "BindingInfo": {
+                                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                              "TableName": "商机表",
+                                              "ColumnName": "客户ID",
+                                              "GUID": "1154abee-f001-4c18-9411-b16cdc1791b4"
+                                            },
+                                            "Value": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=新客户.ID"
+                                            }
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                            "BindingInfo": {
+                                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                              "TableName": "商机表",
+                                              "ColumnName": "联系人ID",
+                                              "GUID": "6728383c-1270-446b-aede-8b974ca307bc"
+                                            },
+                                            "Value": {
+                                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                              "SerializeProperty": "=新联系人.ID"
+                                            }
+                                          },
+                                          {
+                                            "$type": "Forguncy.Model.UpdateBindingValueItem, ServerDesignerCommon",
+                                            "BindingInfo": {
+                                              "$type": "ForguncyDataAccess.BindingInfo, ForguncyDataAccess",
+                                              "TableName": "商机表",
+                                              "ColumnName": "可能性",
+                                              "GUID": "de18e363-8c03-4a87-9bee-17493f221d47"
+                                            },
+                                            "Value": "0"
+                                          }
+                                        ]
+                                      },
+                                      "BreakpointIdentity": "ef6138f0-48db-4fe5-9efd-930803f477e4"
+                                    }
+                                  ]
+                                },
+                                "ID": "19b29b87-ff6a-4717-a9b9-9426ab09a1fe"
+                              }
+                            ]
+                          },
+                          "BreakpointIdentity": "3c3e3237-1aa3-4be1-be99-a16818c1aba1"
+                        }
+                      ]
+                    },
+                    "ID": "d65a5a47-4ca1-47d3-a3a6-1cf380ea53d2"
+                  }
+                ]
+              },
+              "BreakpointIdentity": "dff739e3-8dde-4558-8b5e-3761cd06ae9a"
+            }
+          ]
+        },
+        "BreakpointIdentity": "d2db1cd6-96ae-4683-b66a-eaf06dd8297e"
+      }
+    ]
+  }
+}

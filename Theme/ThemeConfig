@@ -1,0 +1,39 @@
+{
+  "Name": "当前主题",
+  "BasePathName": "01Forguncy",
+  "FontFamily": "微软雅黑",
+  "FontSize": 14.67,
+  "ThemeColors": {
+    "Name": "自定义1",
+    "Colors": {
+      "Name": "",
+      "ColorList": [
+        "#FFFFFFFF",
+        "#FF313949",
+        "#FF000000",
+        "#FF042531",
+        "#FF1B93FA",
+        "#FF00B6FF",
+        "#FF00D2E9",
+        "#FF00E6B9",
+        "#FF93F489",
+        "#FFF9F871",
+        "#00FFFFFF",
+        "#00FFFFFF"
+      ],
+      "BackgroundColor1": "#FFFFFFFF",
+      "BackgroundColor2": "#FF313949",
+      "TextColor1": "#FF000000",
+      "TextColor2": "#FF042531",
+      "Accent1": "#FF1B93FA",
+      "Accent2": "#FF00B6FF",
+      "Accent3": "#FF00D2E9",
+      "Accent4": "#FF00E6B9",
+      "Accent5": "#FF93F489",
+      "Accent6": "#FFF9F871",
+      "Hyperlink": "#00FFFFFF",
+      "FollowedHyperlink": "#00FFFFFF"
+    },
+    "Category": "自定义"
+  }
+}

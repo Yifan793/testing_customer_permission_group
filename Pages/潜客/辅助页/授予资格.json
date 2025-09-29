@@ -1,0 +1,413 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 24.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      3,
+      4
+    ],
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 177.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 64.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 197.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      6
+    ],
+    "Count": 7,
+    "DefaultSize": 32.0
+  },
+  "Values": {
+    "1,1": 0,
+    "5,2": "取消",
+    "5,4": "确定"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.RadioGroupCellType, ServerDesignerCommon",
+        "Style": 1,
+        "CellDefaultValue": 0,
+        "Items": [
+          {
+            "Value": "0",
+            "DisplayValue": "仅生成客户和联系人"
+          },
+          {
+            "Value": "1",
+            "DisplayValue": "同时生成商机"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=授予资格!B2"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=授予资格!B4"
+                        },
+                        "Value": "%Null%"
+                      }
+                    ],
+                    "BreakpointIdentity": "e85d0753-d9bd-47c5-8697-d6c79c785ce8"
+                  }
+                ],
+                "ID": "f1e11e3a-51ca-41ac-bdca-67ab0b9c8b91"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                    "PropertyItemsList": [
+                      {
+                        "TargetCells": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=授予资格!B4"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "=授予资格!G4"
+                        }
+                      }
+                    ],
+                    "BreakpointIdentity": "4d52c809-c631-4949-816e-a15aa98d695c"
+                  }
+                ],
+                "ID": "80312a81-56e9-459f-b54d-be8659c5dcb4"
+              }
+            ],
+            "BreakpointIdentity": "2d2eff6a-8b67-46d8-9097-29753af644f4"
+          },
+          {
+            "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "Location": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=授予资格!4:5"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=授予资格!B2=1"
+                }
+              }
+            ],
+            "BreakpointIdentity": "a1f412fc-323c-4da0-b35b-5ac78920adb1"
+          }
+        ]
+      }
+    },
+    "1,6": {
+      "BindingInfo": {
+        "TableName": "潜客表",
+        "ColumnName": "ID",
+        "GUID": "25877951-cea8-484f-97eb-5280d642c1c0"
+      }
+    },
+    "3,1": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [],
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1
+          },
+          {
+            "Scope": 4
+          }
+        ],
+        "type": "text",
+        "placeholder": "请输入商机名称",
+        "resize": "none"
+      },
+      "DataValidationInfo": {
+        "NumberType": 7,
+        "FirstParamValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=OR(授予资格!B2=0,AND(授予资格!B2=1,NOT(ISBLANK(授予资格!B4))))"
+        },
+        "IgnoreBlank": false,
+        "ErrorMessage": "请输入商机名称",
+        "ErrorTo": 1,
+        "ErrorToTargetCell": {
+          "SerializeProperty": "=授予资格!B5"
+        }
+      }
+    },
+    "3,6": {
+      "BindingInfo": {
+        "TableName": "潜客表",
+        "ColumnName": "公司",
+        "GUID": "8dc2ab61-9d84-4a57-a29f-d9bffddde073"
+      }
+    },
+    "5,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "BreakpointIdentity": "65046d61-7c2b-474b-b147-5a691e993a26"
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Minor3"
+      }
+    },
+    "5,4": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "授予资格",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "潜客ID",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=授予资格!G2"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "授予类型",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=授予资格!B2"
+                }
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "ParamName": "商机名称",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=授予资格!B4"
+                }
+              }
+            ],
+            "ResultErrorCodeTo": {
+              "SerializeProperty": "返回码"
+            },
+            "ResultMessageTo": {
+              "SerializeProperty": "返回信息"
+            },
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true,
+            "BreakpointIdentity": "d91f00a4-4ba6-4a16-b15f-7f467c9db463"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=授予资格!返回码"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "ElementUI.Commands.ShowMessage, ElementUI",
+                    "Message": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=授予资格!返回信息"
+                    },
+                    "Type": "error",
+                    "Duration": 3000,
+                    "Offset": null,
+                    "BreakpointIdentity": "057c6985-c789-4608-9575-22c932ac08fb"
+                  }
+                ],
+                "ID": "f10e6c72-1cad-429a-8417-698434bc8bb0"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+                    "ReloadData": true,
+                    "BreakpointIdentity": "726f27a3-c4fd-4946-af4b-3dc0250c499f"
+                  }
+                ],
+                "ID": "b9b59512-16fb-4877-8375-e3ac9675bd18"
+              }
+            ],
+            "BreakpointIdentity": "6ae287c3-99f3-4798-970c-effa1ec0524a"
+          }
+        ],
+        "Text": "确定",
+        "TemplateKey": "_RS_Main1"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontSize": 14.666666666666666
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "FontSize": 14.666666666666666,
+        "Foreground": 2
+      },
+      {
+        "Foreground": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Accent 5 0",
+        "Text 1 50",
+        "#FFFF0000"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,6": 1,
+      "2,1": 2,
+      "3,1": 3,
+      "4,1": 4
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "2,1,1,4",
+    "1,1,1,4",
+    "4,1,1,4",
+    "3,1,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "授予方式",
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "permissionGroups": [
+            "e8cd8c16-7795-4e40-9235-454e164dda34"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "潜客表"
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//pK/f0JBQwDyaXtca3KdvqpwWg6kuDnhCY3btIegzNhQ3WE3MiaorCN0/56buySV8eEpSy0jsrLJ3a/Ag+1va97kuDs7jvOrh8eZ6BaK62iuex1S4iq0iiRtsi8Ir5/IJNZn8ZWqubxFWFi1bQMV7Y3BhkH9BqYkhTAdieMT89eW/cIdxr2RjO/QVX8l8g6ukFVaxghCiSUxrp51dG2dJk3kWt0XRI7irsJU88Lm209eRDWaQHln212/yeLFf9gHJpXTLseNJ4jKnNxVd4oU07hYttPelzCRtWyB6Yzj3MAVBuOKWEZVX/ZZL3M46s1ocdotw+m6VbLJ9H/kDipN/7aNbAdGUYjb0cVv4KzKuV+TS7VLolNnm0lTFwhxicBh+462bE97P5qZW4yFPydZpUwceXrsjxVLsGxBre5aRGrk3FeQpbHpL49vSJEblPrvBRUJjgyIa6B6Q/HgpfHPu6CAgfUqiaQ6gK6mZMCC/vHrWI8GXEpkyrIzkwPUAPvC2o7TTEU/lcTXOVFrbB9E51sH58IvHH29aHqwLEPaf8czk5UIvJ4LDNCFAsgov87DeImT1I+2KyMj/Z6lAsSxVQOFvMPAz1MU8qnB2i48EHU1xprk1AVIEmFNzG/vdmt954zph5ZhuIXWWgsE+HUwKpeVMJb/HO7DqrPVFvwDoUUfzJuaga81QmJ4Pm4qtjkMAGQV55z847MnfjMhRceeGQO1MF0sT6gj9SKPiRZL274VCRC34N5iHOyMYRYhV/jRIKq508NcsewKwx4oXysXHjpJliY2HR29QkouUHr13JieRwAKGiRZiOiqcOLi0UFzcP4/1c+f06IN1V0h3seAk0izRLrxdbxnbJQndPGbXc488S+oOtZtmZz4Tkf6B5J5oALnH1P2D7u8KqASNZRduvg==|920

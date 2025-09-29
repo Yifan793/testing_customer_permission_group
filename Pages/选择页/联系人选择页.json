@@ -1,0 +1,590 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      }
+    },
+    "Count": 12,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 164.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      32,
+      45
+    ],
+    "Count": 46
+  },
+  "Values": {
+    "1,27": "双击即可选择",
+    "5,45": "查询"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "ElementUI.SelectCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=联系人选择页!AT6"
+            },
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "MethodName": "ExecuteCommand",
+            "BreakpointIdentity": "f6981db0-0f37-41df-adf4-fa50442641da"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1
+          }
+        ],
+        "DefaultValue": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=IF(ISBLANK(联系人选择页!当前客户ID),0,1)"
+        },
+        "options": [
+          {
+            "value": "0",
+            "label": "所有联系人"
+          },
+          {
+            "value": "1",
+            "label": "当前客户联系人"
+          }
+        ],
+        "placeholder": "请选择",
+        "noDataText": "无数据",
+        "filterInServerOptions": {
+          "matchMethod": "contains",
+          "loadingText": "加载中"
+        },
+        "noMatchText": "无匹配数据"
+      },
+      "RulesGuidList": [
+        "13173065-a1bb-4082-b8ef-21c0232e6420"
+      ]
+    },
+    "1,11": {
+      "CellType": {
+        "$type": "ElementUI.InputCellType, ElementUI",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+            "TargetPageElement": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=联系人选择页!AT6"
+            },
+            "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
+            "MethodName": "ExecuteCommand",
+            "BreakpointIdentity": "cf5b9f3c-22f0-46e8-bda7-4f058ed07bd9"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2
+          },
+          {
+            "Scope": 1
+          },
+          {
+            "Scope": 4
+          }
+        ],
+        "type": "text",
+        "placeholder": "输入联系人名称",
+        "prefixIcon": {
+          "$type": "GrapeCity.Forguncy.Plugin.ImageValue, GrapeCity.Forguncy.Plugin",
+          "Name": "Application/046_search_7.svg",
+          "BuiltIn": true,
+          "Color": "#c0c4cc"
+        },
+        "resize": "none",
+        "clearable": true
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "Name": "表格1",
+        "TableName": "联系人表",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "RowCount": 7,
+        "ColumnCount": 43,
+        "TopCondition": null,
+        "ListViewStyleName": "基础表格",
+        "DoubleClickCommandList": [
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人选择页!选择联系人ID"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=联系人选择页!AG5"
+                }
+              }
+            ],
+            "BreakpointIdentity": "f4ab607d-6fe7-4faf-9262-97650ce22980"
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, ServerDesignerCommon",
+            "PassValueBack": true,
+            "BreakpointIdentity": "281bb95b-5d13-4eef-96de-1d33740a2543"
+          }
+        ],
+        "ShowColumnHeaderInDesigner": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "AlwaysReservedSelections": true,
+        "ColumnOperation": 2,
+        "DoNotLoadDataWhenLoadPage": true
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "姓名",
+        "GUID": "5b2a7816-815e-4d69-b40b-d604e1daf872"
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "职位",
+        "GUID": "82f3e6e1-facd-4d48-a175-9c322a5ad5c8"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "手机",
+        "GUID": "53eea8a6-c4cb-4669-bf7a-bc2025437507"
+      }
+    },
+    "4,24": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "电子邮箱",
+        "GUID": "6a1fa54a-0ab3-4508-96a5-cbf24392cea6"
+      }
+    },
+    "4,32": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "ID",
+        "GUID": "1032d2b4-7d3e-4262-b3f8-ad2c0f609fdc"
+      }
+    },
+    "4,33": {
+      "BindingInfo": {
+        "TableName": "联系人表",
+        "ColumnName": "备注",
+        "GUID": "a76b8b22-ac55-427e-ae46-c6e764dddcbe"
+      }
+    },
+    "5,45": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=联系人选择页!B2"
+                      }
+                    ]
+                  },
+                  "value": "0"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "联系人表",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "姓名",
+                            "GUID": "24158e8e-3ba2-4719-ae48-73cc35928987"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=联系人选择页!L2"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "FGC_Creator",
+                            "GUID": "8068a528-633b-4a5e-993e-c219bb962cc8"
+                          },
+                          "Value": "%CurrentUser.UserName%"
+                        }
+                      ]
+                    },
+                    "ID": "9462fcba9f344591a378305ed273edb8",
+                    "BreakpointIdentity": "48bd9a38-ad07-4066-bf28-fae5dfab567c"
+                  }
+                ],
+                "ID": "c084bdaf-70b2-4ced-be01-1c391baec033"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "联系人表",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                      "SubConditions": [
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "客户ID",
+                            "GUID": "67744b14-64ee-421c-8034-0ba1558300b0"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=联系人选择页!当前客户ID"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                          "CompareType": 6,
+                          "ColumnBindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "姓名",
+                            "GUID": "29de71fd-841b-4dc0-99ed-c09c39a1ff4b"
+                          },
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=联系人选择页!L2"
+                          }
+                        },
+                        {
+                          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                          "ColumnBindingInfo": {
+                            "TableName": "联系人表",
+                            "ColumnName": "FGC_Creator",
+                            "GUID": "44fd1225-d766-468b-862b-d692a034539d"
+                          },
+                          "Value": "%CurrentUser.UserName%"
+                        }
+                      ]
+                    },
+                    "ID": "2c19e1169b6448898f020e45b4ca2ac6",
+                    "BreakpointIdentity": "bbf8d417-821b-421a-9983-731b73baeec0"
+                  }
+                ],
+                "ID": "d50cfdf9-9eb4-473a-8484-2d95acb64ed8"
+              }
+            ],
+            "BreakpointIdentity": "e080a175-39bf-4eb4-a550-6b2ce4173bbd"
+          }
+        ],
+        "Text": "查询",
+        "TemplateKey": "_RS_Main1"
+      }
+    },
+    "10,1": {
+      "CellType": {
+        "$type": "ElementUI.CellTypes.PaginationCellType, ElementUI",
+        "ListviewName": "表格1",
+        "pageSize": 5,
+        "pagerCount": 5,
+        "layout": [
+          {
+            "layoutItem": "total"
+          },
+          {
+            "layoutItem": "->"
+          },
+          {
+            "layoutItem": "prev"
+          },
+          {
+            "layoutItem": "pager"
+          },
+          {
+            "layoutItem": "next"
+          }
+        ],
+        "pageSizes": [
+          {},
+          {
+            "value": 20
+          },
+          {
+            "value": 30
+          },
+          {
+            "value": 40
+          },
+          {
+            "value": 50
+          },
+          {
+            "value": 100
+          }
+        ],
+        "small": true
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 1
+      },
+      {
+        "FontSize": 16.0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 16.0,
+        "HorizontalAlignment": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 50",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "1,11": 0,
+      "1,12": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,27": 1,
+      "1,28": 0,
+      "1,29": 0,
+      "1,30": 0,
+      "1,31": 0,
+      "1,32": 0,
+      "1,33": 0,
+      "1,34": 0,
+      "1,35": 0,
+      "1,36": 0,
+      "3,11": 2,
+      "3,18": 2,
+      "3,26": 2,
+      "4,1": 3,
+      "4,9": 3,
+      "4,10": 0,
+      "4,11": 0,
+      "4,12": 0,
+      "4,13": 0,
+      "4,14": 0,
+      "4,15": 0,
+      "4,16": 3,
+      "4,17": 0,
+      "4,18": 0,
+      "4,19": 0,
+      "4,20": 0,
+      "4,21": 0,
+      "4,22": 0,
+      "4,23": 0,
+      "4,24": 3,
+      "4,25": 0,
+      "4,26": 0,
+      "4,27": 0,
+      "4,28": 0,
+      "4,29": 0,
+      "4,30": 0,
+      "4,31": 0,
+      "4,32": 3,
+      "4,33": 3,
+      "7,45": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "10,1,1,43",
+    "4,1,1,8",
+    "4,9,1,7",
+    "4,16,1,8",
+    "4,24,1,8",
+    "4,33,1,11",
+    "5,1,5,43",
+    "1,27,1,10",
+    "1,11,1,15",
+    "1,1,1,9",
+    "3,1,1,8",
+    "3,9,1,7",
+    "3,16,1,8",
+    "3,24,1,8",
+    "3,33,1,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "选择联系人",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.OperateCellTypeCommand, ServerDesignerCommon",
+        "TargetPageElement": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=联系人选择页!AT6"
+        },
+        "TargetType": "Forguncy.ButtonCellType, ServerDesignerCommon, Version=11.0.101.0, Culture=neutral, PublicKeyToken=967100671921c115",
+        "MethodName": "ExecuteCommand",
+        "BreakpointIdentity": "a6078504-13d6-4fee-8342-8826e6260b1c"
+      }
+    ],
+    "PermissionData": {
+      "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionData, Forguncy.RbacPermission.Core",
+      "permissionResource": {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionResource, Forguncy.RbacPermission.Core"
+      },
+      "permissionBindings": [
+        {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Page.PagePermissionBinding, Forguncy.RbacPermission.Core",
+          "permissionGroups": [
+            "e8cd8c16-7795-4e40-9235-454e164dda34"
+          ]
+        }
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "ConditionFormatRulesCollection": {
+      "Rules": [
+        {
+          "$type": "Forguncy.ConditionFormat.FormulaRule, ServerDesignerCommon",
+          "Formula": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=ISBLANK(联系人选择页!当前客户ID)"
+          },
+          "GUID": "13173065-a1bb-4082-b8ef-21c0232e6420",
+          "StyleInfo": {
+            "Underline": null,
+            "Strikethrough": null
+          },
+          "IsDisabled": true
+        }
+      ]
+    }
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "CustomNames": [
+    {
+      "Name": "选择联系人ID",
+      "Formula": "联系人选择页!$AT$2"
+    },
+    {
+      "Name": "当前客户ID",
+      "Formula": "联系人选择页!$AT$4"
+    }
+  ]
+}//bSpj/3xd8upcrOKtojJN8IAviXWgG9MNRlcbsVDz7aG/YlZtlLevEkTdwCQTUF9lpTSgNGvJHLOk2+VhsL2WSpNF7UJB/7xM4R0h8XAWfb6jeIU6CrGpPfLaeYbFrsBkmjelGrEKXKCdpm7QCvvdclauCclwzQ4Kdx5EXg01JkE62JbEo9FP1nd4mcD7TnvGzRrgjzSTYCSdm0Lmr/szXo5rHl5F9LZagRKL/RP+GxemLbi1zTMh3PZi+XN60SsDKgr0dryqkHQAYxIfd2wc3qUsBcxaYvnZwbQuhwCt+1DvcGJ/xRgYSdcD+Jgyfg3bc8WpaTVlupEUGqB3YFXpEuaOgf9z3zzP4kzThzkt5CV1a+1sjFNOtZiB5bie6wsYKz7g0WtPcSEEPF+H6HVciIU9jXSuZaee6L0Dh+JkvnD9vOQv6D7Iwt7vbk5yXvXNfLPlJpIzMTj0WTbE+0coV2ZPZ/Y/13cTXe1IZMFvmDzQNol6PnuE/7eQWVqionM9ZIhoVBU1UtbYLiwFiVTX60ZlWG4BtosdM1JCVLAAVPC3Y9M6fylce6gzcPuJ/w8NZjUq/NGLfVaP8b4cYNyp7qcoIYo+XvJ4a80I+N219m+BGoWsJGI0hjTiVYTA7w4mx1jc3kFVjR/m1Y8FuYWNXaFXB6eteVUnakqvid+3Kh3+oxy+1SKZKQ4SSMHwFuFL51SFTDZrZIvkJ2I6/sE8XbO9NYVh3zqdzUTWx7jGIqGbjvRtNYNUBeMsJAswcH5zTczgeLu0Ddq28Vm6n9EWqTsrs3BdENTi4m4OEZ2mWYQ/kXBnwbZ2PBM3obCkyRMJ1wvvb4jUn6u9N6sbTt0LOuFfikMRpKj4RUE1aBqk6e4EeZqb19rMTlOSp6SV71esTeTmbWvDHCm4TN21eBwd9Q==|920

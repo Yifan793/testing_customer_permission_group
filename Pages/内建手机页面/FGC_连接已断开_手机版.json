@@ -1,0 +1,149 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 19
+  },
+  "Values": {
+    "15,2": "页面连接已断开",
+    "18,2": "由于您长时间没有操作页面，连接已经断开，如需继续使用请刷新页面。",
+    "22,5": "重新加载页面"
+  },
+  "AttachInfos": {
+    "4,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImageSizeMode": 0,
+        "ImagePath": "fgc_built_in_page_disconnected.png"
+      }
+    },
+    "22,5": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "重新加载页面",
+        "TemplateKey": "_RS_Main1",
+        "ForguncyAttribute": "ReloadPage_Button"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 34.666666666666664,
+        "Foreground": 1,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "Foreground": 4,
+        "Formatter": 5,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": true,
+        "Underline": false,
+        "Strikethrough": false
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Text 1 25",
+        "Center",
+        "Top",
+        "Text 1 50",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "4,1": 0,
+      "15,2": 1,
+      "18,2": 2,
+      "22,5": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "4,1,10,17",
+    "15,2,3,15",
+    "18,2,3,15",
+    "22,5,2,9"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "Title": "连接已断开",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  }
+}//OFSUU3q0aJNjXoom9/wmVjGgSg1rKwC1WysoZhinVdHAEWQvA+rDhYSYjSkamlUmh9kkrhA9eZsz8v2L2HDJ6DoB4eB3e5KsoaXH5wHogViO76uJzpogYNUOiNGNYGwLfI06+H+q8NdjuMkmdtdrl9hhPbj910bi80q2zAj8fnCMpkCVYKS1C9n7UPO/Gg8uG/cT4MH1EsCyyx+ugtsviHm7/5fsuQ0rreNI0dwk8MJlqB5Aj8HdgdSGVYHkvCJgIRc3OBVfpKQQGyIiPj/XvTZPK3XiELqaVaLnk4Li0VV6imOTh05qwscXyw1ASQITApfWRam/LXVRVEm9LG8jjflLekBEL3+lqTyRVW1cXRNz2NisFN/y7ig8qYBRXu8+yqacf96ctiyjpkuN5uVcNDTPfugx6qtlBj8GoFnCn7mhWwqpb+n6fvR+0GA+nHxbjevcGY5z/6cvlcDbg2yyTfGalnpZ+d+OFGgJXe39ZzkxvmvWK+d3l5vjK8TQI4GN+/I9wGd+5CTgG7ka1DhbOumEtTq93CC6NZvl26fVD6ZUI/wzlXkco0qd71DEzGQfoSWoooQPN6Ra7kpeGaYPr9nizjlTGYV5IQaovje99LrplDtBqCokHKj1Es95Wyf+Zdp0U+p28cyqkjzOBFmC//sU0KfwHsAHZmNK+Yea/3HwcnxKaJH9OAeKcus9Sfv9dr8GOnY0v1i6dLjpLsDNI1anaN3oickyNzIRP7nT/CPE18IE5OjpcB0VCL+uSZHmhWKO4SL1iMkOK4DNWELPCyw//0oqu94FElHf22RPrzFd+o6PFofRDdNgwrNgQ5C6xNHq+2zUbF99ZDJcJqpDn8aW+Y7ruwnIoQ/YqCQSQ8uI/qXLt92lsGy7l5swgakfH/T2dt+l1yBbKAZxIae4Dw==|920

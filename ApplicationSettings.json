@@ -1,0 +1,53 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "IlQTZB~zAacj"
+  },
+  "ShareCommandContainers": [],
+  "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
+  "WebSitePort": 46992,
+  "UserServicePort": 33934,
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 1,
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "UseInputManModernStyle": false,
+  "PageBindingTablesIncludeDataSource": false,
+  "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "cn",
+        "IsDefault": true,
+        "Description": "内置语言中文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "zh-cn",
+        "FontFamily": "Body"
+      },
+      {
+        "Name": "en",
+        "Description": "内置语言英文，不可删除",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  },
+  "AppAIModelSettings": {
+    "AIModels": []
+  },
+  "AppMCPConfigSetting": {
+    "Dic": {}
+  },
+  "ServerCommandsAsMCPServerSetting": {},
+  "PermissionMode": 1
+}

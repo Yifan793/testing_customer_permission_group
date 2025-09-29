@@ -1,0 +1,624 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 8.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 4.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 32.0
+        }
+      }
+    },
+    "Count": 27,
+    "DefaultSize": 32.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "57": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "59": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "64": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 1
+        }
+      },
+      "68": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 16.0
+        }
+      },
+      "69": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 241.0
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      69
+    ],
+    "Count": 70
+  },
+  "AttachInfos": {
+    "0,13": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "无填充横向菜单",
+        "Items": [
+          {
+            "Value": "主页",
+            "Text": "主页",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "主页",
+                "BreakpointIdentity": "437be059-8eb1-487c-bdea-8f4443735e9c"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "产品",
+            "Text": "产品",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "产品列表",
+                "BreakpointIdentity": "1448290d-5862-41d2-8e73-1388bcc03046"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "潜客",
+            "Text": "潜客",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "潜客列表",
+                "DeleteCachedQuery": true,
+                "BreakpointIdentity": "0f552d91-cb0d-44b0-b605-290f6f38c0e9"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "联系人",
+            "Text": "联系人",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "联系人列表",
+                "DeleteCachedQuery": true,
+                "BreakpointIdentity": "24ba1667-03d0-4598-a38e-58e5271bc8a4"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "客户",
+            "Text": "客户",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "客户列表",
+                "DeleteCachedQuery": true,
+                "BreakpointIdentity": "50857cb8-8ca4-4ba8-a864-3e77e064efc9"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "商机",
+            "Text": "商机",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "商机列表",
+                "DeleteCachedQuery": true,
+                "BreakpointIdentity": "e9341ac3-9a3a-49ce-9b9f-fa252891a228"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "订单",
+            "Text": "订单",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "订单列表",
+                "DeleteCachedQuery": true,
+                "BreakpointIdentity": "0c52561c-4618-4e5b-9b8b-2f085fc4e47f"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          },
+          {
+            "Value": "帮助",
+            "Text": "帮助",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                "PageName": "帮助文档",
+                "BreakpointIdentity": "e42b8fe3-16a0-4267-9e34-b9a7f3f6402b"
+              }
+            ],
+            "CanVisitPermissionGroups": [
+              "e8cd8c16-7795-4e40-9235-454e164dda34"
+            ]
+          }
+        ],
+        "Orientation": 0,
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 16.0,
+            "Bold": false,
+            "Height": 48.0,
+            "Width": 80.0,
+            "IconHeight": 24.0,
+            "IconWidth": 24.0
+          }
+        ]
+      }
+    },
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "ImagePath": "grapecity_b_32.png"
+      }
+    },
+    "1,58": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "ValueFormula": "https://www.grapecity.com.cn/solutions/huozige/applyonline",
+            "IsOpenInNewTab": true,
+            "BreakpointIdentity": "7792936f-2034-4f51-9d53-3e5217aa17f3"
+          }
+        ],
+        "ImagePath": "Mobile/453_help_2.svg",
+        "BuiltIn": true,
+        "Color": "Background 1 0"
+      }
+    },
+    "1,60": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "ShowCircleUserPicture": true,
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
+      }
+    },
+    "4,0": {
+      "IsPlaceHolderCell": true
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0
+      },
+      {
+        "Foreground": 1
+      },
+      {
+        "Formatter": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Background 1 0",
+        "[AUTO]General"
+      ]
+    },
+    "CellStyles": {
+      "0,13": 0,
+      "0,14": 0,
+      "0,15": 0,
+      "0,16": 0,
+      "0,17": 0,
+      "0,18": 0,
+      "0,19": 0,
+      "0,20": 0,
+      "0,21": 0,
+      "0,22": 0,
+      "0,23": 0,
+      "0,24": 0,
+      "0,25": 0,
+      "0,26": 0,
+      "0,27": 0,
+      "0,28": 0,
+      "0,29": 0,
+      "0,30": 0,
+      "0,31": 0,
+      "0,32": 0,
+      "0,33": 0,
+      "0,34": 0,
+      "0,35": 0,
+      "0,36": 0,
+      "0,37": 0,
+      "0,38": 0,
+      "0,39": 0,
+      "0,40": 0,
+      "0,41": 0,
+      "0,42": 0,
+      "0,43": 0,
+      "0,44": 0,
+      "0,45": 0,
+      "0,46": 0,
+      "0,47": 0,
+      "0,48": 0,
+      "0,49": 0,
+      "0,50": 0,
+      "0,51": 0,
+      "0,52": 0,
+      "0,53": 0,
+      "0,54": 0,
+      "1,13": 0,
+      "1,14": 0,
+      "1,15": 0,
+      "1,16": 0,
+      "1,17": 0,
+      "1,18": 0,
+      "1,19": 0,
+      "1,20": 0,
+      "1,21": 0,
+      "1,22": 0,
+      "1,23": 0,
+      "1,24": 0,
+      "1,25": 0,
+      "1,26": 0,
+      "1,27": 0,
+      "1,28": 0,
+      "1,29": 0,
+      "1,30": 0,
+      "1,31": 0,
+      "1,32": 0,
+      "1,33": 0,
+      "1,34": 0,
+      "1,35": 0,
+      "1,36": 0,
+      "1,37": 0,
+      "1,38": 0,
+      "1,39": 0,
+      "1,40": 0,
+      "1,41": 0,
+      "1,42": 0,
+      "1,43": 0,
+      "1,44": 0,
+      "1,45": 0,
+      "1,46": 0,
+      "1,47": 0,
+      "1,48": 0,
+      "1,49": 0,
+      "1,50": 0,
+      "1,51": 0,
+      "1,52": 0,
+      "1,53": 0,
+      "1,54": 0,
+      "1,60": 1,
+      "2,13": 0,
+      "2,14": 0,
+      "2,15": 0,
+      "2,16": 0,
+      "2,17": 0,
+      "2,18": 0,
+      "2,19": 0,
+      "2,20": 0,
+      "2,21": 0,
+      "2,22": 0,
+      "2,23": 0,
+      "2,24": 0,
+      "2,25": 0,
+      "2,26": 0,
+      "2,27": 0,
+      "2,28": 0,
+      "2,29": 0,
+      "2,30": 0,
+      "2,31": 0,
+      "2,32": 0,
+      "2,33": 0,
+      "2,34": 0,
+      "2,35": 0,
+      "2,36": 0,
+      "2,37": 0,
+      "2,38": 0,
+      "2,39": 0,
+      "2,40": 0,
+      "2,41": 0,
+      "2,42": 0,
+      "2,43": 0,
+      "2,44": 0,
+      "2,45": 0,
+      "2,46": 0,
+      "2,47": 0,
+      "2,48": 0,
+      "2,49": 0,
+      "2,50": 0,
+      "2,51": 0,
+      "2,52": 0,
+      "2,53": 0,
+      "2,54": 0,
+      "6,69": 2
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": -999.0
+    }
+  },
+  "Spans": [
+    "4,0,23,69",
+    "1,60,1,8",
+    "1,1,1,8",
+    "0,13,3,42"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon",
+    "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+        "ShareCommandContainerRefer": {
+          "ShareCommandContainerID": "9a55bd9e-1368-4325-96e8-4a35973ca070"
+        },
+        "BreakpointIdentity": "342bb3fc-3130-41a9-b68c-a3412cd8f7d6"
+      }
+    ]
+  },
+  "PrintInfo": {
+    "PaperSize": {},
+    "Margin": {}
+  },
+  "BackgroundPictures": [
+    {
+      "Name": "2289aeb1-54f3-4f23-a3f8-2909b0dc0c04.png",
+      "DisplayName": "背景图1",
+      "StyleInfo": {
+        "Fill": "#FF404756",
+        "StrokeDashType": 8,
+        "Stroke": "black",
+        "StrokeThickness": 0.0
+      },
+      "IsAutomaticStroke": false,
+      "IsAutomaticFill": false,
+      "Size": "1360,48",
+      "BoxShadowString": "0 2 0 5 rgba(0,0,0,0.5)"
+    },
+    {
+      "Name": "9411aa5c-2b80-49fe-b5c2-1e60fa5385b4.png",
+      "DisplayName": "背景图2",
+      "StyleInfo": {
+        "Fill": "#FFEDF0F4"
+      },
+      "IsAutomaticFill": false,
+      "Location": "0,52",
+      "Size": "1360,736"
+    }
+  ],
+  "CustomNames": [
+    {
+      "Name": "是否销售人员",
+      "Formula": "PC母版页!$BR$7"
+    }
+  ]
+}//1dxoqgWLq7VvfWIpnQ1/d4J6lru9GDdiJwKEomczvbzk8aYWdk5R3kzpaVW56/B56VNr3ArZURvZ9Vc1E+YbkRzRWbQztfeeMxBa795V1r53z4KRUwIAoeyKMAq+PBK6F8+Ty/kJ4IdaE4XaUAj2dnAo5lvBEFPWd/ExVRyiyDTP0NACdKgNXV9QpjlXu5CFWenKKX3wwCSx0QZN679sgduuXnOZRm/oDA3oZT1A56p7qdJG0Xh+FSL/acW5KzfgKgsxp4sMItn02zyb5gmTsWFmYcJY4at8q+8u/gv76c/D33I0m3NvysFNLnIz9nomVpK0lZYw4t7d0zsa9hJn3370kDBQFwPBhXrja8+8Jrds9DfivUnKIV1O6g4DNGpPu154X7J9FXRhfXyLFa3R5gZOBHuRaYv7C+LfC9nFvMuOmxXaJaVLtGE1FmrjLAHXicvhpXH4OoEwdy7RBAQcr7ce8q0DqfzDeV2O5jsMVTG4cu08K4YBkQMpuAAqy8bxijM5WkFncL3VxVJwiSBetNvu7x9grH45a95OO3ju+Os7n+cjXvuWdvhcnilz/POS+/jkttuKjS6L6OpU9w6BC5u6+Mful99Ba13CW8IfU9iqM0UJvnHFIibathI09vMSNOpYXhxb20io2y/CzsMbQATssmS+aHsLNMYFSKJeewJinTQ15SGI5FPPOEyC73NxXdgtECdbgfkg23+gNSCOUKkzaj/ayO7QS8JzIOAaC15MKkqWnsAWpbPXAef3vyZxBYCnjQJjusecA9/rvgsK207gnHCA/68YYNUA3TwFjLDWslIIZtiDi1NIYMtnY3FOzaFEx1JS9gk5zzW6PYqJA5qvYlz+xCZmJlbbl3s+xENEvisTu89q/AFgSFDrq0sb2IpJ6cfZZ/nqXZHtIpJBgw==|920
