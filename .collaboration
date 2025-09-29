@@ -86,8 +86,17 @@
   },
   {
     "ModuleName": "Table/潜客表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T17:57:56.3996962+08:00",
     "ModuleType": 7,
-    "IconType": 24
+    "IconType": 24,
+    "ToRemoveFiles": [
+      "Tables\\潜客表\\潜客表.json"
+    ]
   },
   {
     "ModuleName": "Table/潜客记录操作表",
