@@ -407,8 +407,18 @@
   },
   {
     "ModuleName": "PCPage/潜客列表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-29T17:42:44.4244645+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\潜客\\潜客列表.json",
+      "Pages\\潜客\\潜客列表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/潜客详情页",
