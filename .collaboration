@@ -290,18 +290,48 @@
   },
   {
     "ModuleName": "PCPage/商机维护页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8375242+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\商机\\商机维护页.json",
+      "Pages\\商机\\商机维护页.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/商机列表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8623581+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\商机\\商机列表.json",
+      "Pages\\商机\\商机列表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/商机详情页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8626623+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\商机\\商机详情页.json",
+      "Pages\\商机\\商机详情页.rd"
+    ]
   },
   {
     "ModuleName": "Pages/订单",
@@ -430,28 +460,78 @@
   },
   {
     "ModuleName": "PCPage/快速创建客户页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.863608+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\联系人\\辅助页\\快速创建客户页.json",
+      "Pages\\联系人\\辅助页\\快速创建客户页.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/联系人维护页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8646701+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\联系人\\联系人维护页.json",
+      "Pages\\联系人\\联系人维护页.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/联系人详情页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8647136+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\联系人\\联系人详情页.json",
+      "Pages\\联系人\\联系人详情页.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/联系人列表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8653251+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\联系人\\联系人列表.json",
+      "Pages\\联系人\\联系人列表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/帮助文档",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:49.8661899+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\帮助文档.json",
+      "Pages\\帮助文档.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/登录页-用户信息",
