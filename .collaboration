@@ -701,7 +701,17 @@
   },
   {
     "ModuleName": "PermissionGroupConfig",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:39:11.6475287+08:00",
     "ModuleType": 44,
-    "IconType": 45
+    "IconType": 45,
+    "ToRemoveFiles": [
+      "RbacPermissionGroup\\PermissionGroups",
+      "RbacPermissionGroup\\RolePermissionGroup"
+    ]
   }
 ]
