@@ -29,7 +29,20 @@
                       "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
                       "510f370b-5c34-4043-9a98-5734f902284b",
                       "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
-                      "48023781-43da-46ea-8504-47be5140dc9f"
+                      "48023781-43da-46ea-8504-47be5140dc9f",
+                      "c3c16a79-be92-459b-8f0d-b0e77aa033be",
+                      "5171faa1-c2eb-4f02-a78a-431bfeb28eb8",
+                      "0f7e033c-5904-43e9-86ff-1a105cdcf2a9",
+                      "bedb17e1-3438-4324-a367-ab9a891031fc",
+                      "aa75645a-c0bd-49e6-b20b-60a38bf1b9ee",
+                      "af221c1c-6f2b-4c66-837f-956100f23968",
+                      "3e7ede91-0aab-422b-8979-56e873f503f4",
+                      "9abe77d7-9fda-43ec-a240-3e2b25d1ef42",
+                      "84ac0150-333f-470f-9680-7cd9826f350b",
+                      "aa0a4d00-3d58-4ced-a7df-99ee1fece840",
+                      "52596539-ebf8-41a9-87fd-4f93bbffdea3",
+                      "780efe20-c0e2-43ac-83c0-30df1dcd4894",
+                      "68ef27fd-fa08-4559-97c7-10cd37772ebb"
                     ]
                   }
                 }
@@ -432,7 +445,7 @@
                                     }
                                   ]
                                 },
-                                "ID": "a55d4470-b0ee-4ab4-b853-2b0c8f2721dd"
+                                "ID": "4331946b-e553-4b0b-95b7-f10da8dc2f19"
                               }
                             ]
                           },
@@ -440,7 +453,7 @@
                         }
                       ]
                     },
-                    "ID": "4c96e2d1-a58f-4d0c-8293-6c5286717940"
+                    "ID": "cca32bd7-64c6-424b-9cf3-c8d34280692c"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -656,7 +669,7 @@
                         }
                       ]
                     },
-                    "ID": "562cf89b-cb4f-4474-9704-29ae04e9ad93"
+                    "ID": "97b83931-472a-4948-ac36-6b6fb56be426"
                   }
                 ]
               },

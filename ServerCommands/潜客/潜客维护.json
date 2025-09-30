@@ -29,7 +29,17 @@
                       "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
                       "510f370b-5c34-4043-9a98-5734f902284b",
                       "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
-                      "48023781-43da-46ea-8504-47be5140dc9f"
+                      "48023781-43da-46ea-8504-47be5140dc9f",
+                      "5171faa1-c2eb-4f02-a78a-431bfeb28eb8",
+                      "0f7e033c-5904-43e9-86ff-1a105cdcf2a9",
+                      "aa75645a-c0bd-49e6-b20b-60a38bf1b9ee",
+                      "af221c1c-6f2b-4c66-837f-956100f23968",
+                      "3e7ede91-0aab-422b-8979-56e873f503f4",
+                      "b2e5b095-5716-4745-b0f5-70691b09590b",
+                      "aa0a4d00-3d58-4ced-a7df-99ee1fece840",
+                      "52596539-ebf8-41a9-87fd-4f93bbffdea3",
+                      "780efe20-c0e2-43ac-83c0-30df1dcd4894",
+                      "68ef27fd-fa08-4559-97c7-10cd37772ebb"
                     ]
                   }
                 }
@@ -449,7 +459,7 @@
                         }
                       ]
                     },
-                    "ID": "fc76b7b9-2665-4770-8318-abfdc7454fe3"
+                    "ID": "5406ef90-638a-479f-afeb-aef06ce077e2"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -776,7 +786,7 @@
                                     }
                                   ]
                                 },
-                                "ID": "dae28fc4-d718-4a93-9680-7cb28249cffb"
+                                "ID": "f5f5c709-596a-4da8-9aaf-fe26ee993690"
                               }
                             ]
                           },
@@ -784,7 +794,7 @@
                         }
                       ]
                     },
-                    "ID": "75f398bc-0db3-4449-a67d-93997df4bf52"
+                    "ID": "8bcd7208-2193-45b2-9977-ba51ca93c2a7"
                   }
                 ]
               },

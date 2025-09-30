@@ -29,5 +29,171 @@
     "name": "销售人员",
     "type": 1,
     "order": 4
+  },
+  {
+    "id": "85f618bb-9984-4c22-b66c-fb307153cb0d",
+    "name": "folder1",
+    "order": 5
+  },
+  {
+    "id": "cf0fc30e-eba1-4478-a290-8753e30e6671",
+    "name": "folder2",
+    "parentId": "85f618bb-9984-4c22-b66c-fb307153cb0d"
+  },
+  {
+    "id": "c3c16a79-be92-459b-8f0d-b0e77aa033be",
+    "name": "role1",
+    "type": 1,
+    "parentId": "cf0fc30e-eba1-4478-a290-8753e30e6671"
+  },
+  {
+    "id": "83dacd4d-4b1c-4ee5-bc43-b58553e759c0",
+    "name": "系统角色",
+    "order": 6
+  },
+  {
+    "id": "923781b3-0bad-48de-9c39-78acd24c17e3",
+    "name": "集团角色",
+    "parentId": "83dacd4d-4b1c-4ee5-bc43-b58553e759c0"
+  },
+  {
+    "id": "6391ba31-6312-4cc1-89bb-f69506cf4f22",
+    "name": "建设分公司角色是",
+    "parentId": "83dacd4d-4b1c-4ee5-bc43-b58553e759c0",
+    "order": 1
+  },
+  {
+    "id": "bedb17e1-3438-4324-a367-ab9a891031fc",
+    "name": "集团总部员工",
+    "type": 1,
+    "parentId": "83dacd4d-4b1c-4ee5-bc43-b58553e759c0",
+    "order": 1
+  },
+  {
+    "id": "5171faa1-c2eb-4f02-a78a-431bfeb28eb8",
+    "name": "技术开发部员工",
+    "type": 1,
+    "parentId": "923781b3-0bad-48de-9c39-78acd24c17e3"
+  },
+  {
+    "id": "0f7e033c-5904-43e9-86ff-1a105cdcf2a9",
+    "name": "技术开发主管",
+    "type": 1,
+    "parentId": "923781b3-0bad-48de-9c39-78acd24c17e3"
+  },
+  {
+    "id": "fb63ae86-b97e-4f5e-8e61-f04a7ad59f25",
+    "name": "建设分公司管理员",
+    "type": 1,
+    "parentId": "6391ba31-6312-4cc1-89bb-f69506cf4f22"
+  },
+  {
+    "id": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a",
+    "name": "权限设置",
+    "order": 7
+  },
+  {
+    "id": "d186d4bc-e2d0-49c4-86d2-cd17bfd7649f",
+    "name": "测试权限文件夹",
+    "parentId": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a"
+  },
+  {
+    "id": "8387f3a9-5abd-4557-bbe8-5e57a6bc458f",
+    "name": "集团权限文件夹",
+    "parentId": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a",
+    "order": 1
+  },
+  {
+    "id": "0b596577-b343-4d68-aacb-0f8588791ec2",
+    "name": "测试角色",
+    "type": 1,
+    "parentId": "d186d4bc-e2d0-49c4-86d2-cd17bfd7649f"
+  },
+  {
+    "id": "d90b1f42-ef7b-49d0-a26f-35ca8ff082d2",
+    "name": "分公司权限文件夹",
+    "parentId": "8387f3a9-5abd-4557-bbe8-5e57a6bc458f"
+  },
+  {
+    "id": "7993267d-54b9-460a-bee4-7665db304206",
+    "name": "建设分公司权限文件夹",
+    "parentId": "8387f3a9-5abd-4557-bbe8-5e57a6bc458f",
+    "order": 1
+  },
+  {
+    "id": "aa75645a-c0bd-49e6-b20b-60a38bf1b9ee",
+    "name": "分公司业务添加权限",
+    "type": 1,
+    "parentId": "d90b1f42-ef7b-49d0-a26f-35ca8ff082d2"
+  },
+  {
+    "id": "af221c1c-6f2b-4c66-837f-956100f23968",
+    "name": "建设分公司添加权限",
+    "type": 1,
+    "parentId": "7993267d-54b9-460a-bee4-7665db304206"
+  },
+  {
+    "id": "3e7ede91-0aab-422b-8979-56e873f503f4",
+    "name": "集团删除权限",
+    "type": 1,
+    "parentId": "8387f3a9-5abd-4557-bbe8-5e57a6bc458f",
+    "order": 2
+  },
+  {
+    "id": "9abe77d7-9fda-43ec-a240-3e2b25d1ef42",
+    "name": "客户信息添加权限",
+    "type": 1,
+    "parentId": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a",
+    "order": 2
+  },
+  {
+    "id": "84ac0150-333f-470f-9680-7cd9826f350b",
+    "name": "客户信息删除权限",
+    "type": 1,
+    "parentId": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a",
+    "order": 3
+  },
+  {
+    "id": "b2e5b095-5716-4745-b0f5-70691b09590b",
+    "name": "集团添加权限",
+    "type": 1,
+    "parentId": "e6b897fd-8d8a-4ab7-aa11-f76cdf97941a",
+    "order": 4
+  },
+  {
+    "id": "aa0a4d00-3d58-4ced-a7df-99ee1fece840",
+    "name": "售后人员",
+    "type": 1,
+    "order": 7
+  },
+  {
+    "id": "52596539-ebf8-41a9-87fd-4f93bbffdea3",
+    "name": "运营人员",
+    "type": 1,
+    "order": 7
+  },
+  {
+    "id": "780efe20-c0e2-43ac-83c0-30df1dcd4894",
+    "name": "部门经理",
+    "type": 1,
+    "order": 7
+  },
+  {
+    "id": "8d5c8768-725d-4447-a603-4bea4bf67202",
+    "name": "财务部",
+    "type": 1,
+    "order": 7
+  },
+  {
+    "id": "68ef27fd-fa08-4559-97c7-10cd37772ebb",
+    "name": "出差Admin",
+    "type": 1,
+    "order": 7
+  },
+  {
+    "id": "5ae07dcb-66fc-4602-8a49-adb118161ac4",
+    "name": "采购员",
+    "type": 1,
+    "order": 7
   }
 ]

@@ -29,7 +29,17 @@
                       "7cc7ba95-af77-448d-9a3a-7a8a302e18e9",
                       "510f370b-5c34-4043-9a98-5734f902284b",
                       "2f5a2356-ed77-41cd-af54-2ca4b3ee68a2",
-                      "48023781-43da-46ea-8504-47be5140dc9f"
+                      "48023781-43da-46ea-8504-47be5140dc9f",
+                      "5171faa1-c2eb-4f02-a78a-431bfeb28eb8",
+                      "0f7e033c-5904-43e9-86ff-1a105cdcf2a9",
+                      "aa75645a-c0bd-49e6-b20b-60a38bf1b9ee",
+                      "af221c1c-6f2b-4c66-837f-956100f23968",
+                      "3e7ede91-0aab-422b-8979-56e873f503f4",
+                      "b2e5b095-5716-4745-b0f5-70691b09590b",
+                      "aa0a4d00-3d58-4ced-a7df-99ee1fece840",
+                      "52596539-ebf8-41a9-87fd-4f93bbffdea3",
+                      "780efe20-c0e2-43ac-83c0-30df1dcd4894",
+                      "68ef27fd-fa08-4559-97c7-10cd37772ebb"
                     ]
                   }
                 }
@@ -131,7 +141,7 @@
                         }
                       ]
                     },
-                    "ID": "5092d8c1-c252-4bda-ad1b-a1332de52a65"
+                    "ID": "384ad3a9-479e-48f2-b6c3-5a5a6c29919a"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -220,7 +230,7 @@
                         }
                       ]
                     },
-                    "ID": "b0f89270-5b2b-4233-8e06-f8ec09a269e0"
+                    "ID": "a3c9e64b-3f0a-47bd-b73f-3a554d2c814a"
                   }
                 ]
               },

@@ -145,6 +145,171 @@
       {
         "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
         "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "c3c16a79-be92-459b-8f0d-b0e77aa033be"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "5171faa1-c2eb-4f02-a78a-431bfeb28eb8"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "fb63ae86-b97e-4f5e-8e61-f04a7ad59f25"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "0b596577-b343-4d68-aacb-0f8588791ec2"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "aa75645a-c0bd-49e6-b20b-60a38bf1b9ee"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 1,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "af221c1c-6f2b-4c66-837f-956100f23968"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "9abe77d7-9fda-43ec-a240-3e2b25d1ef42"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "b2e5b095-5716-4745-b0f5-70691b09590b"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "aa0a4d00-3d58-4ced-a7df-99ee1fece840"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "52596539-ebf8-41a9-87fd-4f93bbffdea3"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
+          "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowBindingConfig, Forguncy.RbacPermission.Core",
+          "operationTypes": 5,
+          "dataFilter": {
+            "$type": "Forguncy.RbacPermission.Core.Impl.Data.RowFilter, Forguncy.RbacPermission.Core"
+          }
+        },
+        "dataPermissionType": 2,
+        "roleNames": [],
+        "permissionGroups": [
+          "5ae07dcb-66fc-4602-8a49-adb118161ac4"
+        ]
+      },
+      {
+        "$type": "Forguncy.RbacPermission.Core.Impl.Data.DataPermissionBinding, Forguncy.RbacPermission.Core",
+        "config": {
           "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordBindingConfig, Forguncy.RbacPermission.Core",
           "dataFilter": {
             "$type": "Forguncy.RbacPermission.Core.Impl.Data.CreateRecordFilter, Forguncy.RbacPermission.Core"
