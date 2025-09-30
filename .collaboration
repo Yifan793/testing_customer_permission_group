@@ -295,7 +295,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.4822935+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.650814+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -330,7 +330,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5020531+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6514585+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -345,7 +345,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5022391+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6515652+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -380,7 +380,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.504635+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6516557+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -395,7 +395,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5051963+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.652183+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -485,7 +485,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5121801+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6522804+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -515,7 +515,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5135711+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6527875+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -616,7 +616,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5181373+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6536083+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -701,7 +701,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5221237+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6544489+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -746,7 +746,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:53:00.5244027+08:00",
+    "LockDateTime": "2025-09-30T11:53:04.6548698+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -761,8 +761,18 @@
   },
   {
     "ModuleName": "MasterPCPage/PC母版页",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:53:04.6500253+08:00",
     "ModuleType": 3,
-    "IconType": 3
+    "IconType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\PC母版页.json",
+      "MasterPages\\PC母版页.rd"
+    ]
   },
   {
     "ModuleName": "ServerCommands/潜客",
