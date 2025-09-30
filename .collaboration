@@ -310,7 +310,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:43:49.8623581+08:00",
+    "LockDateTime": "2025-09-30T11:43:53.8821223+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -325,7 +325,7 @@
       "UserName": "GRAPECITY\\ShaySong",
       "Email": "example@example.com"
     },
-    "LockDateTime": "2025-09-30T11:43:49.8626623+08:00",
+    "LockDateTime": "2025-09-30T11:43:53.882248+08:00",
     "ModuleType": 1,
     "IconType": 1,
     "ToRemoveFiles": [
@@ -440,8 +440,18 @@
   },
   {
     "ModuleName": "PCPage/潜客列表",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:53.8843781+08:00",
     "ModuleType": 1,
-    "IconType": 1
+    "IconType": 1,
+    "ToRemoveFiles": [
+      "Pages\\潜客\\潜客列表.json",
+      "Pages\\潜客\\潜客列表.rd"
+    ]
   },
   {
     "ModuleName": "PCPage/潜客详情页",
