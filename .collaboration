@@ -605,18 +605,45 @@
   },
   {
     "ModuleName": "ServerCommand/删除订单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:57.9074613+08:00",
     "ModuleType": 15,
-    "IconType": 15
+    "IconType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\订单\\删除订单.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/修改订单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:57.9075711+08:00",
     "ModuleType": 15,
-    "IconType": 15
+    "IconType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\订单\\修改订单.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/添加订单",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:57.9076044+08:00",
     "ModuleType": 15,
-    "IconType": 15
+    "IconType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\订单\\添加订单.json"
+    ]
   },
   {
     "ModuleName": "ServerCommands/客户",
@@ -655,13 +682,31 @@
   },
   {
     "ModuleName": "ServerCommand/商机维护",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:57.9076479+08:00",
     "ModuleType": 15,
-    "IconType": 15
+    "IconType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\商机\\商机维护.json"
+    ]
   },
   {
     "ModuleName": "ServerCommand/AddUser",
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\ShaySong",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2025-09-30T11:43:57.9088819+08:00",
     "ModuleType": 15,
-    "IconType": 15
+    "IconType": 15,
+    "ToRemoveFiles": [
+      "ServerCommands\\AddUser.json"
+    ]
   },
   {
     "ModuleName": "ShareCommandContainer/是否销售人员",
