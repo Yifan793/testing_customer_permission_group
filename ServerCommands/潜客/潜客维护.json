@@ -459,7 +459,7 @@
                         }
                       ]
                     },
-                    "ID": "5406ef90-638a-479f-afeb-aef06ce077e2"
+                    "ID": "0aaf81ad-2b3f-40d3-a200-ae0b07e3f1ed"
                   },
                   {
                     "$type": "Forguncy.Model.ConditionAndCommandPair, ServerDesignerCommon",
@@ -786,7 +786,7 @@
                                     }
                                   ]
                                 },
-                                "ID": "f5f5c709-596a-4da8-9aaf-fe26ee993690"
+                                "ID": "f836ffa5-3d91-4d82-8b1e-53c46332e7e0"
                               }
                             ]
                           },
@@ -794,7 +794,7 @@
                         }
                       ]
                     },
-                    "ID": "8bcd7208-2193-45b2-9977-ba51ca93c2a7"
+                    "ID": "ca0e3913-9b6c-43c0-9178-ec0abd3eec28"
                   }
                 ]
               },
